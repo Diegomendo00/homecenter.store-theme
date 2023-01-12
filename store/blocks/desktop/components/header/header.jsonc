@@ -1,0 +1,44 @@
+{
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "title": "Header desktop",
+    "children": [
+      "header-row#header__top--desktop"
+    ]
+  },
+  "header-layout.mobile": {
+    "title": "Header mobile",
+    "children": [
+      "header-row#header__top--mobile"
+    ]
+  },
+  "header-row#header__top--desktop": {
+    "children": [
+      "rich-text#prueba"
+    ],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  "header-row#header__top--mobile": {
+    "children": [
+      "rich-text#prueba2"
+    ]
+  },
+  "rich-text#prueba": {
+    "props": {
+      "text": "Nuevo header yujuuu"
+    }
+  },
+  "rich-text#prueba2": {
+    "props": {
+      "text": "Holaa soy yooo jijijijiji"
+    }
+  }
+}
