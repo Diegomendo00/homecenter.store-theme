@@ -1,19 +1,37 @@
 {
-  "flex-layout.row#home__section-1": {
-    "title": "DESKTOP Row with text",
+  "list-context.image-list#home__slider--one": {
+    "title": "lista de imagenes no 1",
     "children": [
-      "rich-text#section-1"
-    ]
-  },
-
-  "rich-text#section-1": {
-    "title": "Text Favorites at desktop",
+      "slider-layout#home__slider--one"
+    ],
     "props": {
-      "blockClass": "",
-      "text": "Favoritos en DESKTOP",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/img-1.jpg",
+          "description": "slide 1"
+        },
+        {
+          "image": "assets/img/img-2.jpg",
+          "description": "slide 2"
+        },
+        {
+          "image": "assets/img/img-3.jpg",
+          "description": "slide 3"
+        }
+      ]
+    }
+  },
+  "slider-layout#home__slider--one": {
+    "title": "slider con lista no 1",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider"
     }
   }
 }

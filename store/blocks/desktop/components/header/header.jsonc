@@ -1,0 +1,59 @@
+{
+  "header.full": {
+    "title": "Header",
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "title": "Header desktop",
+    "children": [
+      "header-row#header__top--desktop1",
+      "header-row#header__top--desktop2"
+    ]
+  },
+  "header-row#header__top--desktop1": {
+    "children": [
+      "rich-text#contacto",
+      "header-spacer",
+      "rich-text#falabella"
+    ]
+  },
+  "rich-text#contacto": {
+    "props": {
+      "text": "Venta Telefónica 01 8000 12 7373 | Servicio al cliente 320 88 999 33 | Tiendas | Precios bajos siempre | Mundo CMR",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#falabella": {
+    "props": {
+      "text": "FALABELLA | BANCO | SEGUROS | SEGUIMIENTO DE COMPRA",
+      "font": "t-heading-1"
+    }
+  },
+  "header-row#header__top--desktop2": {
+    "children": [
+      "logo#header__top--logo",
+      "rich-text#prueba",
+      "header-spacer",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  "logo#header__top--logo": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/homecenter.jpg",
+      "width": 200,
+      "href": "/"
+    }
+  },
+  "rich-text#prueba": {
+    "props": {
+      "text": "Nuevo header yujuuu"
+    }
+  }
+}
