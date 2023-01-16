@@ -2,7 +2,9 @@
   "responsive-layout.desktop#home__section-1": {
     "title": "Home Section 1 Desktop",
     "children": [
-      "list-context.image-list#home__slider--one"
+      "flex-layout.row#home__top--image",
+      "list-context.image-list#home__slider--one",
+      "flex-layout.row#home__section--two"
     ]
   }
 }
