@@ -1,44 +1,76 @@
 {
-  "header.full": {
-    "title": "Header",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
   "header-layout.desktop": {
     "title": "Header desktop",
     "children": [
-      "header-row#header__top--desktop"
-    ]
-  },
-  "header-layout.mobile": {
-    "title": "Header mobile",
-    "children": [
-      "header-row#header__top--mobile"
+      "header-row#header__top--desktop",
+      "header-row#header__middle--desktop"
     ]
   },
   "header-row#header__top--desktop": {
     "children": [
-      "rich-text#prueba"
+      "rich-text#contacto",
+      "header-spacer",
+      "rich-text#falabella"
+    ]
+  },
+  "rich-text#contacto": {
+    "props": {
+      "text": "Venta Telefónica 01 8000 12 7373 | Servicio al cliente 320 88 999 33 | Tiendas | Precios bajos siempre | Mundo CMR",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#falabella": {
+    "props": {
+      "text": "FALABELLA | BANCO | SEGUROS | SEGUIMIENTO DE COMPRA",
+      "font": "t-heading-1"
+    }
+  },
+  "header-row#header__middle--desktop": {
+    "children": [
+      "logo#header__top--logo",
+      "header-spacer",
+      "minicart.v2",
+      // "login"
+      "modal-trigger#header__middle--login"
     ],
     "props": {
       "blockClass": "header__top"
     }
   },
-  "header-row#header__top--mobile": {
+  "logo#header__top--logo": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/homecenter.jpg",
+      "width": 200,
+      "href": "/"
+    }
+  },
+  "login": {
+    "title": "Login",
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Mi cuenta"
+    }
+  },
+  "modal-trigger#header__middle--login": {
     "children": [
-      "rich-text#prueba2"
+      "rich-text#header__middle--login",
+      "modal-layout#header__middle--login"
     ]
   },
-  "rich-text#prueba": {
+  "rich-text#header__middle--login": {
     "props": {
-      "text": "Nuevo header yujuuu"
+      "text": "Mi cuenta"
     }
   },
-  "rich-text#prueba2": {
-    "props": {
-      "text": "Holaa soy yooo jijijijiji"
-    }
+  "modal-layout#header__middle--login": {
+    "children": [
+      "login-content"
+    ]
   }
 }

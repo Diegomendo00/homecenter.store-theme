@@ -1,0 +1,24 @@
+{
+  "header-layout.mobile": {
+    "title": "Header Mobile",
+    "children": [
+      "header-row#header__top--mobile"
+    ]
+  },
+  "header-row#header__top--mobile": {
+    "children": [
+      "logo#header__logo--mobile",
+      "header-spacer",
+      "minicart.v2",
+      "login"
+    ]
+  },
+  "logo#header__logo--mobile": {
+    "title": "Logo Mobile",
+    "props": {
+      "url": "assets/img/logo-mobile.jpg",
+      "width": 50,
+      "href": "/"
+    }
+  }
+}

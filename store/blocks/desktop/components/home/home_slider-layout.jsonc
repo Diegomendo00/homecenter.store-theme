@@ -1,6 +1,6 @@
 {
   "list-context.image-list#home__slider--one": {
-    "title": "lista de imagenes no 1",
+    "title": "Home Slider one",
     "children": [
       "slider-layout#home__slider--one"
     ],
@@ -23,7 +23,7 @@
     }
   },
   "slider-layout#home__slider--one": {
-    "title": "slider con lista no 1",
+    "title": "Slider one-images",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
