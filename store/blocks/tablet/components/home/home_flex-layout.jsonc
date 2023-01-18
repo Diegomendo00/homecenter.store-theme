@@ -1,0 +1,33 @@
+{
+  "flex-layout.row#tablet__home__section--one": {
+    "title": "Tablet home section one",
+    "children": [
+      "flex-layout.col#tablet__home__section--one"
+    ]
+  },
+  "flex-layout.col#tablet__home__section--one": {
+    "children": [
+      "image#tablet__home__section--one"
+    ]
+  },
+  "image#tablet__home__section--one": {
+    "props": {
+      "src": "assets/img/section_one.jpg"
+    }
+  },
+  "flex-layout.row#tablet__home__section--three": {
+    "title": "Tablet home section three",
+    "children": [
+      "rich-text#tablet__home__empieza--ahorro"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section_three"
+    }
+  },
+  "rich-text#tablet__home__empieza--ahorro": {
+    "props": {
+      "text": "¡Empieza el año ahorrando!",
+      "font": "t-heading-4"
+    }
+  }
+}

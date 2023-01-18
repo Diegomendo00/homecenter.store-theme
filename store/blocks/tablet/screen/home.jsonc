@@ -1,6 +1,15 @@
 {
-  "responsive-layout.tablet#home__section-1": {
+  "responsive-layout.tablet#home__section--one": {
     "title": "Section 1 Tablet Home",
-    "children": ["flex-layout.row#tablet__home__section-1"]
+    "children": [
+      "flex-layout.row#tablet__home__section--one",
+      "list-context.image-list#table__home__slider--one",
+      "flex-layout.row#home__section--two",
+      "flex-layout.col#home__s2image--three",
+      "flex-layout.row#tablet__home__section--three",
+      "flex-layout.row#home__section--four",
+      "flex-layout.row#home__section--five",
+      "flex-layout.row#home__section--six"
+    ]
   }
 }

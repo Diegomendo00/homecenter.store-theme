@@ -1,5 +1,24 @@
-/* Example Tablet:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexRowContent--home-section-two{
+  padding: 15px
+}
+
+.flexColChild--section_two-images{
+  margin: 10px;
+  margin-right: 0px;
+}
+
+.flexRowContent--tablet_home_section_three{
+  margin-left: 15px
+}
+
+.flexColChild--section_four-images{
+  margin: 10px;
+}
+
+.flexRowContent--home-section-five{
+  padding: 15px
+}
+
+.flexColChild--section_five-images{
+   margin: 5px;
+}

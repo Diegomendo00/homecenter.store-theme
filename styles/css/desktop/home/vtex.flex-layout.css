@@ -1,5 +1,24 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexRowContent--home-section-two{
+  padding: 15px
+}
+
+.flexColChild--section_two-images{
+  margin: 10px;
+  margin-right: 0px;
+}
+
+.flexRowContent--home-section-three{
+  margin-left: 20px
+}
+
+.flexColChild--section_four-images{
+  margin: 20px;
+}
+
+.flexRowContent--home-section-five{
+  padding: 15px
+}
+
+.flexColChild--section_five-images{
+   margin: 5px;
+}

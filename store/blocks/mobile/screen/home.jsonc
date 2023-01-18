@@ -1,8 +1,6 @@
 {
   "responsive-layout.mobile#phone__and__tablet": {
     "title": "Responsive Mobile",
-    "children": [
-      "list-context.image-list#home__slider--one"
-    ]
+    "children": []
   }
 }

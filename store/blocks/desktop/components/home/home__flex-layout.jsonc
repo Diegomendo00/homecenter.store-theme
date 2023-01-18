@@ -15,49 +15,191 @@
   },
   "image#top-image": {
     "props": {
-      "src": "assets/img/enviogratis.jpg"
+      "src": "assets/img/section_one.jpg"
     }
   },
   "flex-layout.row#home__section--two": {
     "title": "Section two",
     "children": [
-      "flex-layout.col#home__image--one",
-      "flex-layout.col#home__image--two",
-      "flex-layout.col#home__image--three"
+      "flex-layout.col#home__s2image--one",
+      "flex-layout.col#home__s2image--two",
+      "flex-layout.col#home__s2image--three"
     ],
     "props": {
-      "horizontalAlign": "center",
-      "fullWidth": true
+      "blockClass": "home-section-two"
     }
   },
-  "flex-layout.col#home__image--one": {
+  "flex-layout.col#home__s2image--one": {
     "children": [
-      "image#home__image--one"
-    ]
+      "image#home__s2image--one"
+    ],
+    "props": {
+      "blockClass": "section_two-images"
+    }
   },
-  "flex-layout.col#home__image--two": {
+  "flex-layout.col#home__s2image--two": {
     "children": [
-      "image#home__image--two"
-    ]
+      "image#home__s2image--two"
+    ],
+    "props": {
+      "blockClass": "section_two-images"
+    }
   },
-  "flex-layout.col#home__image--three": {
+  "flex-layout.col#home__s2image--three": {
     "children": [
-      "image#home__image--three"
-    ]
+      "image#home__s2image--three"
+    ],
+    "props": {
+      "blockClass": "section_two-images"
+    }
   },
-  "image#home__image--one": {
+  "image#home__s2image--one": {
     "props": {
       "src": "assets/img/section_two1.jpg"
     }
   },
-  "image#home__image--two": {
+  "image#home__s2image--two": {
     "props": {
       "src": "assets/img/section_two2.jpg"
     }
   },
-  "image#home__image--three": {
+  "image#home__s2image--three": {
     "props": {
       "src": "assets/img/section_two3.jpg"
+    }
+  },
+  "flex-layout.row#home__section--three": {
+    "title": "Section three",
+    "children": [
+      "rich-text#home__empieza--ahorro"
+    ],
+    "props": {
+      "blockClass": "home-section-three"
+    }
+  },
+  "rich-text#home__empieza--ahorro": {
+    "props": {
+      "text": "¡Empieza el año ahorrando!",
+      "font": "t-heading-2"
+    }
+  },
+  "flex-layout.row#home__section--four": {
+    "title": "Section four",
+    "children": [
+      "flex-layout.col#home__s4image--one",
+      "flex-layout.col#home__s4image--two"
+    ],
+    "props": {
+      "blockClass": "home-section-four"
+    }
+  },
+  "flex-layout.col#home__s4image--one": {
+    "children": [
+      "image#home__s4image--one"
+    ],
+    "props": {
+      "blockClass": "section_four-images"
+    }
+  },
+  "flex-layout.col#home__s4image--two": {
+    "children": [
+      "image#home__s4image--two"
+    ],
+    "props": {
+      "blockClass": "section_four-images"
+    }
+  },
+  "image#home__s4image--one": {
+    "props": {
+      "src": "assets/img/section_four1.jpg"
+    }
+  },
+  "image#home__s4image--two": {
+    "props": {
+      "src": "assets/img/section_four2.jpg"
+    }
+  },
+  "flex-layout.row#home__section--five": {
+    "title": "Section five",
+    "children": [
+      "flex-layout.col#home__s5image--one",
+      "flex-layout.col#home__s5image--two",
+      "flex-layout.col#home__s5image--three",
+      "flex-layout.col#home__s5image--four"
+    ],
+    "props": {
+      "blockClass": "home-section-five"
+    }
+  },
+  "flex-layout.col#home__s5image--one": {
+    "children": [
+      "image#home__s5image--one"
+    ],
+    "props": {
+      "blockClass": "section_five-images"
+    }
+  },
+  "flex-layout.col#home__s5image--two": {
+    "children": [
+      "image#home__s5image--two"
+    ],
+    "props": {
+      "blockClass": "section_five-images"
+    }
+  },
+  "flex-layout.col#home__s5image--three": {
+    "children": [
+      "image#home__s5image--three"
+    ],
+    "props": {
+      "blockClass": "section_five-images"
+    }
+  },
+  "flex-layout.col#home__s5image--four": {
+    "children": [
+      "image#home__s5image--four"
+    ],
+    "props": {
+      "blockClass": "section_five-images"
+    }
+  },
+  "image#home__s5image--one": {
+    "props": {
+      "src": "assets/img/section_five1.jpg"
+    }
+  },
+  "image#home__s5image--two": {
+    "props": {
+      "src": "assets/img/section_five2.jpg"
+    }
+  },
+  "image#home__s5image--three": {
+    "props": {
+      "src": "assets/img/section_five3.jpg"
+    }
+  },
+  "image#home__s5image--four": {
+    "props": {
+      "src": "assets/img/section_five4.jpg"
+    }
+  },
+  "flex-layout.row#home__section--six": {
+    "title": "Section six",
+    "children": [
+      "flex-layout.col#home__s6image--one"
+    ]
+  },
+  "flex-layout.col#home__s6image--one": {
+    "children": [
+      "image#home_s6image--one"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#home_s6image--one": {
+    "props": {
+      "src": "assets/img/section_six.jpg"
     }
   }
 }
