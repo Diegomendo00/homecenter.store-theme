@@ -1,0 +1,151 @@
+{
+  "flex-layout.row#phone__home__section--one": {
+    "title": "Phone home section one",
+    "children": [
+      "flex-layout.col#phone__home__section--one"
+    ]
+  },
+  "flex-layout.col#phone__home__section--one": {
+    "children": [
+      "image#phone__home__section--one"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#phone__home__section--one": {
+    "props": {
+      "src": "assets/img/top-phone.jpg"
+    }
+  },
+  "flex-layout.row#phone__home__section--two": {
+    "title": "Phone home section two",
+    "children": [
+      "flex-layout.col#phone__home__s2images"
+    ]
+  },
+  "flex-layout.col#phone__home__s2images": {
+    "children": [
+      "image#phone__home__s2image--one",
+      "image#phone__home__s2image--two",
+      "image#phone__home__s2image--three"
+    ]
+  },
+  "image#phone__home__s2image--one": {
+    "props": {
+      "src": "assets/img/section_two1.jpg"
+    }
+  },
+  "image#phone__home__s2image--two": {
+    "props": {
+      "src": "assets/img/section_two2.jpg"
+    }
+  },
+  "image#phone__home__s2image--three": {
+    "props": {
+      "src": "assets/img/section_two3.jpg"
+    }
+  },
+  "flex-layout.row#phone__home__section--three": {
+    "title": "Phone home section three",
+    "children": [
+      "rich-text#phone__home__empieza--ahorro"
+    ]
+  },
+  "rich-text#phone__home__empieza--ahorro": {
+    "props": {
+      "text": "¡Empieza el año ahorrando!",
+      "font": "t-heading-4"
+    }
+  },
+  "flex-layout.row#phone__home__section--four": {
+    "title": "Phone home section four",
+    "children": [
+      "flex-layout.col#phone__home__s4images"
+    ]
+  },
+  "flex-layout.col#phone__home__s4images": {
+    "children": [
+      "image#phone__home__s4image--one",
+      "image#phone__home__s4image--two"
+    ]
+  },
+  "image#phone__home__s4image--one": {
+    "props": {
+      "src": "assets/img/section_four1.jpg"
+    }
+  },
+  "image#phone__home__s4image--two": {
+    "props": {
+      "src": "assets/img/section_four2.jpg"
+    }
+  },
+  "flex-layout.row#phone__home__section--five": {
+    "title": "Phone home section five",
+    "children": [
+      "flex-layout.col#phone__home__s5image--one",
+      "flex-layout.col#phone__home__s5image--two",
+      "flex-layout.col#phone__home__s5image--three",
+      "flex-layout.col#phone__home__s5image--four"
+    ]
+  },
+  "flex-layout.col#phone__home__s5image--one": {
+    "children": [
+      "image#phone__home__s5image--one"
+    ]
+  },
+  "flex-layout.col#phone__home__s5image--two": {
+    "children": [
+      "image#phone__home__s5image--two"
+    ]
+  },
+  "flex-layout.col#phone__home__s5image--three": {
+    "children": [
+      "image#phone__home__s5image--three"
+    ]
+  },
+  "flex-layout.col#phone__home__s5image--four": {
+    "children": [
+      "image#phone__home__s5image--four"
+    ]
+  },
+  "image#phone__home__s5image--one": {
+    "props": {
+      "src": "assets/img/section_five1.jpg"
+    }
+  },
+  "image#phone__home__s5image--two": {
+    "props": {
+      "src": "assets/img/section_five2.jpg"
+    }
+  },
+  "image#phone__home__s5image--three": {
+    "props": {
+      "src": "assets/img/section_five3.jpg"
+    }
+  },
+  "image#phone__home__s5image--four": {
+    "props": {
+      "src": "assets/img/section_five4.jpg"
+    }
+  },
+  "flex-layout.row#phone__home__section--six": {
+    "title": "Phone home section six",
+    "children": [
+      "flex-layout.col#phone__home__s6image"
+    ]
+  },
+  "flex-layout.col#phone__home__s6image": {
+    "children": [
+      "image#phone__home_s6image"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#phone__home_s6image": {
+    "props": {
+      "src": "assets/img/section_six.jpg"
+    }
+  }
+}

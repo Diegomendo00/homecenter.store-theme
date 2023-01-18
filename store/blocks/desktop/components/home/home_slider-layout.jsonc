@@ -1,6 +1,6 @@
 {
   "list-context.image-list#home__slider--one": {
-    "title": "lista de imagenes no 1",
+    "title": "Home Slider one",
     "children": [
       "slider-layout#home__slider--one"
     ],
@@ -12,7 +12,7 @@
           "description": "slide 1"
         },
         {
-          "image": "assets/img/img-2.jpg",
+          "image": "assets/img/800destinos-web.webp",
           "description": "slide 2"
         },
         {
@@ -23,7 +23,7 @@
     }
   },
   "slider-layout#home__slider--one": {
-    "title": "slider con lista no 1",
+    "title": "Slider one-images",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -31,7 +31,8 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider"
+      "blockClass": "home__slider",
+      "fullWidth": true
     }
   }
 }

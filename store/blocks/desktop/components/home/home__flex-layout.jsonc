@@ -1,0 +1,520 @@
+{
+  "flex-layout.row#home__top--image": {
+    "title": "Home top image",
+    "children": [
+      "flex-layout.col#home__top--image"
+    ]
+  },
+  "flex-layout.col#home__top--image": {
+    "children": [
+      "image#top-image"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#top-image": {
+    "props": {
+      "src": "assets/img/section_one.jpg"
+    }
+  },
+  "flex-layout.row#home__section--two": {
+    "title": "Section two",
+    "children": [
+      "flex-layout.col#home__s2image--one",
+      "flex-layout.col#home__s2image--two",
+      "flex-layout.col#home__s2image--three"
+    ],
+    "props": {
+      "blockClass": "home-section-two"
+    }
+  },
+  "flex-layout.col#home__s2image--one": {
+    "children": [
+      "image#home__s2image--one"
+    ],
+    "props": {
+      "blockClass": "section_two-images"
+    }
+  },
+  "flex-layout.col#home__s2image--two": {
+    "children": [
+      "image#home__s2image--two"
+    ],
+    "props": {
+      "blockClass": "section_two-images"
+    }
+  },
+  "flex-layout.col#home__s2image--three": {
+    "children": [
+      "image#home__s2image--three"
+    ],
+    "props": {
+      "blockClass": "section_two-images"
+    }
+  },
+  "image#home__s2image--one": {
+    "props": {
+      "src": "assets/img/section_two1.jpg"
+    }
+  },
+  "image#home__s2image--two": {
+    "props": {
+      "src": "assets/img/section_two2.jpg"
+    }
+  },
+  "image#home__s2image--three": {
+    "props": {
+      "src": "assets/img/section_two3.jpg"
+    }
+  },
+  "flex-layout.row#home__section--three": {
+    "title": "Section three",
+    "children": [
+      "rich-text#home__empieza--ahorro"
+    ],
+    "props": {
+      "blockClass": "home-section-three",
+      "fullWidth": true
+    }
+  },
+  "rich-text#home__empieza--ahorro": {
+    "props": {
+      "text": "¡Empieza el año ahorrando!",
+      "font": "t-heading-2"
+    }
+  },
+  "flex-layout.row#home__section--four": {
+    "title": "Section four",
+    "children": [
+      "flex-layout.col#home__s4image--one",
+      "flex-layout.col#home__s4image--two"
+    ],
+    "props": {
+      "blockClass": "home-section-four"
+    }
+  },
+  "flex-layout.col#home__s4image--one": {
+    "children": [
+      "image#home__s4image--one"
+    ],
+    "props": {
+      "blockClass": "section_four-images"
+    }
+  },
+  "flex-layout.col#home__s4image--two": {
+    "children": [
+      "image#home__s4image--two"
+    ],
+    "props": {
+      "blockClass": "section_four-images"
+    }
+  },
+  "image#home__s4image--one": {
+    "props": {
+      "src": "assets/img/section_four1.jpg"
+    }
+  },
+  "image#home__s4image--two": {
+    "props": {
+      "src": "assets/img/section_four2.jpg"
+    }
+  },
+  "flex-layout.row#home__section--five": {
+    "title": "Section five",
+    "children": [
+      "flex-layout.col#home__s5image--one",
+      "flex-layout.col#home__s5image--two",
+      "flex-layout.col#home__s5image--three",
+      "flex-layout.col#home__s5image--four"
+    ],
+    "props": {
+      "blockClass": "home-section-five"
+    }
+  },
+  "flex-layout.col#home__s5image--one": {
+    "children": [
+      "image#home__s5image--one"
+    ],
+    "props": {
+      "blockClass": "section_five-images"
+    }
+  },
+  "flex-layout.col#home__s5image--two": {
+    "children": [
+      "image#home__s5image--two"
+    ],
+    "props": {
+      "blockClass": "section_five-images"
+    }
+  },
+  "flex-layout.col#home__s5image--three": {
+    "children": [
+      "image#home__s5image--three"
+    ],
+    "props": {
+      "blockClass": "section_five-images"
+    }
+  },
+  "flex-layout.col#home__s5image--four": {
+    "children": [
+      "image#home__s5image--four"
+    ],
+    "props": {
+      "blockClass": "section_five-images"
+    }
+  },
+  "image#home__s5image--one": {
+    "props": {
+      "src": "assets/img/section_five1.jpg"
+    }
+  },
+  "image#home__s5image--two": {
+    "props": {
+      "src": "assets/img/section_five2.jpg"
+    }
+  },
+  "image#home__s5image--three": {
+    "props": {
+      "src": "assets/img/section_five3.jpg"
+    }
+  },
+  "image#home__s5image--four": {
+    "props": {
+      "src": "assets/img/section_five4.jpg"
+    }
+  },
+  "flex-layout.row#home__section--six": {
+    "title": "Section six",
+    "children": [
+      "flex-layout.col#home__s6image--one"
+    ]
+  },
+  "flex-layout.col#home__s6image--one": {
+    "children": [
+      "image#home_s6image--one"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#home_s6image--one": {
+    "props": {
+      "src": "assets/img/section_six.jpg"
+    }
+  },
+  "flex-layout.row#home__section--seven": {
+    "title": "Section seven",
+    "children": [
+      "rich-text#home__envio--gratis"
+    ],
+    "props": {
+      "blockClass": "home-section-seven"
+    }
+  },
+  "rich-text#home__envio--gratis": {
+    "props": {
+      "text": "Productos con Envío Gratis",
+      "font": "t-heading-2"
+    }
+  },
+  "flex-layout.row#home__section--eight": {
+    "title": "Section eight",
+    "children": [
+      "flex-layout.col#home__section--eight"
+    ],
+    "props": {
+      "blockClass": "home__section-eight"
+    }
+  },
+  "flex-layout.col#home__section--eight": {
+    "children": [
+      "image#home__section--eight"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#home__section--eight": {
+    "props": {
+      "src": "assets/img/envio_gratis.jpg"
+    }
+  },
+  "flex-layout.row#home__section--nine": {
+    "title": "Section nine",
+    "children": [
+      "flex-layout.col#home__s9image--one",
+      "flex-layout.col#home__s9image--two"
+    ],
+    "props": {
+      "blockClass": "home-section-nine"
+    }
+  },
+  "flex-layout.col#home__s9image--one": {
+    "children": [
+      "image#home__s9image--one"
+    ],
+    "props": {
+      "blockClass": "section_nine-images"
+    }
+  },
+  "flex-layout.col#home__s9image--two": {
+    "children": [
+      "image#home__s9image--two"
+    ],
+    "props": {
+      "blockClass": "section_nine-images"
+    }
+  },
+  "image#home__s9image--one": {
+    "props": {
+      "src": "assets/img/section_nine1.webp"
+    }
+  },
+  "image#home__s9image--two": {
+    "props": {
+      "src": "assets/img/section_nine2.webp"
+    }
+  },
+  "flex-layout.row#home__section--ten": {
+    "title": "Section seven",
+    "children": [
+      "rich-text#home__recomendados"
+    ],
+    "props": {
+      "blockClass": "home-section-ten"
+    }
+  },
+  "rich-text#home__recomendados": {
+    "props": {
+      "text": "Recomendados para ti...",
+      "font": "t-heading-2"
+    }
+  },
+  "flex-layout.row#home__section--eleven": {
+    "title": "Section eleven",
+    "children": [
+      "flex-layout.col#home__s11image--one",
+      "flex-layout.col#home__s11image--two"
+    ],
+    "props": {
+      "blockClass": "home-section-eleven"
+    }
+  },
+  "flex-layout.col#home__s11image--one": {
+    "children": [
+      "image#home__s11image--one"
+    ],
+    "props": {
+      "blockClass": "section_eleven-images"
+    }
+  },
+  "flex-layout.col#home__s11image--two": {
+    "children": [
+      "image#home__s11image--two"
+    ],
+    "props": {
+      "blockClass": "section_eleven-images"
+    }
+  },
+  "image#home__s11image--one": {
+    "props": {
+      "src": "assets/img/section_eleven1.webp"
+    }
+  },
+  "image#home__s11image--two": {
+    "props": {
+      "src": "assets/img/section_eleven2.webp"
+    }
+  },
+  "flex-layout.row#home__section--twelve": {
+    "title": "Section twelve",
+    "children": [
+      "flex-layout.col#home__section--twelve"
+    ],
+    "props": {
+      "blockClass": "home__section-twelve"
+    }
+  },
+  "flex-layout.col#home__section--twelve": {
+    "children": [
+      "image#home__section--twelve"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#home__section--twelve": {
+    "props": {
+      "src": "assets/img/section_twelve.jpg"
+    }
+  },
+  "flex-layout.row#home__section--thirteen": {
+    "title": "Section thirteen",
+    "children": [
+      "flex-layout.col#home__section--thirteen"
+    ],
+    "props": {
+      "blockClass": "home__section-thirteen"
+    }
+  },
+  "flex-layout.col#home__section--thirteen": {
+    "children": [
+      "image#home__section--thirteen"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#home__section--thirteen": {
+    "props": {
+      "src": "assets/img/section_thirteen.jpg"
+    }
+  },
+  "flex-layout.row#home__section--fourteen": {
+    "title": "Section fourteen",
+    "children": [
+      "rich-text#home__mundo-CMR"
+    ],
+    "props": {
+      "blockClass": "home-section-fourteen"
+    }
+  },
+  "rich-text#home__mundo-CMR": {
+    "props": {
+      "text": "Mundo CMR Homecenter",
+      "font": "t-heading-2"
+    }
+  },
+  "flex-layout.row#home__section--fifteen": {
+    "title": "Section fifteen",
+    "children": [
+      "flex-layout.col#home__section--fifteen"
+    ],
+    "props": {
+      "blockClass": "home__section-fifteen"
+    }
+  },
+  "flex-layout.col#home__section--fifteen": {
+    "children": [
+      "image#home__section--fifteen"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#home__section--fifteen": {
+    "props": {
+      "src": "assets/img/section_fifteen.jpg"
+    }
+  },
+  "flex-layout.row#home__section--sixteen": {
+    "title": "Section sixteen",
+    "children": [
+      "flex-layout.col#home__s16image--one",
+      "flex-layout.col#home__s16image--two"
+    ],
+    "props": {
+      "blockClass": "home-section-sixteen"
+    }
+  },
+  "flex-layout.col#home__s16image--one": {
+    "children": [
+      "image#home__s16image--one"
+    ],
+    "props": {
+      "blockClass": "section_sixteen-images"
+    }
+  },
+  "flex-layout.col#home__s16image--two": {
+    "children": [
+      "image#home__s16image--two"
+    ],
+    "props": {
+      "blockClass": "section_sixteen-images"
+    }
+  },
+  "image#home__s16image--one": {
+    "props": {
+      "src": "assets/img/section_sixteen1.webp"
+    }
+  },
+  "image#home__s16image--two": {
+    "props": {
+      "src": "assets/img/section_sixteen2.webp"
+    }
+  },
+  "flex-layout.row#home__section--seventeen": {
+    "title": "Section seventeen",
+    "children": [
+      "rich-text#home__servicios--informacion"
+    ],
+    "props": {
+      "blockClass": "home-section-seventeen"
+    }
+  },
+  "rich-text#home__servicios--informacion": {
+    "props": {
+      "text": "Servicios e Iformación",
+      "font": "t-heading-2"
+    }
+  },
+  "flex-layout.row#home__section--eighteen": {
+    "title": "Section eighteen",
+    "children": [
+      "flex-layout.col#home__section--eighteen"
+    ],
+    "props": {
+      "blockClass": "home__section-eighteen"
+    }
+  },
+  "flex-layout.col#home__section--eighteen": {
+    "children": [
+      "image#home__section--eighteen"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#home__section--eighteen": {
+    "props": {
+      "src": "assets/img/section_eighteen.jpg"
+    }
+  },
+  "flex-layout.row#home__section--nineteen": {
+    "title": "Section nineteen",
+    "children": [
+      "flex-layout.col#home__s19image--one",
+      "flex-layout.col#home__s19image--two"
+    ],
+    "props": {
+      "blockClass": "home-section-nineteen"
+    }
+  },
+  "flex-layout.col#home__s19image--one": {
+    "children": [
+      "image#home__s19image--one"
+    ],
+    "props": {
+      "blockClass": "section_nineteen-images"
+    }
+  },
+  "flex-layout.col#home__s19image--two": {
+    "children": [
+      "image#home__s19image--two"
+    ],
+    "props": {
+      "blockClass": "section_nineteen-images"
+    }
+  },
+  "image#home__s19image--one": {
+    "props": {
+      "src": "assets/img/section_nineteen1.webp"
+    }
+  },
+  "image#home__s19image--two": {
+    "props": {
+      "src": "assets/img/section_nineteen2.webp"
+    }
+  }
+}

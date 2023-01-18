@@ -1,0 +1,37 @@
+{
+  "list-context.image-list#table__home__slider--one": {
+    "title": "Tablet Home Slider one",
+    "children": [
+      "slider-layout#tablet__home__slider--one"
+    ],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/img/img-1.jpg",
+          "description": "slide 1"
+        },
+        {
+          "image": "assets/img/img-2.jpg",
+          "description": "slide 2"
+        },
+        {
+          "image": "assets/img/img-3.jpg",
+          "description": "slide 3"
+        }
+      ]
+    }
+  },
+  "slider-layout#tablet__home__slider--one": {
+    "title": "Tablet Slider one-images",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "tablet__home__slider"
+    }
+  }
+}

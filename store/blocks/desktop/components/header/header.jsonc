@@ -1,24 +1,20 @@
 {
-  "header.full": {
-    "title": "Header",
-    "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
-    ]
-  },
   "header-layout.desktop": {
     "title": "Header desktop",
     "children": [
-      "header-row#header__top--desktop1",
-      "header-row#header__top--desktop2"
+      "header-row#header__top--desktop",
+      "header-row#header__middle--desktop"
     ]
   },
-  "header-row#header__top--desktop1": {
+  "header-row#header__top--desktop": {
     "children": [
       "rich-text#contacto",
       "header-spacer",
       "rich-text#falabella"
-    ]
+    ],
+    "props": {
+      "blockClass": "header_top"
+    }
   },
   "rich-text#contacto": {
     "props": {
@@ -32,12 +28,13 @@
       "font": "t-heading-1"
     }
   },
-  "header-row#header__top--desktop2": {
+  "header-row#header__middle--desktop": {
     "children": [
       "logo#header__top--logo",
-      "rich-text#prueba",
       "header-spacer",
-      "minicart.v2"
+      "minicart.v2",
+      // "login"
+      "modal-trigger#header__middle--login"
     ],
     "props": {
       "blockClass": "header__top"
@@ -51,9 +48,32 @@
       "href": "/"
     }
   },
-  "rich-text#prueba": {
+  "login": {
+    "title": "Login",
     "props": {
-      "text": "Nuevo header yujuuu"
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Mi cuenta"
     }
+  },
+  "modal-trigger#header__middle--login": {
+    "children": [
+      "rich-text#header__middle--login",
+      "modal-layout#header__middle--login"
+    ]
+  },
+  "rich-text#header__middle--login": {
+    "props": {
+      "text": "Mi cuenta"
+    }
+  },
+  "modal-layout#header__middle--login": {
+    "children": [
+      "login-content"
+    ]
   }
 }
