@@ -12,7 +12,7 @@
           "description": "slide 1"
         },
         {
-          "image": "assets/img/img-2.jpg",
+          "image": "assets/img/800destinos-web.webp",
           "description": "slide 2"
         },
         {
@@ -31,7 +31,8 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider"
+      "blockClass": "home__slider",
+      "fullWidth": true
     }
   }
 }

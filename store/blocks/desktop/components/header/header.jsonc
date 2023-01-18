@@ -11,7 +11,10 @@
       "rich-text#contacto",
       "header-spacer",
       "rich-text#falabella"
-    ]
+    ],
+    "props": {
+      "blockClass": "header_top"
+    }
   },
   "rich-text#contacto": {
     "props": {

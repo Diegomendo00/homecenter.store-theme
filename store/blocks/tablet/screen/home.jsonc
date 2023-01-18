@@ -4,12 +4,24 @@
     "children": [
       "flex-layout.row#tablet__home__section--one",
       "list-context.image-list#table__home__slider--one",
-      "flex-layout.row#home__section--two",
-      "flex-layout.col#home__s2image--three",
+      "flex-layout.row#tablet__home__section--two",
       "flex-layout.row#tablet__home__section--three",
-      "flex-layout.row#home__section--four",
-      "flex-layout.row#home__section--five",
-      "flex-layout.row#home__section--six"
+      "flex-layout.row#tablet__home__section--four",
+      "flex-layout.row#tablet__home__section--five",
+      "flex-layout.row#tablet__home__section--seven",
+      "flex-layout.row#tablet__home__section--eight",
+      "flex-layout.row#tablet__home__section--six",
+      "flex-layout.row#tablet__home__section--nine",
+      "flex-layout.row#tablet__home__section--ten",
+      "flex-layout.row#tablet__home__section--eleven",
+      "flex-layout.row#tablet__home__section--twelve",
+      "flex-layout.row#tablet__home__section--thirteen",
+      "flex-layout.row#tablet__home__section--fourteen",
+      "flex-layout.row#tablet__home__section--fifteen",
+      "flex-layout.row#tablet__home__section--sixteen",
+      "flex-layout.row#tablet__home__section--seventeen",
+      "flex-layout.row#tablet__home__section--eighteen",
+      "flex-layout.row#tablet__home__section--nineteen"
     ]
   }
 }

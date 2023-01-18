@@ -1,24 +1,59 @@
 .flexRowContent--home-section-two{
-  padding: 15px
+  padding: 10px 40px 10px 40px
+
 }
 
 .flexColChild--section_two-images{
   margin: 10px;
-  margin-right: 0px;
 }
 
 .flexRowContent--home-section-three{
-  margin-left: 20px
+  padding: 20px
 }
 
 .flexColChild--section_four-images{
   margin: 20px;
+  padding: 10px
 }
 
 .flexRowContent--home-section-five{
-  padding: 15px
+  padding: 40px
 }
 
 .flexColChild--section_five-images{
    margin: 5px;
+}
+
+.flexRowContent--home-section-seven{
+  padding: 20px
+}
+
+.flexRow--home__section-eight{
+  margin: 10px
+}
+
+.flexRowContent--home-section-nine{
+  padding: 5px 40px
+}
+.flexColChild--section_nine-images{
+  padding: 5px 0px 5px 20px
+}
+
+.flexRowContent--home-section-ten{
+  padding: 20px
+}
+
+.flexRowContent--home-section-eleven{
+  padding: 5px 40px
+}
+.flexColChild--section_eleven-images{
+  padding: 5px 0px 5px 20px
+}
+
+.flexRowContent--home__section-twelve{
+  padding: 20px
+}
+
+.flexRowContent--home-section-fourteen{
+  padding: 20px
 }
