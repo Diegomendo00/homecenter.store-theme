@@ -1,5 +1,92 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexRowContent--home-section-two{
+  padding: 10px 40px 10px 40px
+
+}
+
+.flexColChild--section_two-images{
+  margin: 10px;
+}
+
+.flexRowContent--home-section-three{
+  padding: 5px 40px
+}
+
+.flexRow--home-section-four{
+  padding: 5px 40px
+}
+
+.flexColChild--section_four-images{
+  padding: 5px
+}
+
+.flexRow--home-section-five{
+  padding: 5px 40px
+}
+
+.flexColChild--section_five-images{
+   margin: 5px;
+}
+
+.flexRow--home-section-six{
+  padding: 5px 40px
+}
+
+.flexRowContent--home-section-seven{
+  padding: 10px 40px
+}
+
+.flexRow--home__section-eight{
+  margin: 10px
+}
+
+.flexRowContent--home-section-nine{
+  padding: 0px 40px
+}
+.flexColChild--section_nine-images{
+  padding: 5px 0px 5px 5px
+}
+
+.flexRowContent--home-section-ten{
+  padding: 10px 40px
+}
+
+.flexRowContent--home-section-eleven{
+  padding: 0px 40px
+}
+
+.flexColChild--section_eleven-images{
+  padding: 5px 0px 5px 5px
+}
+
+.flexRowContent--home__section-twelve{
+  padding: 20px
+}
+
+.flexRowContent--home-section-fourteen{
+  padding: 10px 40px
+}
+
+.flexRowContent--home__section-fifteen{
+  padding: 5px 40px
+}
+
+.flexRowContent--home-section-sixteen{
+  padding: 0px 40px
+}
+
+.flexColChild--section_sixteen-images{
+  padding: 0px 10px 0px 0px
+}
+
+.flexRowContent--home-section-seventeen{
+  padding: 10px 40px
+}
+
+.flexRowContent--home-section-nineteen{
+  padding: 0px 40px
+}
+
+.flexColChild--section_nineteen-images{
+  padding: 0px 10px 0px 0px
+}
+

@@ -1,8 +1,8 @@
 {
-  "list-context.image-list#home__slider--one": {
-    "title": "Home Slider one",
+  "list-context.image-list#table__home__slider--one": {
+    "title": "Tablet Home Slider one",
     "children": [
-      "slider-layout#home__slider--one"
+      "slider-layout#tablet__home__slider--one"
     ],
     "props": {
       "preload": true,
@@ -12,7 +12,7 @@
           "description": "slide 1"
         },
         {
-          "image": "assets/img/800destinos-web.webp",
+          "image": "assets/img/img-2.jpg",
           "description": "slide 2"
         },
         {
@@ -22,8 +22,8 @@
       ]
     }
   },
-  "slider-layout#home__slider--one": {
-    "title": "Slider one-images",
+  "slider-layout#tablet__home__slider--one": {
+    "title": "Tablet Slider one-images",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -31,8 +31,7 @@
         "mobile": 1
       },
       "infinite": true,
-      "blockClass": "home__slider",
-      "fullWidth": true
+      "blockClass": "tablet__home__slider"
     }
   }
 }

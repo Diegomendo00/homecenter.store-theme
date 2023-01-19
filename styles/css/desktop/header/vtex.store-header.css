@@ -1,3 +1,7 @@
 .headerRowBackground--header__top {
   background: white
 }
+
+.headerRowContentContainer--header_top{
+  padding: 10px 40px 10px 40px
+}

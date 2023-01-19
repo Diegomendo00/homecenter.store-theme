@@ -1,0 +1,523 @@
+{
+  "flex-layout.row#tablet__home__section--one": {
+    "title": "Tablet home section one",
+    "children": [
+      "flex-layout.col#tablet__home__section--one"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section--one"
+    }
+  },
+  "flex-layout.col#tablet__home__section--one": {
+    "children": [
+      "image#tablet__home__section--one"
+    ]
+  },
+  "image#tablet__home__section--one": {
+    "props": {
+      "src": "assets/img/section_one.jpg",
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#tablet__home__section--two": {
+    "title": "Tablet home section two",
+    "children": [
+      "flex-layout.col#tablet__home__s2image--one",
+      "flex-layout.col#tablet__home__s2image--two",
+      "flex-layout.col#tablet__home__s2image--three"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-two"
+    }
+  },
+  "flex-layout.col#tablet__home__s2image--one": {
+    "children": [
+      "image#tablet__home__s2image--one"
+    ],
+    "props": {
+      "blockClass": "tablet_section_two-images"
+    }
+  },
+  "flex-layout.col#tablet__home__s2image--two": {
+    "children": [
+      "image#tablet__home__s2image--two"
+    ],
+    "props": {
+      "blockClass": "tablet_section_two-images"
+    }
+  },
+  "flex-layout.col#tablet__home__s2image--three": {
+    "children": [
+      "image#tablet__home__s2image--three"
+    ],
+    "props": {
+      "blockClass": "tablet_section_two-images"
+    }
+  },
+  "image#tablet__home__s2image--one": {
+    "props": {
+      "src": "assets/img/section_two1.jpg"
+    }
+  },
+  "image#tablet__home__s2image--two": {
+    "props": {
+      "src": "assets/img/section_two2.jpg"
+    }
+  },
+  "image#tablet__home__s2image--three": {
+    "props": {
+      "src": "assets/img/section_two3.jpg"
+    }
+  },
+  "flex-layout.row#tablet__home__section--three": {
+    "title": "Tablet home section three",
+    "children": [
+      "rich-text#tablet__home__empieza--ahorro"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-three"
+    }
+  },
+  "rich-text#tablet__home__empieza--ahorro": {
+    "props": {
+      "text": "¡Empieza el año ahorrando!",
+      "font": "t-heading-4"
+    }
+  },
+  "flex-layout.row#tablet__home__section--four": {
+    "title": "Tablet home section four",
+    "children": [
+      "flex-layout.col#tablet__home__s4image--one",
+      "flex-layout.col#tablet__home__s4image--two"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-four"
+    }
+  },
+  "flex-layout.col#tablet__home__s4image--one": {
+    "children": [
+      "image#tablet__home__s4image--one"
+    ],
+    "props": {
+      "blockClass": "tablet_section_four-images"
+    }
+  },
+  "flex-layout.col#tablet__home__s4image--two": {
+    "children": [
+      "image#tablet__home__s4image--two"
+    ],
+    "props": {
+      "blockClass": "tablet_section_four-images"
+    }
+  },
+  "image#tablet__home__s4image--one": {
+    "props": {
+      "src": "assets/img/section_four1.jpg"
+    }
+  },
+  "image#tablet__home__s4image--two": {
+    "props": {
+      "src": "assets/img/section_four2.jpg"
+    }
+  },
+  "flex-layout.row#tablet__home__section--five": {
+    "title": "Tablet home section five",
+    "children": [
+      "flex-layout.col#tablet__home__s5image--one",
+      "flex-layout.col#tablet__home__s5image--two",
+      "flex-layout.col#tablet__home__s5image--three",
+      "flex-layout.col#tablet__home__s5image--four"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-five"
+    }
+  },
+  "flex-layout.col#tablet__home__s5image--one": {
+    "children": [
+      "image#tablet__home__s5image--one"
+    ],
+    "props": {
+      "blockClass": "tablet_section_five-images"
+    }
+  },
+  "flex-layout.col#tablet__home__s5image--two": {
+    "children": [
+      "image#tablet__home__s5image--two"
+    ],
+    "props": {
+      "blockClass": "tablet_section_five-images"
+    }
+  },
+  "flex-layout.col#tablet__home__s5image--three": {
+    "children": [
+      "image#tablet__home__s5image--three"
+    ],
+    "props": {
+      "blockClass": "tablet_section_five-images"
+    }
+  },
+  "flex-layout.col#tablet__home__s5image--four": {
+    "children": [
+      "image#tablet__home__s5image--four"
+    ],
+    "props": {
+      "blockClass": "tablet_section_five-images"
+    }
+  },
+  "image#tablet__home__s5image--one": {
+    "props": {
+      "src": "assets/img/section_five1.jpg"
+    }
+  },
+  "image#tablet__home__s5image--two": {
+    "props": {
+      "src": "assets/img/section_five2.jpg"
+    }
+  },
+  "image#tablet__home__s5image--three": {
+    "props": {
+      "src": "assets/img/section_five3.jpg"
+    }
+  },
+  "image#tablet__home__s5image--four": {
+    "props": {
+      "src": "assets/img/section_five4.jpg"
+    }
+  },
+  "flex-layout.row#tablet__home__section--six": {
+    "title": "Tablet home section six",
+    "children": [
+      "flex-layout.col#tablet__home__s6image--one"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-six"
+    }
+  },
+  "flex-layout.col#tablet__home__s6image--one": {
+    "children": [
+      "image#tablet__home_s6image--one"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#tablet__home_s6image--one": {
+    "props": {
+      "src": "assets/img/section_six.webp"
+    }
+  },
+  "flex-layout.row#tablet__home__section--seven": {
+    "title": "Tablet home section seven",
+    "children": [
+      "rich-text#tablet__home__envio--gratis"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-seven"
+    }
+  },
+  "rich-text#tablet__home__envio--gratis": {
+    "props": {
+      "text": "Productos con Envío Gratis",
+      "font": "t-heading-4"
+    }
+  },
+  "flex-layout.row#tablet__home__section--eight": {
+    "title": "Tablet home section eight",
+    "children": [
+      "flex-layout.col#tablet__home__section--eight"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-eight"
+    }
+  },
+  "flex-layout.col#tablet__home__section--eight": {
+    "children": [
+      "image#tablet__home__section--eight"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#tablet__home__section--eight": {
+    "props": {
+      "src": "assets/img/envio_gratis.jpg"
+    }
+  },
+  "flex-layout.row#tablet__home__section--nine": {
+    "title": "Tablet home section nine",
+    "children": [
+      "flex-layout.col#tablet__home__s9image--one",
+      "flex-layout.col#tablet__home__s9image--two"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-nine"
+    }
+  },
+  "flex-layout.col#tablet__home__s9image--one": {
+    "children": [
+      "image#tablet__home__s9image--one"
+    ],
+    "props": {
+      "blockClass": "tablet_section_nine-images"
+    }
+  },
+  "flex-layout.col#tablet__home__s9image--two": {
+    "children": [
+      "image#tablet__home__s9image--two"
+    ],
+    "props": {
+      "blockClass": "tablet_section_nine-images"
+    }
+  },
+  "image#tablet__home__s9image--one": {
+    "props": {
+      "src": "assets/img/section_nine1.webp"
+    }
+  },
+  "image#tablet__home__s9image--two": {
+    "props": {
+      "src": "assets/img/section_nine2.webp"
+    }
+  },
+  "flex-layout.row#tablet__home__section--ten": {
+    "title": "Tablet home section seven",
+    "children": [
+      "rich-text#tablet__home__recomendados"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-ten"
+    }
+  },
+  "rich-text#tablet__home__recomendados": {
+    "props": {
+      "text": "Recomendados para ti...",
+      "font": "t-heading-4"
+    }
+  },
+  "flex-layout.row#tablet__home__section--eleven": {
+    "title": "Tablet home section eleven",
+    "children": [
+      "flex-layout.col#tablet__home__s11image--one",
+      "flex-layout.col#tablet__home__s11image--two"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-eleven"
+    }
+  },
+  "flex-layout.col#tablet__home__s11image--one": {
+    "children": [
+      "image#tablet__home__s11image--one"
+    ],
+    "props": {
+      "blockClass": "tablet_section_eleven-images"
+    }
+  },
+  "flex-layout.col#tablet__home__s11image--two": {
+    "children": [
+      "image#tablet__home__s11image--two"
+    ],
+    "props": {
+      "blockClass": "tablet_section_eleven-images"
+    }
+  },
+  "image#tablet__home__s11image--one": {
+    "props": {
+      "src": "assets/img/section_eleven1.webp"
+    }
+  },
+  "image#tablet__home__s11image--two": {
+    "props": {
+      "src": "assets/img/section_eleven2.webp"
+    }
+  },
+  "flex-layout.row#tablet__home__section--twelve": {
+    "title": "Tablet home section twelve",
+    "children": [
+      "flex-layout.col#tablet__home__section--twelve"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-twelve"
+    }
+  },
+  "flex-layout.col#tablet__home__section--twelve": {
+    "children": [
+      "image#tablet__home__section--twelve"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#tablet__home__section--twelve": {
+    "props": {
+      "src": "assets/img/section_twelve.jpg"
+    }
+  },
+  "flex-layout.row#tablet__home__section--thirteen": {
+    "title": "Tablet home section thirteen",
+    "children": [
+      "flex-layout.col#tablet__home__section--thirteen"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-thirteen"
+    }
+  },
+  "flex-layout.col#tablet__home__section--thirteen": {
+    "children": [
+      "image#tablet__home__section--thirteen"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#tablet__home__section--thirteen": {
+    "props": {
+      "src": "assets/img/section_thirteen.jpg"
+    }
+  },
+  "flex-layout.row#tablet__home__section--fourteen": {
+    "title": "Tablet home section fourteen",
+    "children": [
+      "rich-text#tablet__home__mundo-CMR"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-fourteen"
+    }
+  },
+  "rich-text#tablet__home__mundo-CMR": {
+    "props": {
+      "text": "Mundo CMR Homecenter",
+      "font": "t-heading-4"
+    }
+  },
+  "flex-layout.row#tablet__home__section--fifteen": {
+    "title": "Tablet home section fifteen",
+    "children": [
+      "flex-layout.col#tablet__home__section--fifteen"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-fifteen"
+    }
+  },
+  "flex-layout.col#tablet__home__section--fifteen": {
+    "children": [
+      "image#tablet__home__section--fifteen"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#tablet__home__section--fifteen": {
+    "props": {
+      "src": "assets/img/section_fifteen.webp"
+    }
+  },
+  "flex-layout.row#tablet__home__section--sixteen": {
+    "title": "Tablet home section sixteen",
+    "children": [
+      "flex-layout.col#tablet__home__s16image--one",
+      "flex-layout.col#tablet__home__s16image--two"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-sixteen"
+    }
+  },
+  "flex-layout.col#tablet__home__s16image--one": {
+    "children": [
+      "image#tablet__home__s16image--one"
+    ],
+    "props": {
+      "blockClass": "tablet_section_sixteen-images"
+    }
+  },
+  "flex-layout.col#tablet__home__s16image--two": {
+    "children": [
+      "image#tablet__home__s16image--two"
+    ],
+    "props": {
+      "blockClass": "tablet_section_sixteen-images"
+    }
+  },
+  "image#tablet__home__s16image--one": {
+    "props": {
+      "src": "assets/img/section_sixteen1.webp"
+    }
+  },
+  "image#tablet__home__s16image--two": {
+    "props": {
+      "src": "assets/img/section_sixteen2.webp"
+    }
+  },
+  "flex-layout.row#tablet__home__section--seventeen": {
+    "title": "Tablethome section seventeen",
+    "children": [
+      "rich-text#tablet__home__servicios--informacion"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-seventeen"
+    }
+  },
+  "rich-text#tablet__home__servicios--informacion": {
+    "props": {
+      "text": "Servicios e Iformación",
+      "font": "t-heading-4"
+    }
+  },
+  "flex-layout.row#tablet__home__section--eighteen": {
+    "title": "Tablet home section eighteen",
+    "children": [
+      "flex-layout.col#tablet__home__section--eighteen"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-eighteen"
+    }
+  },
+  "flex-layout.col#tablet__home__section--eighteen": {
+    "children": [
+      "image#tablet__home__section--eighteen"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "image#tablet__home__section--eighteen": {
+    "props": {
+      "src": "assets/img/section_eighteen.jpg"
+    }
+  },
+  "flex-layout.row#tablet__home__section--nineteen": {
+    "title": "Tablet home section nineteen",
+    "children": [
+      "flex-layout.col#tablet__home__s19image--one",
+      "flex-layout.col#tablet__home__s19image--two"
+    ],
+    "props": {
+      "blockClass": "tablet_home_section-nineteen"
+    }
+  },
+  "flex-layout.col#tablet__home__s19image--one": {
+    "children": [
+      "image#tablet__home__s19image--one"
+    ],
+    "props": {
+      "blockClass": "tablet_section_nineteen-images"
+    }
+  },
+  "flex-layout.col#tablet__home__s19image--two": {
+    "children": [
+      "image#tablet__home__s19image--two"
+    ],
+    "props": {
+      "blockClass": "tablet_section_nineteen-images"
+    }
+  },
+  "image#tablet__home__s19image--one": {
+    "props": {
+      "src": "assets/img/section_nineteen1.webp"
+    }
+  },
+  "image#tablet__home__s19image--two": {
+    "props": {
+      "src": "assets/img/section_nineteen2.webp"
+    }
+  }
+}
