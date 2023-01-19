@@ -32,8 +32,8 @@
     "children": [
       "logo#header__top--logo",
       "header-spacer",
+      "search-bar",
       "minicart.v2",
-      // "login"
       "modal-trigger#header__middle--login"
     ],
     "props": {
@@ -48,23 +48,18 @@
       "href": "/"
     }
   },
-  "login": {
-    "title": "Login",
-    "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true,
-      "iconLabel": "Mi cuenta"
-    }
-  },
   "modal-trigger#header__middle--login": {
     "children": [
       "rich-text#header__middle--login",
       "modal-layout#header__middle--login"
     ]
+  },
+  "login": {
+    "title": "Login",
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
   },
   "rich-text#header__middle--login": {
     "props": {

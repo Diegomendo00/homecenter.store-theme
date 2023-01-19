@@ -203,7 +203,7 @@
   },
   "image#tablet__home_s6image--one": {
     "props": {
-      "src": "assets/img/section_six.jpg"
+      "src": "assets/img/section_six.webp"
     }
   },
   "flex-layout.row#tablet__home__section--seven": {
@@ -322,12 +322,12 @@
   },
   "image#tablet__home__s11image--one": {
     "props": {
-      "src": "assets/img/section_eleven1.jpg"
+      "src": "assets/img/section_eleven1.webp"
     }
   },
   "image#tablet__home__s11image--two": {
     "props": {
-      "src": "assets/img/section_eleven2.jpg"
+      "src": "assets/img/section_eleven2.webp"
     }
   },
   "flex-layout.row#tablet__home__section--twelve": {
@@ -408,7 +408,7 @@
   },
   "image#tablet__home__section--fifteen": {
     "props": {
-      "src": "assets/img/section_fifteen.jpg"
+      "src": "assets/img/section_fifteen.webp"
     }
   },
   "flex-layout.row#tablet__home__section--sixteen": {
@@ -439,12 +439,12 @@
   },
   "image#tablet__home__s16image--one": {
     "props": {
-      "src": "assets/img/section_sixteen1.jpg"
+      "src": "assets/img/section_sixteen1.webp"
     }
   },
   "image#tablet__home__s16image--two": {
     "props": {
-      "src": "assets/img/section_sixteen2.jpg"
+      "src": "assets/img/section_sixteen2.webp"
     }
   },
   "flex-layout.row#tablet__home__section--seventeen": {
@@ -512,12 +512,12 @@
   },
   "image#tablet__home__s19image--one": {
     "props": {
-      "src": "assets/img/section_nineteen1.jpg"
+      "src": "assets/img/section_nineteen1.webp"
     }
   },
   "image#tablet__home__s19image--two": {
     "props": {
-      "src": "assets/img/section_nineteen2.jpg"
+      "src": "assets/img/section_nineteen2.webp"
     }
   }
 }

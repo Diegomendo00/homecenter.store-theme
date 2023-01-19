@@ -188,19 +188,19 @@
     "title": "Section six",
     "children": [
       "flex-layout.col#home__s6image--one"
-    ]
+    ],
+    "props": {
+      "blockClass": "home-section-six"
+    }
   },
   "flex-layout.col#home__s6image--one": {
     "children": [
       "image#home_s6image--one"
-    ],
-    "props": {
-      "horizontalAlign": "center"
-    }
+    ]
   },
   "image#home_s6image--one": {
     "props": {
-      "src": "assets/img/section_six.jpg"
+      "src": "assets/img/section_six.webp"
     }
   },
   "flex-layout.row#home__section--seven": {
@@ -405,7 +405,7 @@
   },
   "image#home__section--fifteen": {
     "props": {
-      "src": "assets/img/section_fifteen.jpg"
+      "src": "assets/img/section_fifteen.webp"
     }
   },
   "flex-layout.row#home__section--sixteen": {
