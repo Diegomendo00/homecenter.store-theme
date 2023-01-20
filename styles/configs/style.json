@@ -340,7 +340,7 @@
       "heading-3": {
         "fontFamily": "Lato-Regular, sans-serif",
         "fontWeight": "normal",
-        "fontSize": "1.75rem",
+        "fontSize": "0.625rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },

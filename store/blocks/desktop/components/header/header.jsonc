@@ -1,11 +1,4 @@
 {
-  "header-layout.desktop": {
-    "title": "Header desktop",
-    "children": [
-      "header-row#header__top--desktop",
-      "header-row#header__middle--desktop"
-    ]
-  },
   "header-row#header__top--desktop": {
     "children": [
       "rich-text#contacto",

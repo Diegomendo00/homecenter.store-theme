@@ -1,0 +1,28 @@
+{
+  "menu-item#department__seven": {
+    "title": "Menu item department seven",
+    "props": {
+      "id": "department-seven",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Decoración, Menaje e Iluminación",
+        "text": "DECORACIÓN, MENAJE E ILUMINACIÓN"
+      },
+      "blockClass": "menu_item_department-seven"
+    },
+    "blocks": [
+      "submenu#department_seven"
+    ]
+  },
+  "submenu#department_seven": {
+    "title": "Submenu department seven",
+    "children": [],
+    "props": {
+      "blockClass": "submenu-department_seven",
+      "orientation": "vertical"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "menu-item#department__nine": {
+    "title": "Menu item department nine",
+    "props": {
+      "id": "department-nine",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Automóviles y Carcenter",
+        "text": "AUTOMÓVILES Y CARCENTER"
+      },
+      "blockClass": "menu_item_department-nine"
+    },
+    "blocks": [
+      "submenu#department_nine"
+    ]
+  },
+  "submenu#department_nine": {
+    "title": "Submenu department nine",
+    "children": [],
+    "props": {
+      "blockClass": "submenu-department_nine",
+      "orientation": "vertical"
+    }
+  }
+}

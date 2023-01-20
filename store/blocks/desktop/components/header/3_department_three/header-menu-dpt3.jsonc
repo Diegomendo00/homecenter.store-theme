@@ -1,0 +1,28 @@
+{
+  "menu-item#department__three": {
+    "title": "Menu item department three",
+    "props": {
+      "id": "department-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Herramientas y Maquinaria",
+        "text": "HERRAMIENTAS Y MAQUINARIA"
+      },
+      "blockClass": "menu_item_department-three"
+    },
+    "blocks": [
+      "submenu#department_three"
+    ]
+  },
+  "submenu#department_three": {
+    "title": "Submenu department three",
+    "children": [],
+    "props": {
+      "blockClass": "submenu-department_three",
+      "orientation": "vertical"
+    }
+  }
+}

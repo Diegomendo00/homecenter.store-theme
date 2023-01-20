@@ -1,0 +1,28 @@
+{
+  "menu-item#department__six": {
+    "title": "Menu item department six",
+    "props": {
+      "id": "department-six",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Muebles y Organización",
+        "text": "MUEBLES Y ORGANIZACIÓN"
+      },
+      "blockClass": "menu_item_department-six"
+    },
+    "blocks": [
+      "submenu#department_six"
+    ]
+  },
+  "submenu#department_six": {
+    "title": "Submenu department six",
+    "children": [],
+    "props": {
+      "blockClass": "submenu-department_six",
+      "orientation": "vertical"
+    }
+  }
+}

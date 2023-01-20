@@ -1,0 +1,28 @@
+{
+  "menu-item#department__eight": {
+    "title": "Menu item department eight",
+    "props": {
+      "id": "department-eight",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Aire Libre, Jardín y Mascotas",
+        "text": "AIRE LIBRE, JARDIN Y MASCOTAS"
+      },
+      "blockClass": "menu_item_department-eight"
+    },
+    "blocks": [
+      "submenu#department_eight"
+    ]
+  },
+  "submenu#department_eight": {
+    "title": "Submenu department eight",
+    "children": [],
+    "props": {
+      "blockClass": "submenu-department_eight",
+      "orientation": "vertical"
+    }
+  }
+}

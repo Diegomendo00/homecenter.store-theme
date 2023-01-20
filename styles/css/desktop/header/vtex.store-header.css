@@ -5,3 +5,7 @@
 .headerRowContentContainer--header_top{
   padding: 10px 40px 10px 40px
 }
+
+.styledLinkContent--department_one{
+  font-size: 10px;
+}

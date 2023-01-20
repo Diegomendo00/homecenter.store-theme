@@ -1,0 +1,28 @@
+{
+  "menu-item#department__two": {
+    "title": "Menu item department two",
+    "props": {
+      "id": "department-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Pisos, Pinturas y Terminaciones",
+        "text": "PISOS, PINTURAS Y TERMINACIONES"
+      },
+      "blockClass": "menu_item_department-two"
+    },
+    "blocks": [
+      "submenu#department_two"
+    ]
+  },
+  "submenu#department_two": {
+    "title": "Submenu department two",
+    "children": [],
+    "props": {
+      "blockClass": "submenu-department_two",
+      "orientation": "vertical"
+    }
+  }
+}

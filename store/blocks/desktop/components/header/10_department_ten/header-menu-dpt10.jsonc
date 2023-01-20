@@ -1,0 +1,28 @@
+{
+  "menu-item#department__ten": {
+    "title": "Menu item department ten",
+    "props": {
+      "id": "department-ten",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Servicios y Proyectos",
+        "text": "SERVICIOS Y PROYECTOS"
+      },
+      "blockClass": "menu_item_department-ten"
+    },
+    "blocks": [
+      "submenu#department_ten"
+    ]
+  },
+  "submenu#department_ten": {
+    "title": "Submenu department ten",
+    "children": [],
+    "props": {
+      "blockClass": "submenu-department_ten",
+      "orientation": "vertical"
+    }
+  }
+}

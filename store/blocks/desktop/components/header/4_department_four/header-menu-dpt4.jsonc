@@ -1,0 +1,28 @@
+{
+  "menu-item#department__four": {
+    "title": "Menu item department four",
+    "props": {
+      "id": "department-four",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Baño, Cocina y Aseo",
+        "text": "BAÑO, COCINA Y ASEO"
+      },
+      "blockClass": "menu_item_department-four"
+    },
+    "blocks": [
+      "submenu#department_four"
+    ]
+  },
+  "submenu#department_four": {
+    "title": "Submenu department four",
+    "children": [],
+    "props": {
+      "blockClass": "submenu-department_four",
+      "orientation": "vertical"
+    }
+  }
+}

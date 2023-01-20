@@ -1,0 +1,75 @@
+.styledLinkContent--menu_item_department-one{
+  font-size: 10px;
+}
+
+.menuItem--menu_item_department-one{
+  margin-right: -20px
+}
+
+.menuItem--department_one_category :hover{
+  text-decoration: underline #0072CE;
+}
+
+.styledLinkContent--department_one_category{
+  margin-bottom: 15px;
+  color: #0072CE;
+  font-size: 12px
+}
+
+.styledLinkContent--department_one_category :hover{
+ text-decoration: underline #0072CE;
+
+}
+
+.styledLinkContent--department_one_subcategory{
+  font-size: 12px;
+}
+
+.menuItem--department_one_subcategory :hover{
+  text-decoration: underline black;
+}
+
+.styledLinkContent--menu_item_department-two{
+  font-size: 10px;
+}
+
+.menuItem--menu_item_department-two{
+  margin-right: -20px;
+
+}
+
+.styledLinkContent--menu_item_department-three{
+  font-size: 10px;
+}
+
+.menuItem--menu_item_department-three{
+  margin-right: -20px
+}
+
+.styledLinkContent--menu_item_department-four{
+  font-size: 10px;
+}
+
+.styledLinkContent--menu_item_department-five{
+  font-size: 10px;
+}
+
+.styledLinkContent--menu_item_department-six{
+  font-size: 10px;
+}
+
+.styledLinkContent--menu_item_department-seven{
+  font-size: 10px;
+}
+
+.styledLinkContent--menu_item_department-eight{
+  font-size: 10px;
+}
+
+.styledLinkContent--menu_item_department-nine{
+  font-size: 10px;
+}
+
+.styledLinkContent--menu_item_department-ten{
+  font-size: 10px;
+}

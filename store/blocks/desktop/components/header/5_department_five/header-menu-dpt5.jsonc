@@ -1,0 +1,28 @@
+{
+  "menu-item#department__five": {
+    "title": "Menu item department five",
+    "props": {
+      "id": "department-five",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Electrohogar, Tecnología y Climatización",
+        "text": "ELECTROHOGAR, TECNOLOGÍA Y CLIMATIZACIÓN"
+      },
+      "blockClass": "menu_item_department-five"
+    },
+    "blocks": [
+      "submenu#department_five"
+    ]
+  },
+  "submenu#department_five": {
+    "title": "Submenu department five",
+    "children": [],
+    "props": {
+      "blockClass": "submenu-department_five",
+      "orientation": "vertical"
+    }
+  }
+}
