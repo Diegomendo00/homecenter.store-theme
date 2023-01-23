@@ -24,9 +24,9 @@
   "header-row#header__middle--desktop": {
     "children": [
       "logo#header__top--logo",
-      "header-spacer",
-      "search-bar",
-      "minicart.v2",
+      "search-bar#header__home",
+      "minicart.v2#desktop",
+      "login",
       "modal-trigger#header__middle--login"
     ],
     "props": {
@@ -63,5 +63,33 @@
     "children": [
       "login-content"
     ]
+  },
+  "search-bar#header__home": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "placeholder": "¿Qué estás buscando?",
+      "openAutocompleteOnFocus": true
+    }
+  },
+  "minicart.v2#desktop": {
+    "props": {
+      "MinicartIcon": "image#icon-minicart",
+      "itemCountMode": "total",
+      "quantityDisplay": "always"
+    }
+  },
+  "icon#minicart": {
+    "props": {
+      "id": "hpa-calendar",
+      "size": 40
+    }
+  },
+  "image#icon-minicart": {
+    "props": {
+      "src": "assets/img/icons/icon-cart.png",
+      "width": 30
+    }
   }
 }

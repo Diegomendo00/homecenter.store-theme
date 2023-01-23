@@ -9,20 +9,58 @@
         "href": "/",
         "noFollow": true,
         "tagTitle": "Servicios y Proyectos",
-        "text": "SERVICIOS Y PROYECTOS"
+        "text": ""
       },
       "blockClass": "menu_item_department-ten"
     },
     "blocks": [
       "submenu#department_ten"
+    ],
+    "children": [
+      "rich-text#rich_deparment_ten"
     ]
+  },
+  "rich-text#rich_deparment_ten": {
+    "props": {
+      "blockClass": "rich_deparments",
+      "text": "SERVICIOS Y PROYECTOS",
+      "font": "t-heading-3",
+      "textAlignment": "CENTER"
+    }
   },
   "submenu#department_ten": {
     "title": "Submenu department ten",
-    "children": [],
+    "children": [
+      "flex-layout.row#department__one",
+      "flex-layout.row#department__one1"
+    ],
     "props": {
-      "blockClass": "submenu-department_ten",
+      "blockClass": "submenu-department__one",
       "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#department__one": {
+    "title": "Flex-layout row department one",
+    "children": [
+      "flex-layout.col#materiales-construccion",
+      "flex-layout.col#tejas_drywall",
+      "flex-layout.col#tornillos_adhesivos",
+      "flex-layout.col#maderas_tableros_herrajes"
+    ],
+    "props": {
+      "blockClass": "flex-layout-row_department-one"
+    }
+  },
+  "flex-layout.row#department__one1": {
+    "title": "Flex-layout row department one1",
+    "children": [
+      "flex-layout.col#plomeria",
+      "flex-layout.col#escaleras_mudanzas",
+      "flex-layout.col#electricidad",
+      "flex-layout.col#epp_señalizacion"
+    ],
+    "props": {
+      "blockClass": "flex-layout-row_department-one"
     }
   }
 }

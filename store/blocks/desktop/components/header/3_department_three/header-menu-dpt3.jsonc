@@ -9,20 +9,58 @@
         "href": "/",
         "noFollow": true,
         "tagTitle": "Herramientas y Maquinaria",
-        "text": "HERRAMIENTAS Y MAQUINARIA"
+        "text": ""
       },
       "blockClass": "menu_item_department-three"
     },
     "blocks": [
       "submenu#department_three"
+    ],
+    "children": [
+      "rich-text#rich_deparment_three"
     ]
+  },
+  "rich-text#rich_deparment_three": {
+    "props": {
+      "blockClass": "rich_deparments",
+      "text": "HERRAMIENTAS Y MAQUINARIA",
+      "font": "t-heading-3",
+      "textAlignment": "CENTER"
+    }
   },
   "submenu#department_three": {
     "title": "Submenu department three",
-    "children": [],
+    "children": [
+      "flex-layout.row#department__one",
+      "flex-layout.row#department__one1"
+    ],
     "props": {
-      "blockClass": "submenu-department_three",
+      "blockClass": "submenu-department__one",
       "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#department__one": {
+    "title": "Flex-layout row department one",
+    "children": [
+      "flex-layout.col#materiales-construccion",
+      "flex-layout.col#tejas_drywall",
+      "flex-layout.col#tornillos_adhesivos",
+      "flex-layout.col#maderas_tableros_herrajes"
+    ],
+    "props": {
+      "blockClass": "flex-layout-row_department-one"
+    }
+  },
+  "flex-layout.row#department__one1": {
+    "title": "Flex-layout row department one1",
+    "children": [
+      "flex-layout.col#plomeria",
+      "flex-layout.col#escaleras_mudanzas",
+      "flex-layout.col#electricidad",
+      "flex-layout.col#epp_señalizacion"
+    ],
+    "props": {
+      "blockClass": "flex-layout-row_department-one"
     }
   }
 }

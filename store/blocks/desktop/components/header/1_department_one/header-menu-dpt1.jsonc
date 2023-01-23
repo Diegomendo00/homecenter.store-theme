@@ -4,18 +4,30 @@
     "props": {
       "id": "department-one",
       "type": "custom",
+      "width": "50%",
       "itemProps": {
         "type": "internal",
         "href": "/",
         "noFollow": true,
         "tagTitle": "Construcción y ferretería",
-        "text": "CONSTRUCCIÓN Y FERRETERIA"
+        "text": ""
       },
       "blockClass": "menu_item_department-one"
     },
     "blocks": [
       "submenu#department_one"
+    ],
+    "children": [
+      "rich-text#rich_deparment_one"
     ]
+  },
+  "rich-text#rich_deparment_one": {
+    "props": {
+      "blockClass": "rich_deparments",
+      "text": "CONSTRUCCIÓN Y FERRETERIA",
+      "font": "t-heading-3",
+      "textAlignment": "CENTER"
+    }
   },
   "submenu#department_one": {
     "title": "Submenu department one",

@@ -9,3 +9,7 @@
 .styledLinkContent--department_one{
   font-size: 10px;
 }
+
+.headerRowContainer--header_menu{
+    padding: 15px 50px;
+}
