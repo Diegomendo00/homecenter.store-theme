@@ -22,8 +22,17 @@
   },
   "drawer#header__mobile--menu": {
     "children": [
-      "mega-menu"
-    ]
+      "vtex.mega-menu@2.x:mega-menu",
+      "vtex.mega-menu@2.x:mega-menu-go-back-btn"
+    ],
+    "props": {
+      "blockClass": "mobile__mega-menu"
+    }
+  },
+  "vtex.mega-menu@2.x:mega-menu": {
+    "props": {
+      "title": " "
+    }
   },
   "logo#header__logo--mobile": {
     "title": "Logo Mobile",
