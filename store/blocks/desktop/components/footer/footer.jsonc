@@ -1,0 +1,403 @@
+{
+  "footer": {
+    "title": "Footer",
+    "blocks": [
+      "footer-layout.desktop"
+    ]
+  },
+  "footer-layout.desktop": {
+    "title": "Footer desktop",
+    "children": [
+      "flex-layout.row#footer__desktop--one",
+      "flex-layout.row#footer__desktop--two",
+      "flex-layout.row#footer__desktop--three"
+    ],
+    "props": {
+      "blockClass": "footer_container-row"
+    }
+  },
+  "flex-layout.row#footer__desktop--one": {
+    "title": "Footer one",
+    "children": [
+      "flex-layout.col#footer__desktop--one",
+      "flex-layout.col#footer__desktop--one2",
+      "flex-layout.col#footer__desktop--one3",
+      "flex-layout.col#footer__desktop--one4"
+    ],
+    "props": {
+      "blockClass": "footer_container-col"
+    }
+  },
+  "flex-layout.col#footer__desktop--one": {
+    "title": "Footer images",
+    "children": [
+      "image#footer__desktop-one"
+    ]
+  },
+  "flex-layout.col#footer__desktop--one2": {
+    "title": "Footer images",
+    "children": [
+      "image#footer__desktop-two"
+    ]
+  },
+  "flex-layout.col#footer__desktop--one3": {
+    "title": "Footer images",
+    "children": [
+      "image#footer__desktop-three"
+    ]
+  },
+  "flex-layout.col#footer__desktop--one4": {
+    "title": "Footer images",
+    "children": [
+      "image#footer__desktop-four"
+    ]
+  },
+  "image#footer__desktop-one": {
+    "title": "images",
+    "props": {
+      "src": "assets/img/footer/pqrs.jpg"
+    }
+  },
+  "image#footer__desktop-two": {
+    "title": "images",
+    "props": {
+      "src": "assets/img/footer/metodos_retiro.jpg"
+    }
+  },
+  "image#footer__desktop-three": {
+    "title": "images",
+    "props": {
+      "src": "assets/img/footer/datos_personales.jpg"
+    }
+  },
+  "image#footer__desktop-four": {
+    "title": "images",
+    "props": {
+      "src": "assets/img/footer/telefono.jpg",
+      "link": "/"
+    }
+  },
+  "flex-layout.row#footer__desktop--two": {
+    "title": "Footer two",
+    "children": [
+      "flex-layout.col#footer__desktop--two1",
+      "flex-layout.col#footer__desktop--two2",
+      "flex-layout.col#footer__desktop--two3",
+      "flex-layout.col#footer__desktop--two4"
+    ],
+    "props": {
+      "blockClass": "footer_total"
+    }
+  },
+  "flex-layout.col#footer__desktop--two1": {
+    "title": "Footer two1",
+    "children": [
+      "link#footer__text1",
+      "link#footer__text2",
+      "link#footer__text3",
+      "link#footer__text4",
+      "link#footer__text5",
+      "link#footer__text6",
+      "link#footer__text7",
+      "link#footer__text8",
+      "link#footer__text9"
+    ],
+    "props": {
+      "blockClass": "footer_text"
+    }
+  },
+  "link#footer__text1": {
+    "title": "Footer text one1",
+    "props": {
+      "blockClass": "links_footer-title",
+      "label": "Servicio al cliente",
+      "href": "/"
+    }
+  },
+  "link#footer__text2": {
+    "title": "Footer text one2",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Venta a empresas",
+      "href": "/"
+    }
+  },
+  "link#footer__text3": {
+    "title": "Footer text one3",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Medios de pago",
+      "href": "/"
+    }
+  },
+  "link#footer__text4": {
+    "title": "Footer text one4",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Cambios y devoluciones",
+      "href": "/"
+    }
+  },
+  "link#footer__text5": {
+    "title": "Footer text one5",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Politica de protección de datos personales",
+      "href": "/"
+    }
+  },
+  "link#footer__text6": {
+    "title": "Footer text one6",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Términos y condiciones",
+      "href": "/"
+    }
+  },
+  "link#footer__text7": {
+    "title": "Footer text one7",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Estatuto del consumidor",
+      "href": "/"
+    }
+  },
+  "link#footer__text8": {
+    "title": "Footer text one8",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Mapa del sitio",
+      "href": "/"
+    }
+  },
+  "link#footer__text9": {
+    "title": "Footer text one9",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Superintendencia Industria y Comercio SIC",
+      "href": "/"
+    }
+  },
+  "flex-layout.col#footer__desktop--two2": {
+    "title": "Footer two2",
+    "children": [
+      "link#footer__two--text1",
+      "link#footer__two--text2",
+      "link#footer__two--text3",
+      "link#footer__two--text4"
+    ],
+    "props": {
+      "blockClass": "footer_text2"
+    }
+  },
+  "link#footer__two--text1": {
+    "title": "Footer text two1",
+    "props": {
+      "blockClass": "links_footer-title",
+      "label": "Mi cuenta",
+      "href": "/"
+    }
+  },
+  "link#footer__two--text2": {
+    "title": "Footer text two2",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Registrate",
+      "href": "/"
+    }
+  },
+  "link#footer__two--text3": {
+    "title": "Footer text two3",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Cambia tu clave",
+      "href": "/"
+    }
+  },
+  "link#footer__two--text4": {
+    "title": "Footer text two4",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Olvidé mi clave",
+      "href": "/"
+    }
+  },
+  "flex-layout.col#footer__desktop--two3": {
+    "title": "Footer two3",
+    "children": [
+      "link#footer__three__text1",
+      "link#footer__three__text2",
+      "link#footer__three__text3",
+      "link#footer__three__text4",
+      "link#footer__three__text5",
+      "link#footer__three__text6",
+      "link#footer__three__text7",
+      "link#footer__three__text8",
+      "link#footer__three__text9"
+    ],
+    "props": {
+      "blockClass": "footer_text"
+    }
+  },
+  "link#footer__three__text1": {
+    "title": "Footer text three1",
+    "props": {
+      "blockClass": "links_footer-title",
+      "label": "Más de Homecenter",
+      "href": "/"
+    }
+  },
+  "link#footer__three__text2": {
+    "title": "Footer text three2",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Información a proveedores",
+      "href": "/"
+    }
+  },
+  "link#footer__three__text3": {
+    "title": "Footer text three3",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Información a inversonistas",
+      "href": "/"
+    }
+  },
+  "link#footer__three__text4": {
+    "title": "Footer text three4",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Responsabilidad Social Empresarial",
+      "href": "/"
+    }
+  },
+  "link#footer__three__text5": {
+    "title": "Footer text three5",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "La linea ética y anticorrupción - lineaeticayanticorrupcion@homecenter.co",
+      "href": "/"
+    }
+  },
+  "link#footer__three__text6": {
+    "title": "Footer text three6",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Trabaje para nosotros",
+      "href": "/"
+    }
+  },
+  "link#footer__three__text7": {
+    "title": "Footer text three7",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Vende en Homecenter.com.co",
+      "href": "/"
+    }
+  },
+  "link#footer__three__text8": {
+    "title": "Footer text three8",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Sodimac Colombia S.A.",
+      "href": "/"
+    }
+  },
+  "link#footer__three__text9": {
+    "title": "Footer text three9",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "NIT 800.242.106-2",
+      "href": "/"
+    }
+  },
+  "flex-layout.col#footer__desktop--two4": {
+    "title": "Footer two4",
+    "children": [
+      "link#footer__four__text1",
+      "link#footer__four__text2",
+      "link#footer__four__text3",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "footer_text2"
+    }
+  },
+  "link#footer__four__text1": {
+    "title": "footer four text one",
+    "props": {
+      "blockClass": "links_footer-title",
+      "label": "Descarga la APP Homecenter",
+      "href": "/"
+    }
+  },
+  "link#footer__four__text2": {
+    "title": "footer four text two",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Apple Store",
+      "href": "/"
+    }
+  },
+  "link#footer__four__text3": {
+    "title": "footer four text three",
+    "props": {
+      "blockClass": "links_footer",
+      "label": "Google Store",
+      "href": "/"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/homecentercolombia/",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://www.instagram.com/homecenter_co/",
+          "name": "Instagram"
+        },
+        {
+          "url": "https://twitter.com/Homecenter_co",
+          "name": "Twitter"
+        },
+        {
+          "url": "https://www.youtube.com/homecentercolombia",
+          "name": "youtube"
+        },
+        {
+          "url": "https://co.pinterest.com/homecentercol/",
+          "name": "pinterest"
+        }
+      ]
+    }
+  },
+  "flex-layout.row#footer__desktop--three": {
+    "title": "Footer three",
+    "children": [
+      "logo#footer__logo",
+      "rich-text#footer__bottom"
+    ],
+    "props": {
+      "blockClass": "footer_three"
+    }
+  },
+  "logo#footer__logo": {
+    "title": "Logo footer",
+    "props": {
+      "blockClass": "logo_footer",
+      "url": "assets/img/logo-mobile.jpg",
+      "width": 50,
+      "href": "/"
+    }
+  },
+  "rich-text#footer__bottom": {
+    "title": "Footer text bottom",
+    "props": {
+      "text": "Todos los derechos reservados",
+      "textPosition": "LEFT",
+      "textAlignment": "CENTER"
+    }
+  }
+}

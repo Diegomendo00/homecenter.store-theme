@@ -1,0 +1,11 @@
+.logoLink--logo_footer{
+ display: flex;
+ justify-content: flex-end;
+}
+
+.logoContainer--logo_footer{
+  padding: 0;
+  padding-left: 10%
+}
+
+

@@ -1,0 +1,22 @@
+{
+  "minicart.v2#mobile": {
+    "props": {
+      "MinicartIcon": "image#icon-minicart--mobile",
+      "itemCountMode": "total",
+      "quantityDisplay": "always"
+    },
+    "children": []
+  },
+  "icon#minicart": {
+    "props": {
+      "id": "hpa-calendar",
+      "size": 40
+    }
+  },
+  "image#icon-minicart--mobile": {
+    "props": {
+      "src": "assets/img/icons/icon-cart.png",
+      "width": 30
+    }
+  }
+}

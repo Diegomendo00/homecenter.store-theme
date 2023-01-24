@@ -16,7 +16,7 @@
       "drawer#header__mobile--menu",
       "logo#header__logo--mobile",
       "header-spacer",
-      "minicart.v2",
+      "minicart.v2#mobile",
       "login"
     ]
   },
