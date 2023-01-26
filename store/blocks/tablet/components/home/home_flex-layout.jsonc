@@ -224,19 +224,8 @@
   "flex-layout.row#tablet__home__section--eight": {
     "title": "Tablet home section eight",
     "children": [
-      "flex-layout.col#tablet__home__section--eight"
-    ],
-    "props": {
-      "blockClass": "tablet_home_section-eight"
-    }
-  },
-  "flex-layout.col#tablet__home__section--eight": {
-    "children": [
-      "image#tablet__home__section--eight"
-    ],
-    "props": {
-      "horizontalAlign": "center"
-    }
+      "flex-layout.row#vitrinas"
+    ]
   },
   "image#tablet__home__section--eight": {
     "props": {

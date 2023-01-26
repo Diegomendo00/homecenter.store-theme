@@ -26,7 +26,7 @@
       "logo#header__top--logo",
       "search-bar#header__home",
       "minicart.v2#desktop",
-      "login",
+      "logo#header__cmr--puntos",
       "modal-trigger#header__middle--login"
     ],
     "props": {
@@ -34,29 +34,51 @@
     }
   },
   "logo#header__top--logo": {
-    "title": "logo",
+    "title": "logo home",
     "props": {
       "url": "assets/img/homecenter.jpg",
       "width": 200,
       "href": "/"
     }
   },
+  "logo#header__cmr--puntos": {
+    "title": "logo cmr puntos",
+    "props": {
+      "url": "assets/img/icons/icon-cmr.png",
+      "width": 30,
+      "href": "/",
+      "showLabel": true,
+      "title": "CMR puntos"
+    }
+  },
   "modal-trigger#header__middle--login": {
     "children": [
-      "rich-text#header__middle--login",
-      "modal-layout#header__middle--login"
+      "flex-layout.row#login"
     ]
   },
-  "login": {
-    "title": "Login",
+  "flex-layout.row#login": {
+    "children": [
+      "image#icon-login",
+      "rich-text#header__middle--login",
+      "modal-layout#header__middle--login"
+    ],
     "props": {
-      "showIconProfile": true,
-      "hideIconLabel": true
+      "blockClass": "login_cuenta"
+    }
+  },
+  "image#icon-login": {
+    "title": "icon login",
+    "props": {
+      "src": "assets/img/icons/icon-login.png",
+      "maxHeight": 40,
+      "maxWidth": 40
     }
   },
   "rich-text#header__middle--login": {
+    "title": "mi cuenta",
     "props": {
-      "text": "Mi cuenta"
+      "text": "Mi cuenta",
+      "blockClass": "text_cuenta"
     }
   },
   "modal-layout#header__middle--login": {
@@ -71,25 +93,6 @@
     "props": {
       "placeholder": "¿Qué estás buscando?",
       "openAutocompleteOnFocus": true
-    }
-  },
-  "minicart.v2#desktop": {
-    "props": {
-      "MinicartIcon": "image#icon-minicart",
-      "itemCountMode": "total",
-      "quantityDisplay": "always"
-    }
-  },
-  "icon#minicart": {
-    "props": {
-      "id": "hpa-calendar",
-      "size": 40
-    }
-  },
-  "image#icon-minicart": {
-    "props": {
-      "src": "assets/img/icons/icon-cart.png",
-      "width": 30
     }
   }
 }

@@ -16,7 +16,7 @@
       "drawer#header__mobile--menu",
       "logo#header__logo--mobile",
       "header-spacer",
-      "minicart.v2",
+      "minicart.v2#mobile",
       "login"
     ]
   },
@@ -40,6 +40,16 @@
       "url": "assets/img/logo-mobile.jpg",
       "width": 50,
       "href": "/"
+    }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
     }
   }
 }
