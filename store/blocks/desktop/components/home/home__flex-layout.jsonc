@@ -229,16 +229,53 @@
   },
   "flex-layout.col#home__section--eight": {
     "children": [
-      "image#home__section--eight"
+      "flex-layout.row#vitrinas"
     ],
     "props": {
-      "horizontalAlign": "center"
+      "blockClass": "section_eight"
     }
   },
-  "image#home__section--eight": {
+  "flex-layout.row#vitrinas": {
+    "title": "vitrinas",
+    "children": [
+      "list-context.product-list#productos"
+    ],
     "props": {
-      "src": "assets/img/envio_gratis.jpg"
+      "blockClass": "vitrinas"
     }
+  },
+  "list-context.product-list#productos": {
+    "title": "productos",
+    "children": [
+      "slider-layout#productos"
+    ],
+    "blocks": [
+      "product-summary.shelf#productos"
+    ],
+    "props": {
+      "blockClass": "lista_productos"
+    }
+  },
+  "slider-layout#productos": {
+    "title": "slider productos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "blockClass": "slider_productos"
+    }
+  },
+  "product-summary.shelf#productos": {
+    "title": "producto summary",
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
   },
   "flex-layout.row#home__section--nine": {
     "title": "Section nine",

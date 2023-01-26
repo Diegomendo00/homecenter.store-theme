@@ -169,16 +169,8 @@
   },
   "flex-layout.col#phone__home__section--eight": {
     "children": [
-      "image#phone__home__section--eight"
-    ],
-    "props": {
-      "horizontalAlign": "center"
-    }
-  },
-  "image#phone__home__section--eight": {
-    "props": {
-      "src": "assets/img/envio_gratis.jpg"
-    }
+      "flex-layout.row#vitrinas"
+    ]
   },
   "flex-layout.row#phone__home__section--nine": {
     "title": "Phone home section nine",

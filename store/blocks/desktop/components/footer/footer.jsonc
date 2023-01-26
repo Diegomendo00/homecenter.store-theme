@@ -68,7 +68,9 @@
     "title": "images",
     "props": {
       "src": "assets/img/footer/telefono.jpg",
-      "link": "/"
+      "link": {
+        "url": "/"
+      }
     }
   },
   "flex-layout.row#footer__desktop--two": {

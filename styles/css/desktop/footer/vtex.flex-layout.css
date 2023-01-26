@@ -13,3 +13,7 @@
 .flexRow--footer_container-col{
   height: 130px
 }
+
+.flexColChild--footer_text2{
+  display: flex
+}
