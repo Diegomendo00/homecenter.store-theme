@@ -516,5 +516,73 @@
     "props": {
       "src": "assets/img/section_nineteen2.webp"
     }
+  },
+  "flex-layout.row#home__section--twenty": {
+    "title": "Section twenty",
+    "children": [
+      "rich-text#home__homecenter"
+    ],
+    "props": {
+      "blockClass": "home_section-twenty"
+    }
+  },
+  "rich-text#home__homecenter": {
+    "title": "homecenter colombia",
+    "props": {
+      "text": "Homcenter Colombia",
+      "font": "t-heading-6",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#home__section--twenty-one": {
+    "title": "Section twenty-one",
+    "children": [
+      "rich-text#home__cyber"
+    ],
+    "props": {
+      "blockClass": "home_section-twenty-one"
+    }
+  },
+  "rich-text#home__cyber": {
+    "title": "homecenter colombia",
+    "props": {
+      "text": "¡Estamos en Cyber! Del 23 al 31 de Enero disfruta de los mejores precios en los productos de referencias seleccionadas, sujetos a disponibilidad de inventario por tienda y ciudad. Válido únicamente para compras a través de Homecenter.co, APP Homecenter, call center y Pantallas Digitales. Conoce términos y condiciones aquí.",
+      "font": "t-heading-7",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#home__section--twenty-two": {
+    "title": "Section twenty-two",
+    "children": [
+      "rich-text#home__informacion"
+    ],
+    "props": {
+      "blockClass": "home_section-twenty-two"
+    }
+  },
+  "rich-text#home__informacion": {
+    "title": "homecenter colombia",
+    "props": {
+      "text": "Informamos a nuestros clientes que por motivos de las obras realizadas por parte de la alcaldía, a partir del 17 de enero de 2023 el acceso a la Tienda 68 Sur en Bogotá será por la Cra 68ª esquina con calle 37 sur",
+      "font": "t-heading-7",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#home__section--twenty-three": {
+    "title": "Section twenty-three",
+    "children": [
+      "rich-text#home__politica"
+    ],
+    "props": {
+      "blockClass": "home_section-twenty-three"
+    }
+  },
+  "rich-text#home__politica": {
+    "title": "homecenter colombia",
+    "props": {
+      "text": "Puedes conocer o consultar ingresando la Política de Protección de Datos Aquí. 1.) CAMPAÑA PREVENTIVA DE SEGURIDAD: Calentador de Agua de paso a Gas VOLKER. Consulta Aquí. 2.) Cualquier consulta sobre la resolución 32209 de 2020 sobre los productos pre empacados la puede realizar a notificacionesjudiciales@homecenter.co ",
+      "font": "t-heading-7",
+      "textAlignment": "CENTER"
+    }
   }
 }

@@ -1,10 +1,4 @@
 {
-  "footer": {
-    "title": "Footer",
-    "blocks": [
-      "footer-layout.desktop"
-    ]
-  },
   "footer-layout.desktop": {
     "title": "Footer desktop",
     "children": [
@@ -317,7 +311,7 @@
       "link#footer__four__text1",
       "link#footer__four__text2",
       "link#footer__four__text3",
-      "social-networks"
+      "flex-layout.row#footer_phone--two"
     ],
     "props": {
       "blockClass": "footer_text2"

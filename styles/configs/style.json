@@ -365,6 +365,13 @@
         "textTransform": "initial",
         "letterSpacing": "0"
       },
+      "heading-7": {
+        "fontFamily": "Lato-Regular, sans-serif",
+        "fontWeight": "normal",
+        "fontSize": "1.063rem",
+        "textTransform": "initial",
+        "letterSpacing": "0"
+      },
       "body": {
         "fontFamily": "Lato-Regular, sans-serif",
         "fontWeight": "normal",

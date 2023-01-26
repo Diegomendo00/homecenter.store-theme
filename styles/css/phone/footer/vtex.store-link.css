@@ -1,0 +1,14 @@
+.label--links_footer-question{
+    text-decoration: underline white;
+  color: #333333;
+  font-size: 14px;
+  font-family: system-ui
+}
+
+.label--link_servicio{
+    text-decoration: underline #399f4a;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: system-ui;
+  font-weight: bold;
+}

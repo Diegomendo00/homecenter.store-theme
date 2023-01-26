@@ -1,0 +1,289 @@
+{
+  "responsive-layout.phone": {
+    "title": "responsive footer phone",
+    "children": [
+      "flex-layout.row#footer_phone--one",
+      "flex-layout.row#footer_phone--two",
+      "flex-layout.row#footer_phone--three"
+    ],
+    "props": {
+      "blockClass": "responsive_phone"
+    }
+  },
+  "flex-layout.row#footer_phone--one": {
+    "title": "footer flex",
+    "children": [
+      "flex-layout.col#footer_phone--one"
+    ],
+    "props": {
+      "blockClass": "row_footer-one"
+    }
+  },
+  "flex-layout.col#footer_phone--one": {
+    "title": "footer col",
+    "children": [
+      "disclosure-layout#first",
+      "disclosure-layout#second",
+      "disclosure-layout#third",
+      "disclosure-layout#fourth"
+    ],
+    "props": {
+      "blockClass": "col_footer-one"
+    }
+  },
+  "disclosure-layout#first": {
+    "title": "disclosure",
+    "children": [
+      "disclosure-trigger#first"
+    ],
+    "props": {
+      "blockClass": "disclosure_first"
+    }
+  },
+  "disclosure-trigger#first": {
+    "title": "disclosure trigger",
+    "children": [
+      "flex-layout.row#footer_trigger"
+    ],
+    "props": {
+      "blockClass": "trigger_flex"
+    }
+  },
+  "flex-layout.row#footer_trigger": {
+    "title": "footer trigger1",
+    "children": [
+      "image#documento",
+      "link#question1",
+      "image#arrow"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "flex_question",
+      "horizontalAlign": "left",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#documento": {
+    "title": "documento",
+    "props": {
+      "src": "assets/img/footer/documento.png"
+    }
+  },
+  "link#question1": {
+    "title": "Footer question one",
+    "props": {
+      "blockClass": "links_footer-question",
+      "label": "Te escuchamos / PQRS",
+      "href": "/"
+    }
+  },
+  "image#arrow": {
+    "props": {
+      "src": "assets/img/footer/flecha-footer.png",
+      "maxWidth": 18,
+      "maxHeight": 18
+    }
+  },
+  "disclosure-layout#second": {
+    "title": "disclosure 2",
+    "children": [
+      "disclosure-trigger#second"
+    ]
+  },
+  "disclosure-trigger#second": {
+    "title": "disclosure trigger2",
+    "children": [
+      "flex-layout.row#footer_trigger2"
+    ],
+    "props": {
+      "blockClass": "trigger_flex"
+    }
+  },
+  "flex-layout.row#footer_trigger2": {
+    "title": "footer trigger 2",
+    "children": [
+      "image#metodo_retiro",
+      "link#question2",
+      "image#arrow"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "flex_question",
+      "horizontalAlign": "left",
+      "preventHorizontalStretch": true
+    }
+  },
+  "link#question2": {
+    "title": "Footer question one",
+    "props": {
+      "blockClass": "links_footer-question",
+      "label": "Métodos de Retiro y Envio",
+      "href": "/"
+    }
+  },
+  "image#metodo_retiro": {
+    "title": "metodo retiro",
+    "props": {
+      "src": "assets/img/footer/metodo-retiro.png"
+    }
+  },
+  "disclosure-layout#third": {
+    "title": "disclosure 3",
+    "children": [
+      "disclosure-trigger#third"
+    ]
+  },
+  "disclosure-trigger#third": {
+    "title": "disclosure trigger 3",
+    "children": [
+      "flex-layout.row#footer_trigger3"
+    ],
+    "props": {
+      "blockClass": "trigger_flex"
+    }
+  },
+  "flex-layout.row#footer_trigger3": {
+    "title": "footer trigger 3",
+    "children": [
+      "image#datos_personales",
+      "link#question3",
+      "image#arrow"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "flex_question",
+      "horizontalAlign": "left",
+      "preventHorizontalStretch": true
+    }
+  },
+  "link#question3": {
+    "title": "Footer question three",
+    "props": {
+      "blockClass": "links_footer-question",
+      "label": "Autogestión de Datos Personales",
+      "href": "/"
+    }
+  },
+  "image#datos_personales": {
+    "title": "metodo retiro",
+    "props": {
+      "src": "assets/img/icons/icon-ubication.png"
+    }
+  },
+  "disclosure-layout#fourth": {
+    "title": "disclosure 4",
+    "children": [
+      "disclosure-trigger#fourth"
+    ]
+  },
+  "disclosure-trigger#fourth": {
+    "title": "disclosure trigger 4",
+    "children": [
+      "flex-layout.row#footer_trigger4"
+    ],
+    "props": {
+      "blockClass": "trigger_flex"
+    }
+  },
+  "flex-layout.row#footer_trigger4": {
+    "title": "footer trigger 4",
+    "children": [
+      "image#venta_telefono",
+      "link#question4",
+      "image#arrow"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "flex_question",
+      "horizontalAlign": "left",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#venta_telefono": {
+    "title": "venta telefonica",
+    "props": {
+      "src": "assets/img/footer/venta_telefono.png"
+    }
+  },
+  "link#question4": {
+    "title": "Footer question four",
+    "props": {
+      "blockClass": "links_footer-question",
+      "label": "Venta telefónica 01 8000 127373",
+      "href": "/"
+    }
+  },
+  "flex-layout.row#footer_phone--two": {
+    "title": "social images",
+    "children": [
+      "image#facebook",
+      "image#instagram",
+      "image#twitter",
+      "image#youtube",
+      "image#pinterest"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+    }
+  },
+  "image#facebook": {
+    "title": "facebok",
+    "props": {
+      "src": "assets/img/footer/facebook1.png"
+    }
+  },
+  "image#instagram": {
+    "title": "instagram",
+    "props": {
+      "src": "assets/img/footer/instagram1.png"
+    }
+  },
+  "image#twitter": {
+    "title": "twitter",
+    "props": {
+      "src": "assets/img/footer/twitter1.png"
+    }
+  },
+  "image#youtube": {
+    "title": "youtube",
+    "props": {
+      "src": "assets/img/footer/youtube.png"
+    }
+  },
+  "image#pinterest": {
+    "title": "pinterest",
+    "props": {
+      "src": "assets/img/footer/pinterest.png"
+    }
+  },
+  "flex-layout.row#footer_phone--three": {
+    "title": "footer phone three",
+    "children": [
+      "image#phone",
+      "link#servico_cliente"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "blockClass": "flex-footer_three",
+      "fullWidth": false
+    }
+  },
+  "image#phone": {
+    "title": "image phone",
+    "props": {
+      "src": "assets/img/footer/telefono_blanco.png"
+    }
+  },
+  "link#servico_cliente": {
+    "title": "link servico al cliente",
+    "props": {
+      "blockClass": "link_servicio",
+      "label": "Servicio al cliente",
+      "href": "/"
+    }
+  }
+}

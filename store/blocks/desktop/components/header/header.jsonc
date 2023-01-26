@@ -53,20 +53,32 @@
   },
   "modal-trigger#header__middle--login": {
     "children": [
-      "rich-text#header__middle--login",
-      "modal-layout#header__middle--login"
+      "flex-layout.row#login"
     ]
   },
-  "login": {
-    "title": "Login",
+  "flex-layout.row#login": {
+    "children": [
+      "image#icon-login",
+      "rich-text#header__middle--login",
+      "modal-layout#header__middle--login"
+    ],
     "props": {
-      "showIconProfile": true,
-      "hideIconLabel": true
+      "blockClass": "login_cuenta"
+    }
+  },
+  "image#icon-login": {
+    "title": "icon login",
+    "props": {
+      "src": "assets/img/icons/icon-login.png",
+      "maxHeight": 40,
+      "maxWidth": 40
     }
   },
   "rich-text#header__middle--login": {
+    "title": "mi cuenta",
     "props": {
-      "text": "Mi cuenta"
+      "text": "Mi cuenta",
+      "blockClass": "text_cuenta"
     }
   },
   "modal-layout#header__middle--login": {

@@ -1,0 +1,121 @@
+{
+  "responsive-layout.tablet": {
+    "title": "footer tablet",
+    "children": [
+      "flex-layout.row#footer__tablet--one",
+      "flex-layout.row#footer__tablet--two",
+      "flex-layout.row#footer__tablet--three"
+    ],
+    "props": {
+      "blockClass": "footer_tablet"
+    }
+  },
+  "flex-layout.row#footer__tablet--one": {
+    "title": "footer row one",
+    "children": [
+      "flex-layout.col#footer__tablet--one",
+      "flex-layout.col#footer__tablet--one2",
+      "flex-layout.col#footer__tablet--one3",
+      "flex-layout.col#footer__tablet--one4"
+    ]
+  },
+  "flex-layout.col#footer__tablet--one": {
+    "title": "Footer images",
+    "children": [
+      "image#footer__tablet-one"
+    ]
+  },
+  "flex-layout.col#footer__tablet--one2": {
+    "title": "Footer images",
+    "children": [
+      "image#footer__tablet-two"
+    ]
+  },
+  "flex-layout.col#footer__tablet--one3": {
+    "title": "Footer images",
+    "children": [
+      "image#footer__tablet-three"
+    ]
+  },
+  "flex-layout.col#footer__tablet--one4": {
+    "title": "Footer images",
+    "children": [
+      "image#footer__tablet-four"
+    ]
+  },
+  "image#footer__tablet-one": {
+    "title": "images",
+    "props": {
+      "src": "assets/img/footer/pqrs.jpg"
+    }
+  },
+  "image#footer__tablet-two": {
+    "title": "images",
+    "props": {
+      "src": "assets/img/footer/metodos_retiro.jpg"
+    }
+  },
+  "image#footer__tablet-three": {
+    "title": "images",
+    "props": {
+      "src": "assets/img/footer/datos_personales.jpg"
+    }
+  },
+  "image#footer__tablet-four": {
+    "title": "images",
+    "props": {
+      "src": "assets/img/footer/telefono.jpg",
+      "link": "/"
+    }
+  },
+  "flex-layout.row#footer__tablet--two": {
+    "title": "footer row two",
+    "children": [
+      "flex-layout.col#social_tablet",
+      "flex-layout.col#servicio_tablet"
+    ],
+    "props": {
+      "blockClass": "footer_middle"
+    }
+  },
+  "flex-layout.col#social_tablet": {
+    "title": "footer middle social media",
+    "children": [
+      "flex-layout.row#footer_phone--two"
+    ]
+  },
+  "flex-layout.col#servicio_tablet": {
+    "title": "footer middle service",
+    "children": [
+      "flex-layout.row#footer_phone--three"
+    ]
+  },
+  "flex-layout.row#footer__tablet--three": {
+    "title": "Footer three",
+    "children": [
+      "logo#footer__logo",
+      "rich-text#footer__bottom"
+    ],
+    "props": {
+      "blockClass": "footer_three"
+    }
+  },
+  "logo#footer__logo": {
+    "title": "Logo footer",
+    "props": {
+      "blockClass": "logo_footer",
+      "url": "assets/img/logo-mobile.jpg",
+      "width": 50,
+      "href": "/"
+    }
+  },
+  "rich-text#footer__bottom": {
+    "title": "Footer text bottom",
+    "props": {
+      "text": "Todos los derechos reservados",
+      "textPosition": "LEFT",
+      "textAlignment": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}
