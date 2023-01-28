@@ -1,0 +1,180 @@
+{
+  "flex-layout.col#dept_6plomeria": {
+    "title": "Flex-layout col department one",
+    "children": [
+      "menu#dept_6department__construccion-ferreteria5"
+    ],
+    "props": {
+      "blockClass": "flex-layout-col_deparment-one"
+    }
+  },
+  "menu#dept_6department__construccion-ferreteria5": {
+    "title": "Menu construccion y ferreteria",
+    "children": [
+      "menu-item#dept_6category__five",
+      "menu-item#dept_6category__five2",
+      "menu-item#dept_6category__five3",
+      "menu-item#dept_6category__five4",
+      "menu-item#dept_6category__five5",
+      "menu-item#dept_6category__five6",
+      "menu-item#dept_6category__five7",
+      "menu-item#dept_6category__five8",
+      "menu-item#dept_6category__five9",
+      "menu-item#dept_6category__five10"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "department-construccion-ferreteria"
+    }
+  },
+  "menu-item#dept_6category__five": {
+    "title": "Menu-item category five",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-five",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Plomería",
+        "text": "Plomería >"
+      }
+    }
+  },
+  "menu-item#dept_6category__five2": {
+    "title": "Menu-item category five2",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-five2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tubos PVC",
+        "text": "Tubos PVC"
+      }
+    }
+  },
+  "menu-item#dept_6category__five3": {
+    "title": "Menu-item category five3",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-five3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Accesorios PVC",
+        "text": "Accesorios PVC"
+      }
+    }
+  },
+  "menu-item#dept_6category__five4": {
+    "title": "Menu-item category five4",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-five4",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tubos de Cobre y Accesorios",
+        "text": "Tubos de Cobre y Accesorios"
+      }
+    }
+  },
+  "menu-item#dept_6category__five5": {
+    "title": "Menu-item category five5",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-five5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tubos de Polietileno y Galvanizado",
+        "text": "Tubos de Polietileno y Galvanizado"
+      }
+    }
+  },
+  "menu-item#dept_6category__five6": {
+    "title": "Menu-item category five6",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-five6",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tubos de Polipropileno y Termofusión",
+        "text": "Tubos de Polipropileno y Termofusión"
+      }
+    }
+  },
+  "menu-item#dept_6category__five7": {
+    "title": "Menu-item category five7",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-five7",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tanques de Agua y Accesorios",
+        "text": "Tanques de Agua y Accesorios"
+      }
+    }
+  },
+  "menu-item#dept_6category__five8": {
+    "title": "Menu-item category five8",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-five8",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Pozos Sépticos y Accesorios",
+        "text": "Pozos Sépticos y Accesorios"
+      }
+    }
+  },
+  "menu-item#dept_6category__five9": {
+    "title": "Menu-item category five9",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-five9",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Bombas y Motobombas",
+        "text": "Bombas y Motobombas"
+      }
+    }
+  },
+  "menu-item#dept_6category__five10": {
+    "title": "Menu-item category five10",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-five10",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Ver mas",
+        "text": "Ver más >"
+      }
+    }
+  }
+}

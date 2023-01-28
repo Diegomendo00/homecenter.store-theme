@@ -1,33 +1,33 @@
 {
-  "flex-layout.col#maderas_tableros_herrajes": {
+  "flex-layout.col#dept_3maderas_tableros_herrajes": {
     "title": "Flex-layout col department one",
     "children": [
-      "menu#department__construccion-ferreteria4"
+      "menu#dept_3department__construccion-ferreteria4"
     ],
     "props": {
       "blockClass": "flex-layout-col_deparment-one"
     }
   },
-  "menu#department__construccion-ferreteria4": {
+  "menu#dept_3department__construccion-ferreteria4": {
     "title": "Menu construccion y ferreteria",
     "children": [
-      "menu-item#category__four",
-      "menu-item#category__four2",
-      "menu-item#category__four3",
-      "menu-item#category__four4",
-      "menu-item#category__four5",
-      "menu-item#category__four6",
-      "menu-item#category__four7",
-      "menu-item#category__four8",
-      "menu-item#category__four9",
-      "menu-item#category__four10"
+      "menu-item#dept_3category__four",
+      "menu-item#dept_3category__four2",
+      "menu-item#dept_3category__four3",
+      "menu-item#dept_3category__four4",
+      "menu-item#dept_3category__four5",
+      "menu-item#dept_3category__four6",
+      "menu-item#dept_3category__four7",
+      "menu-item#dept_3category__four8",
+      "menu-item#dept_3category__four9",
+      "menu-item#dept_3category__four10"
     ],
     "props": {
       "orientation": "vertical",
       "blockClass": "department-construccion-ferreteria"
     }
   },
-  "menu-item#category__four": {
+  "menu-item#dept_3category__four": {
     "title": "Menu-item category four",
     "props": {
       "blockClass": "department_one_category",
@@ -42,7 +42,7 @@
       }
     }
   },
-  "menu-item#category__four2": {
+  "menu-item#dept_3category__four2": {
     "title": "Menu-item category four2",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -57,7 +57,7 @@
       }
     }
   },
-  "menu-item#category__four3": {
+  "menu-item#dept_3category__four3": {
     "title": "Menu-item category four3",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -72,7 +72,7 @@
       }
     }
   },
-  "menu-item#category__four4": {
+  "menu-item#dept_3category__four4": {
     "title": "Menu-item category four4",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -87,7 +87,7 @@
       }
     }
   },
-  "menu-item#category__four5": {
+  "menu-item#dept_3category__four5": {
     "title": "Menu-item category four5",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -102,7 +102,7 @@
       }
     }
   },
-  "menu-item#category__four6": {
+  "menu-item#dept_3category__four6": {
     "title": "Menu-item category four6",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -117,7 +117,7 @@
       }
     }
   },
-  "menu-item#category__four7": {
+  "menu-item#dept_3category__four7": {
     "title": "Menu-item category four7",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -132,7 +132,7 @@
       }
     }
   },
-  "menu-item#category__four8": {
+  "menu-item#dept_3category__four8": {
     "title": "Menu-item category four8",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -147,7 +147,7 @@
       }
     }
   },
-  "menu-item#category__four9": {
+  "menu-item#dept_3category__four9": {
     "title": "Menu-item category four9",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -162,7 +162,7 @@
       }
     }
   },
-  "menu-item#category__four10": {
+  "menu-item#dept_3category__four10": {
     "title": "Menu-item category four10",
     "props": {
       "blockClass": "department_one_category",

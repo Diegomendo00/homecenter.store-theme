@@ -1,33 +1,33 @@
 {
-  "flex-layout.col#tejas_drywall": {
+  "flex-layout.col#dept_2tejas_drywall": {
     "title": "Flex-layout col department one",
     "children": [
-      "menu#department__construccion-ferreteria2"
+      "menu#dept_2department__construccion-ferreteria2"
     ],
     "props": {
       "blockClass": "flex-layout-col_deparment-one"
     }
   },
-  "menu#department__construccion-ferreteria2": {
+  "menu#dept_2department__construccion-ferreteria2": {
     "title": "Menu construccion y ferreteria",
     "children": [
-      "menu-item#category__two",
-      "menu-item#category__two2",
-      "menu-item#category__two3",
-      "menu-item#category__two4",
-      "menu-item#category__two5",
-      "menu-item#category__two6",
-      "menu-item#category__two7",
-      "menu-item#category__two8",
-      "menu-item#category__two9",
-      "menu-item#category__two10"
+      "menu-item#dept_2category__two",
+      "menu-item#dept_2category__two2",
+      "menu-item#dept_2category__two3",
+      "menu-item#dept_2category__two4",
+      "menu-item#dept_2category__two5",
+      "menu-item#dept_2category__two6",
+      "menu-item#dept_2category__two7",
+      "menu-item#dept_2category__two8",
+      "menu-item#dept_2category__two9",
+      "menu-item#dept_2category__two10"
     ],
     "props": {
       "orientation": "vertical",
       "blockClass": "department-construccion-ferreteria"
     }
   },
-  "menu-item#category__two": {
+  "menu-item#dept_2category__two": {
     "title": "Menu-item category two",
     "props": {
       "blockClass": "department_one_category",
@@ -42,7 +42,7 @@
       }
     }
   },
-  "menu-item#category__two2": {
+  "menu-item#dept_2category__two2": {
     "title": "Menu-item category two2",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -57,7 +57,7 @@
       }
     }
   },
-  "menu-item#category__two3": {
+  "menu-item#dept_2category__two3": {
     "title": "Menu-item category two3",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -72,7 +72,7 @@
       }
     }
   },
-  "menu-item#category__two4": {
+  "menu-item#dept_2category__two4": {
     "title": "Menu-item category two4",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -87,7 +87,7 @@
       }
     }
   },
-  "menu-item#category__two5": {
+  "menu-item#dept_2category__two5": {
     "title": "Menu-item category two5",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -102,7 +102,7 @@
       }
     }
   },
-  "menu-item#category__two6": {
+  "menu-item#dept_2category__two6": {
     "title": "Menu-item category two6",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -117,7 +117,7 @@
       }
     }
   },
-  "menu-item#category__two7": {
+  "menu-item#dept_2category__two7": {
     "title": "Menu-item category two7",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -132,7 +132,7 @@
       }
     }
   },
-  "menu-item#category__two8": {
+  "menu-item#dept_2category__two8": {
     "title": "Menu-item category two8",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -147,7 +147,7 @@
       }
     }
   },
-  "menu-item#category__two9": {
+  "menu-item#dept_2category__two9": {
     "title": "Menu-item category two9",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -162,7 +162,7 @@
       }
     }
   },
-  "menu-item#category__two10": {
+  "menu-item#dept_2category__two10": {
     "title": "Menu-item category two10",
     "props": {
       "blockClass": "department_one_category",
