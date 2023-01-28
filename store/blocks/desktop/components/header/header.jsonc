@@ -25,7 +25,7 @@
     "children": [
       "logo#header__top--logo",
       "search-bar#header__home",
-      "minicart.v2#desktop",
+      "minicart.v2",
       "logo#header__cmr--puntos",
       "modal-trigger#header__middle--login"
     ],

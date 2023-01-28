@@ -67,10 +67,7 @@
   "image#footer__desktop-four": {
     "title": "images",
     "props": {
-      "src": "assets/img/footer/telefono.jpg",
-      "link": {
-        "url": "/"
-      }
+      "src": "assets/img/footer/telefono.jpg"
     }
   },
   "flex-layout.row#footer__desktop--two": {

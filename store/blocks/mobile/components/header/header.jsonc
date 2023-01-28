@@ -16,7 +16,8 @@
       "drawer#header__mobile--menu",
       "logo#header__logo--mobile",
       "header-spacer",
-      "minicart.v2#mobile",
+      "overlay-trigger",
+      "minicart.v2",
       "login"
     ]
   },
@@ -51,5 +52,40 @@
       "showPasswordVerificationIntoTooltip": true,
       "showIconProfile": true
     }
+  },
+  "overlay-trigger": {
+    "children": [
+      "image#lupa",
+      "overlay-layout"
+    ],
+    "props": {
+      "blockClass": "overlay_trigger"
+    }
+  },
+  "image#lupa": {
+    "title": "imagen lupa",
+    "props": {
+      "src": "assets/img/lupa.png"
+    }
+  },
+  "overlay-layout": {
+    "props": {
+      "placement": "bottom",
+      "blockClass": "contenedor_search"
+    },
+    "children": [
+      "search-bar#mobile"
+    ]
+  },
+  "search-bar#mobile": {
+    "props": {
+      "displayMode": "clear-button",
+      "placeholder": "¿Qué estás buscando?",
+      "containerMode": "overlay",
+      "openAutocompleteOnFocus": true
+    },
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ]
   }
 }
