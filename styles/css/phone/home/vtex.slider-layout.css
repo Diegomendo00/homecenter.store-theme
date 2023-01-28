@@ -1,7 +1,9 @@
 .sliderLayoutContainer--home__slider{
   height: 450px;
+  margin-bottom: 10px;
 }
 
 .imageElement--home__slider{
   height: 500px;
 }
+

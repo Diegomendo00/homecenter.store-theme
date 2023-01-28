@@ -21,7 +21,11 @@
       "flex-layout.row#tablet__home__section--sixteen",
       "flex-layout.row#tablet__home__section--seventeen",
       "flex-layout.row#tablet__home__section--eighteen",
-      "flex-layout.row#tablet__home__section--nineteen"
+      "flex-layout.row#tablet__home__section--nineteen",
+      "flex-layout.row#tablet__home__section--twenty",
+      "flex-layout.row#tablet__home__section--twenty-one",
+      "flex-layout.row#tablet__home__section--twenty-two",
+      "flex-layout.row#tablet__home__section--twenty-three"
     ]
   }
 }
