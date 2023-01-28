@@ -13,7 +13,8 @@
       "image#phone__home__section--one"
     ],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "section_one"
     }
   },
   "image#phone__home__section--one": {
