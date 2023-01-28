@@ -1,0 +1,180 @@
+{
+  "flex-layout.col#dept_10electricidad": {
+    "title": "Flex-layout col department one",
+    "children": [
+      "menu#dept_10department__construccion-ferreteria7"
+    ],
+    "props": {
+      "blockClass": "flex-layout-col_deparment-one"
+    }
+  },
+  "menu#dept_10department__construccion-ferreteria7": {
+    "title": "Menu construccion y ferreteria",
+    "children": [
+      "menu-item#dept_10category__seven",
+      "menu-item#dept_10category__seven2",
+      "menu-item#dept_10category__seven3",
+      "menu-item#dept_10category__seven4",
+      "menu-item#dept_10category__seven5",
+      "menu-item#dept_10category__seven6",
+      "menu-item#dept_10category__seven7",
+      "menu-item#dept_10category__seven8",
+      "menu-item#dept_10category__seven9",
+      "menu-item#dept_10category__seven10"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "department-construccion-ferreteria"
+    }
+  },
+  "menu-item#dept_10category__seven": {
+    "title": "Menu-item category seven",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-seven",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Electricidad",
+        "text": "Electricidad >"
+      }
+    }
+  },
+  "menu-item#dept_10category__seven2": {
+    "title": "Menu-item category seven2",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-seven2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Alambre y Cables Eléctricos",
+        "text": "Alambre y Cables Eléctricos"
+      }
+    }
+  },
+  "menu-item#dept_10category__seven3": {
+    "title": "Menu-item category seven3",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-seven3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Breakers y Tableros Eléctronicos",
+        "text": "Breakers y Tableros Eléctronicos"
+      }
+    }
+  },
+  "menu-item#dept_10category__seven4": {
+    "title": "Menu-item category seven4",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-seven4",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Interruptores y Tomacorrientes",
+        "text": "Interruptores y Tomacorrientes"
+      }
+    }
+  },
+  "menu-item#dept_10category__seven5": {
+    "title": "Menu-item category seven5",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-seven5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Canaletas para Cables y Accesorios",
+        "text": "Canaletas para Cables y Accesorios"
+      }
+    }
+  },
+  "menu-item#dept_10category__seven6": {
+    "title": "Menu-item category seven6",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-seven6",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tubería Eléctrica EMT y PVC",
+        "text": "Tubería Eléctrica EMT y PVC"
+      }
+    }
+  },
+  "menu-item#dept_10category__seven7": {
+    "title": "Menu-item category seven7",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-seven7",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Herramientas para Electricistas",
+        "text": "Herramientas para Electricistas"
+      }
+    }
+  },
+  "menu-item#dept_10category__seven8": {
+    "title": "Menu-item category seven8",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-seven8",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cintas Aislantes y Terminales Eléctricos",
+        "text": "Cintas Aislantes y Terminales Eléctricos"
+      }
+    }
+  },
+  "menu-item#dept_10category__seven9": {
+    "title": "Menu-item category seven9",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-seven9",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Multitomas y Extensiones Eléctricas",
+        "text": "Multitomas y Extensiones Eléctricas"
+      }
+    }
+  },
+  "menu-item#dept_10category__seven10": {
+    "title": "Menu-item category seven10",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-seven10",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Ver mas",
+        "text": "Ver más >"
+      }
+    }
+  }
+}

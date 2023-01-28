@@ -1,33 +1,33 @@
 {
-  "flex-layout.col#electricidad": {
+  "flex-layout.col#dept_3electricidad": {
     "title": "Flex-layout col department one",
     "children": [
-      "menu#department__construccion-ferreteria7"
+      "menu#dept_3department__construccion-ferreteria7"
     ],
     "props": {
       "blockClass": "flex-layout-col_deparment-one"
     }
   },
-  "menu#department__construccion-ferreteria7": {
+  "menu#dept_3department__construccion-ferreteria7": {
     "title": "Menu construccion y ferreteria",
     "children": [
-      "menu-item#category__seven",
-      "menu-item#category__seven2",
-      "menu-item#category__seven3",
-      "menu-item#category__seven4",
-      "menu-item#category__seven5",
-      "menu-item#category__seven6",
-      "menu-item#category__seven7",
-      "menu-item#category__seven8",
-      "menu-item#category__seven9",
-      "menu-item#category__seven10"
+      "menu-item#dept_3category__seven",
+      "menu-item#dept_3category__seven2",
+      "menu-item#dept_3category__seven3",
+      "menu-item#dept_3category__seven4",
+      "menu-item#dept_3category__seven5",
+      "menu-item#dept_3category__seven6",
+      "menu-item#dept_3category__seven7",
+      "menu-item#dept_3category__seven8",
+      "menu-item#dept_3category__seven9",
+      "menu-item#dept_3category__seven10"
     ],
     "props": {
       "orientation": "vertical",
       "blockClass": "department-construccion-ferreteria"
     }
   },
-  "menu-item#category__seven": {
+  "menu-item#dept_3category__seven": {
     "title": "Menu-item category seven",
     "props": {
       "blockClass": "department_one_category",
@@ -42,7 +42,7 @@
       }
     }
   },
-  "menu-item#category__seven2": {
+  "menu-item#dept_3category__seven2": {
     "title": "Menu-item category seven2",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -57,7 +57,7 @@
       }
     }
   },
-  "menu-item#category__seven3": {
+  "menu-item#dept_3category__seven3": {
     "title": "Menu-item category seven3",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -72,7 +72,7 @@
       }
     }
   },
-  "menu-item#category__seven4": {
+  "menu-item#dept_3category__seven4": {
     "title": "Menu-item category seven4",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -87,7 +87,7 @@
       }
     }
   },
-  "menu-item#category__seven5": {
+  "menu-item#dept_3category__seven5": {
     "title": "Menu-item category seven5",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -102,7 +102,7 @@
       }
     }
   },
-  "menu-item#category__seven6": {
+  "menu-item#dept_3category__seven6": {
     "title": "Menu-item category seven6",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -117,7 +117,7 @@
       }
     }
   },
-  "menu-item#category__seven7": {
+  "menu-item#dept_3category__seven7": {
     "title": "Menu-item category seven7",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -132,7 +132,7 @@
       }
     }
   },
-  "menu-item#category__seven8": {
+  "menu-item#dept_3category__seven8": {
     "title": "Menu-item category seven8",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -147,7 +147,7 @@
       }
     }
   },
-  "menu-item#category__seven9": {
+  "menu-item#dept_3category__seven9": {
     "title": "Menu-item category seven9",
     "props": {
       "blockClass": "department_one_subcategory",
@@ -162,7 +162,7 @@
       }
     }
   },
-  "menu-item#category__seven10": {
+  "menu-item#dept_3category__seven10": {
     "title": "Menu-item category seven10",
     "props": {
       "blockClass": "department_one_category",

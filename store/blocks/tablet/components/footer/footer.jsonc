@@ -99,23 +99,5 @@
     "props": {
       "blockClass": "footer_three"
     }
-  },
-  "logo#footer__logo": {
-    "title": "Logo footer",
-    "props": {
-      "blockClass": "logo_footer",
-      "url": "assets/img/logo-mobile.jpg",
-      "width": 50,
-      "href": "/"
-    }
-  },
-  "rich-text#footer__bottom": {
-    "title": "Footer text bottom",
-    "props": {
-      "text": "Todos los derechos reservados",
-      "textPosition": "LEFT",
-      "textAlignment": "CENTER",
-      "font": "t-heading-1"
-    }
   }
 }
