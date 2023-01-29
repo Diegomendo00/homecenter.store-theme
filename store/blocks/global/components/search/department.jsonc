@@ -62,45 +62,7 @@
   },
   "search-result-layout.mobile#department": {
     "children": [
-      "flex-layout.row#categoryresults--mobile"
+      "flex-layout.row#categoryresults"
     ]
-  },
-  "flex-layout.row#categoryresults--mobile": {
-    "children": [
-      "flex-layout.col#categoryresults--filter-mobile",
-      "flex-layout.col#categoryresults--content-mobile"
-    ]
-  },
-  "flex-layout.col#categoryresults--filter-mobile": {
-    "children": [
-      "filter-navigator.v3"
-    ]
-  },
-  "flex-layout.col#categoryresults--content-mobile": {
-    "children": [
-      "search-content#resultscontent--products-mobile"
-    ]
-  },
-  "search-content#resultscontent--products-mobile": {
-    "blocks": [
-      "gallery#department-mobile",
-      "not-found"
-    ]
-  },
-  "gallery#department-mobile": {
-    "props": {
-      "layouts": [
-        {
-          "name": "general-grid",
-          "component": "GeneralGrid",
-          "itemsPerRow": {
-            "desktop": 4,
-            "tablet": 1,
-            "phone": 1
-          }
-        }
-      ],
-      "GeneralGrid": "product-summary.shelf"
-    }
   }
 }
