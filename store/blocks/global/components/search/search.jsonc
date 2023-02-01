@@ -54,6 +54,7 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
+      "product-rating-summary",
       "product-summary-price",
       "product-summary-sku-selector",
       "add-to-cart-button"
