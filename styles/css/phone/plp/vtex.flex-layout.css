@@ -1,0 +1,33 @@
+.flexColChild--ubication__col{
+  padding: 3%
+}
+
+.flexColChild--back__button-col :global(.vtex-button__label)::before{
+  content: " ";
+  background-image: url("assets/img/icons/icon-flecha.png");
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  visibility: visible;
+}
+
+.flexColChild--back__button-col :global(.vtex-button__label){
+  color: #333333;
+  visibility: hidden;
+}
+.flexColChild--back__button-col :global(.vtex-button){
+  background: white;
+border: white
+}
+
+.flexColChild--back__button-col :global(.vtex-button__label)::after{
+  visibility: visible;
+content: "subir al inicio de la pagina";
+position: absolute;
+left: 70px;
+text-transform: capitalize;
+}
+
+.flexColChild--back__button-col{
+  border-bottom: 2px solid #a5a4a4
+}

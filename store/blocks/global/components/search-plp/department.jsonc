@@ -159,10 +159,5 @@
       "GeneralGrid": "product-summary.shelf",
       "GeneralList": "product-summary.shelf"
     }
-  },
-  "search-result-layout.mobile#department": {
-    "children": [
-      "flex-layout.row#categoryresults"
-    ]
   }
 }

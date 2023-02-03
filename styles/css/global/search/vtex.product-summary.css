@@ -19,7 +19,7 @@ visibility: visible;
     position: absolute;
     text-transform: capitalize;
     font-size: 12px;
-    top: 15px
+    top: 15px;
 }
 
 .container :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText) {

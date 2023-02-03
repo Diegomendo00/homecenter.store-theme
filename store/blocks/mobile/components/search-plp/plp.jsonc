@@ -1,0 +1,9 @@
+{
+  "search-result-layout.mobile#department": {
+    "title": "PLP phone",
+    "children": [
+      "responsive-layout.phone#plp",
+      "responsive-layout.tablet#plp"
+    ]
+  }
+}
