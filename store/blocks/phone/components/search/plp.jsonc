@@ -1,0 +1,59 @@
+{
+  "responsive-layout.phone#plp": {
+    "title": "PLPphone",
+    "children": [
+      "flex-layout.row#ubication",
+      "flex-layout.row#categoryresults",
+      "flex-layout.row#back__button"
+    ]
+  },
+  "flex-layout.row#ubication": {
+    "title": "Ubication",
+    "children": [
+      "flex-layout.col#ubication"
+    ],
+    "props": {
+      "blockClass": "ubication_row"
+    }
+  },
+  "flex-layout.col#ubication": {
+    "title": "Ubication",
+    "children": [
+      "image#ubication"
+    ],
+    "props": {
+      "blockClass": "ubication__col"
+    }
+  },
+  "image#ubication": {
+    "title": "ubication image",
+    "props": {
+      "src": "assets/img/ubication_plp.jpg"
+    }
+  },
+  "flex-layout.row#back__button": {
+    "title": "Back button row",
+    "children": [
+      "flex-layout.col#back__button"
+    ],
+    "props": {
+      "blockClass": "back__button-row"
+    }
+  },
+  "flex-layout.col#back__button": {
+    "title": "back button col",
+    "children": [
+      "back-to-top-button"
+    ],
+    "props": {
+      "blockClass": "back__button-col"
+    }
+  },
+  "back-to-top-button": {
+    "title": "back to top button",
+    "props": {
+      "display": "button",
+      "displayThreshold": 600
+    }
+  }
+}

@@ -272,6 +272,7 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
+      "product-rating-summary",
       "product-summary-space",
       "product-summary-price",
       "add-to-cart-button"
