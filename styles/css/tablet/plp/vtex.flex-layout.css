@@ -1,0 +1,9 @@
+.flexCol--filter_col{
+  border-bottom: 2px solid rgb(204, 204, 204);
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.flexRow--content_row{
+  margin-top: 20px
+}

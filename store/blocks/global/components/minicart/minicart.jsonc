@@ -4,7 +4,8 @@
       "MinicartIcon": "image#icon-minicart",
       "itemCountMode": "total",
       "quantityDisplay": "always",
-      "variation": "popup"
+      "variation": "link",
+      "linkVariationUrl": "/minicart"
     },
     "children": [
       "minicart-base-content"

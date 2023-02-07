@@ -112,14 +112,6 @@
       "blockClass": "content_results"
     }
   },
-  "flex-layout.row#results": {
-    "children": [
-      "search-content#resultscontent--products"
-    ],
-    "props": {
-      "blockClass": "products_results"
-    }
-  },
   "flex-layout.row#gallery": {
     "children": [
       "gallery-layout-switcher"
@@ -127,6 +119,14 @@
     "props": {
       "blockClass": "gallery_results",
       "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.row#results": {
+    "children": [
+      "search-content#resultscontent--products"
+    ],
+    "props": {
+      "blockClass": "products_results"
     }
   },
   "search-content#resultscontent--products": {

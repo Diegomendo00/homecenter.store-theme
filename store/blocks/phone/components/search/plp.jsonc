@@ -53,7 +53,7 @@
     "title": "back to top button",
     "props": {
       "display": "button",
-      "displayThreshold": 600
+      "displayThreshold": 200
     }
   }
 }

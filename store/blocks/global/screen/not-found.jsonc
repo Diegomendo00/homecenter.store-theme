@@ -1,0 +1,12 @@
+{
+  "search-not-found-layout": {
+    "children": [
+      "flex-layout.row#image_lupa",
+      "flex-layout.row#results_not-found",
+      "flex-layout.row#consejos",
+      "flex-layout.row#categoria",
+      "flex-layout.row#iconos",
+      "flex-layout.row#preguntas"
+    ]
+  }
+}

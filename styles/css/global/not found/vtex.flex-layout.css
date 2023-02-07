@@ -1,0 +1,29 @@
+.flexColChild--lupa_col{
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--results_col{
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--consejos_col{
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--categorias_col{
+    display: flex;
+  justify-content: center;
+}
+
+.flexColChild--iconos_categorias-col{
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--informacion_preguntas{
+  display: flex;
+  justify-content: center;
+}
