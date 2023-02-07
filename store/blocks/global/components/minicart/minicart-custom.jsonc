@@ -2,48 +2,8 @@
   "store.custom#minicart": {
     "title": "Minicart",
     "blocks": [
-      "flex-layout.row#minicart__section--one",
-      "flex-layout.row#minicart__section--two",
-      "flex-layout.row#minicart__section--three"
-    ]
-  },
-  "flex-layout.row#minicart__section--one": {
-    "title": "Minicart ruta",
-    "children": [
-      "flex-layout.col#minicart__section--one"
-    ],
-    "props": {
-      "blockClass": "minicart__section--one-row"
-    }
-  },
-  "flex-layout.col#minicart__section--one": {
-    "title": "Minicart ruta col",
-    "children": [
-      "image#ruta"
-    ],
-    "props": {
-      "blockClass": "minicart__section--one-col"
-    }
-  },
-  "image#ruta": {
-    "title": "imagen ruta",
-    "props": {
-      "src": "assets/img/Minicart-custom/ruta.png"
-    }
-  },
-  "flex-layout.row#minicart__section--two": {
-    "children": [
-      "minicart-empty-state"
-    ]
-  },
-  "flex-layout.row#minicart__section--three": {
-    "children": [
-      "minicart-product-list"
-    ]
-  },
-  "flex-layout.row#minicart__section--four": {
-    "children": [
-      "minicart-summary"
+      "responsive-layout.desktop#minicart__custom",
+      "responsive-layout.mobile#minicart__custom"
     ]
   }
 }

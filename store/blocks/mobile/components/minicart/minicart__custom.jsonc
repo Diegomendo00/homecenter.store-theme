@@ -1,0 +1,8 @@
+{
+  "responsive-layout.mobile#minicart__custom": {
+    "children": [
+      "responsive-layout.phone#minicart__custom",
+      "responsive-layout.tablet#minicart__custom"
+    ]
+  }
+}

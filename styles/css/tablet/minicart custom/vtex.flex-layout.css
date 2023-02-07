@@ -1,0 +1,10 @@
+.flexRow--tablet__minicart__section--two{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.flexRowContent--tablet__quantity--price{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}

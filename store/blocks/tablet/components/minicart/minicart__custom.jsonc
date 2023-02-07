@@ -1,0 +1,238 @@
+{
+  "responsive-layout.tablet#minicart__custom": {
+    "children": [
+      "flex-layout.row#tablet__minicart__section--one",
+      "flex-layout.row#tablet__minicart__section--two",
+      "flex-layout.row#tablet__minicart__section--three",
+      "flex-layout.row#tablet__minicart__section--four"
+    ]
+  },
+  "flex-layout.row#tablet__minicart__section--one": {
+    "title": "Minicart ruta",
+    "children": [
+      "flex-layout.col#tablet__minicart__section--one"
+    ],
+    "props": {
+      "blockClass": "minicart__section--one-row"
+    }
+  },
+  "flex-layout.col#tablet__minicart__section--one": {
+    "title": "Minicart ruta col",
+    "children": [
+      "image#tablet__ruta"
+    ],
+    "props": {
+      "blockClass": "minicart__section--one-col"
+    }
+  },
+  "image#tablet__ruta": {
+    "title": "imagen ruta",
+    "props": {
+      "src": "assets/img/Minicart-custom/ruta.png"
+    }
+  },
+  "flex-layout.row#tablet__minicart__section--two": {
+    "title": "Minicart custom section two",
+    "children": [
+      "flex-layout.col#tablet__info__product",
+      "flex-layout.col#tablet__minicart_custom"
+    ],
+    "props": {
+      "blockClass": "tablet__minicart__section--two",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#tablet__info__product": {
+    "title": "info product",
+    "children": [
+      "rich-text#tablet__carro__compras",
+      "image#tablet__falabella",
+      "minicart-product-list#tablet"
+    ],
+    "props": {
+      "blockClass": "tablet__info__product",
+      "width": "60%"
+    }
+  },
+  "minicart-product-list#tablet": {
+    "blocks": [
+      "product-list#tablet__minicart"
+    ]
+  },
+  "product-list#tablet__minicart": {
+    "blocks": [
+      "product-list-content-mobile#tablet"
+    ]
+  },
+  "product-list-content-mobile#tablet": {
+    "children": [
+      "flex-layout.row#tablet__name--image",
+      "flex-layout.row#tablet__quantity--price"
+    ],
+    "props": {
+      "blockClass": "tablet__minicart-rows"
+    }
+  },
+  "flex-layout.row#tablet__name--image": {
+    "title": "image",
+    "children": [
+      "flex-layout.col#tablet__image",
+      "flex-layout.col#tablet__name"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "tablet__name--img"
+    }
+  },
+  "flex-layout.col#tablet__image": {
+    "title": "image",
+    "children": [
+      "product-list-image"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "tablet__img"
+    }
+  },
+  "flex-layout.col#tablet__name": {
+    "title": "name",
+    "children": [
+      "vtex.product-list:product-name"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "tablet__name"
+    }
+  },
+  "flex-layout.row#tablet__quantity--price": {
+    "title": "quantity selector",
+    "children": [
+      "flex-layout.col#tablet__quantity",
+      "flex-layout.col#tablet__price"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "tablet__quantity--price"
+    }
+  },
+  "flex-layout.col#tablet__quantity": {
+    "title": "quantity selector",
+    "children": [
+      "quantity-selector#minicart"
+    ],
+    "props": {
+      "blockClass": "tablet__quantity",
+      "horizontalAlign": "left",
+      "width": "50%"
+    }
+  },
+  "quantity-selector#tablet__minicart": {
+    "props": {
+      "mode": "stepper"
+    }
+  },
+  "flex-layout.col#tablet__price": {
+    "title": "price",
+    "children": [
+      "price"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "tablet__price",
+      "width": "50%"
+    }
+  },
+  "rich-text#tablet__carro__compras": {
+    "title": "titulo Carrito de compras",
+    "props": {
+      "text": "Carrito de Compras",
+      "font": "t-heading-4"
+    }
+  },
+  "image#tablet__falabella": {
+    "title": "Credito falabella",
+    "props": {
+      "src": "assets/img/Minicart-custom/falabella.png"
+    }
+  },
+  "flex-layout.col#tablet__minicart_custom": {
+    "children": [
+      "rich-text#tablet__resumen__compra",
+      "minicart-summary",
+      "minicart-checkout-button",
+      "image#tablet__tarjetas"
+    ],
+    "props": {
+      "blockClass": "minicart__custom",
+      "width": "40%"
+    }
+  },
+  "rich-text#tablet__resumen__compra": {
+    "title": "titulo resumen de compra",
+    "props": {
+      "text": "Resumen de Compra",
+      "font": "t-heading-4"
+    }
+  },
+  "image#tablet__tarjetas": {
+    "title": "imagen tarjetas",
+    "props": {
+      "src": "assets/img/Minicart-custom/tarjetas.png"
+    }
+  },
+  "flex-layout.row#tablet__minicart__section--three": {
+    "title": "minicart section three",
+    "children": [
+      "flex-layout.col#tablet__compra__segura"
+    ],
+    "props": {
+      "blockClass": "minicart__section--three"
+    }
+  },
+  "flex-layout.col#tablet__compra__segura": {
+    "title": "compra segura col",
+    "children": [
+      "image#tablet__compra__segura"
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
+  },
+  "image#tablet__compra__segura": {
+    "title": "Imagen compra segura",
+    "props": {
+      "src": "assets/img/Minicart-custom/compra-segura.png"
+    }
+  },
+  "flex-layout.row#tablet__minicart__section--four": {
+    "title": "Otras opciones de compra",
+    "children": [
+      "flex-layout.col#tablet__otras__opciones"
+    ],
+    "props": {
+      "blockClass": "otras__opciones"
+    }
+  },
+  "flex-layout.col#tablet__otras__opciones": {
+    "title": "vitrina de productos",
+    "children": [
+      "rich-text#tablet__otras__opciones",
+      "flex-layout.row#tablet__home__section--eight"
+    ],
+    "props": {
+      "blockClass": "otras__opciones--col"
+    }
+  },
+  "rich-text#tablet__otras__opciones": {
+    "title": "",
+    "props": {
+      "text": "Nuestros clientes también compraron",
+      "font": "t-heading-4"
+    }
+  }
+}

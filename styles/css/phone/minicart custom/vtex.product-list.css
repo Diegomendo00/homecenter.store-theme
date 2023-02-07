@@ -1,0 +1,14 @@
+.quantitySelectorIncrease,
+.quantitySelectorDecrease{
+    font-size: 20px;
+  color: black
+}
+
+.inputContainer{
+  padding: 0 !important;
+  width: 50px !important;
+}
+
+.quantitySelectorContainer{
+  width: 100% !important
+}

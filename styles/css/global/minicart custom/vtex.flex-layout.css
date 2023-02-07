@@ -1,0 +1,36 @@
+.flexColChild--minicart__section--one-col{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.flexRow--minicart__section--two,
+.flexCol--otras__opciones--col{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.flexCol--minicart__custom{
+  padding-left: 20px;
+}
+
+.flexCol--minicart__custom :global(.vtex-button){
+  background: red;
+  border-color: red;
+}
+
+.flexCol--minicart__custom :global(.vtex-button__label){
+  visibility: hidden;
+}
+
+.flexCol--minicart__custom :global(.vtex-button__label)::after{
+  visibility: visible;
+  content: "Continuar";
+  position: absolute;
+  left: "50%";
+  text-transform: capitalize;
+}
+
+.flexRowContent--minicart__section--three{
+  padding-right: 5%;
+}
