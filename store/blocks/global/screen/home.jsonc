@@ -2,10 +2,18 @@
   "store.home": {
     "title": "Store home",
     "blocks": [
+      "whatsapp-button",
       "responsive-layout.desktop#home__section--one",
       "responsive-layout.tablet#home__section--one",
       "responsive-layout.phone#home__section-1",
       "responsive-layout.mobile#phone__and__tablet"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "123456789",
+      "message": "mensaje"
+    }
   }
 }
