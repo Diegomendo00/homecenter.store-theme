@@ -1,0 +1,9 @@
+{
+  "store.custom#minicart": {
+    "title": "Minicart",
+    "blocks": [
+      "responsive-layout.desktop#minicart__custom",
+      "responsive-layout.mobile#minicart__custom"
+    ]
+  }
+}

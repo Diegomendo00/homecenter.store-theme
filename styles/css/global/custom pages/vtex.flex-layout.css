@@ -1,0 +1,17 @@
+.flexColChild--custom__page--one-col,
+.flexColChild--custom__page--two-col,
+.flexColChild--custom__page--three-col,
+.flexColChild--custom__page--four-col,
+.flexColChild--custom__page--five-col,
+.flexColChild--custom__page--six-col,
+.flexColChild--custom__page--seven-col,
+.flexColChild--custom__page--eight-col,
+.flexColChild--custom__page--nine-col,
+.flexColChild--custom__page--ten-col,
+.flexColChild--custom__page--eleven-col,
+.flexColChild--custom__page--twelve-col,
+.flexColChild--custom__page--thirteen-col,
+.flexColChild--custom__page--fourteen-col{
+  display: flex;
+  justify-content: center;
+}

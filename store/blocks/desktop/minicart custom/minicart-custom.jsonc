@@ -1,0 +1,146 @@
+{
+  "responsive-layout.desktop#minicart__custom": {
+    "title": "Minicar custom responsive desktop",
+    "children": [
+      "flex-layout.row#minicart__section--one",
+      "flex-layout.row#minicart__section--two",
+      "flex-layout.row#minicart__section--three",
+      "flex-layout.row#minicart__section--four"
+    ]
+  },
+  "flex-layout.row#minicart__section--one": {
+    "title": "Minicart ruta",
+    "children": [
+      "flex-layout.col#minicart__section--one"
+    ],
+    "props": {
+      "blockClass": "minicart__section--one-row"
+    }
+  },
+  "flex-layout.col#minicart__section--one": {
+    "title": "Minicart ruta col",
+    "children": [
+      "image#ruta"
+    ],
+    "props": {
+      "blockClass": "minicart__section--one-col"
+    }
+  },
+  "image#ruta": {
+    "title": "imagen ruta",
+    "props": {
+      "src": "assets/img/Minicart-custom/ruta.png"
+    }
+  },
+  "flex-layout.row#minicart__section--two": {
+    "title": "Minicart custom section two",
+    "children": [
+      "flex-layout.col#info__product",
+      "flex-layout.col#minicart_custom"
+    ],
+    "props": {
+      "blockClass": "minicart__section--two",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#info__product": {
+    "title": "info product",
+    "children": [
+      "rich-text#carro__compras",
+      "image#falabella",
+      "minicart-product-list"
+    ],
+    "props": {
+      "blockClass": "info__product",
+      "width": "70%"
+    }
+  },
+  "rich-text#carro__compras": {
+    "title": "titulo Carrito de compras",
+    "props": {
+      "text": "Carrito de Compras",
+      "font": "t-heading-4"
+    }
+  },
+  "image#falabella": {
+    "title": "Credito falabella",
+    "props": {
+      "src": "assets/img/Minicart-custom/falabella.png"
+    }
+  },
+  "flex-layout.col#minicart_custom": {
+    "children": [
+      "rich-text#resumen__compra",
+      "minicart-summary",
+      "minicart-checkout-button",
+      "image#tarjetas"
+    ],
+    "props": {
+      "blockClass": "minicart__custom",
+      "width": "30%"
+    }
+  },
+  "rich-text#resumen__compra": {
+    "title": "titulo resumen de compra",
+    "props": {
+      "text": "Resumen de Compra",
+      "font": "t-heading-4"
+    }
+  },
+  "image#tarjetas": {
+    "title": "imagen tarjetas",
+    "props": {
+      "src": "assets/img/Minicart-custom/tarjetas.png"
+    }
+  },
+  "flex-layout.row#minicart__section--three": {
+    "title": "minicart section three",
+    "children": [
+      "flex-layout.col#compra__segura"
+    ],
+    "props": {
+      "blockClass": "minicart__section--three"
+    }
+  },
+  "flex-layout.col#compra__segura": {
+    "title": "compra segura col",
+    "children": [
+      "image#compra__segura"
+    ],
+    "props": {
+      "horizontalAlign": "right"
+    }
+  },
+  "image#compra__segura": {
+    "title": "Imagen compra segura",
+    "props": {
+      "src": "assets/img/Minicart-custom/compra-segura.png"
+    }
+  },
+  "flex-layout.row#minicart__section--four": {
+    "title": "Otras opciones de compra",
+    "children": [
+      "flex-layout.col#otras__opciones"
+    ],
+    "props": {
+      "blockClass": "otras__opciones"
+    }
+  },
+  "flex-layout.col#otras__opciones": {
+    "title": "vitrina de productos",
+    "children": [
+      "rich-text#otras__opciones",
+      "flex-layout.row#home__section--eight"
+    ],
+    "props": {
+      "blockClass": "otras__opciones--col"
+    }
+  },
+  "rich-text#otras__opciones": {
+    "title": "",
+    "props": {
+      "text": "Nuestros clientes también compraron",
+      "font": "t-heading-4"
+    }
+  }
+}

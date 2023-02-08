@@ -37,3 +37,19 @@
 .flexCol--product_entrega-col{
   padding-left: 10px;
 }
+
+.flexRow--button_sticky{
+  background: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.flexRowContent--button_sticky{
+  justify-content: space-between !important;
+}
+
+.flexCol--button_quantity {
+  width: "38%"
+}

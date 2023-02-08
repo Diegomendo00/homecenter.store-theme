@@ -58,7 +58,10 @@
       "product-summary-price",
       "product-summary-sku-selector",
       "add-to-cart-button"
-    ]
+    ],
+    "props": {
+      "blockClass": "result_search"
+    }
   },
   "product-summary-sku-selector": {
     "props": {

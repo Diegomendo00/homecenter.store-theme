@@ -18,3 +18,7 @@ color: white
 .filter__container--priceRange{
   display: none
 }
+
+.galleryItem--normal{
+  padding: 2px !important
+}

@@ -144,7 +144,7 @@
     "props": {
       "blockClass": "links_footer",
       "label": "Términos y condiciones",
-      "href": "/"
+      "href": "/terminos-y-condiciones"
     }
   },
   "link#footer__text7": {

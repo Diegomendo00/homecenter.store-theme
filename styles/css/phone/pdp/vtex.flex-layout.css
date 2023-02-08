@@ -1,0 +1,21 @@
+.flexRow--button_sticky :global(.vtex-button){
+  border-color: red;
+  background-color: red;
+color: white
+}
+
+.flexRow--button_sticky :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before{
+content: "Agregar al Carro";
+visibility: visible;
+    width: 50%;
+    position: absolute;
+    text-transform: capitalize;
+    font-size: 12px;
+    top: 10px;
+    text-align: center;
+    left: 25%
+}
+
+.flexRow--button_sticky :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+visibility: hidden;
+}

@@ -1,0 +1,55 @@
+{
+  "responsive-layout.phone#pdp": {
+    "title": "responsive pdp phone",
+    "children": [
+      "flex-layout.row#product__breadcrumb",
+      "flex-layout.row#product__info-phone",
+      "flex-layout.row#product__entrega",
+      "flex-layout.row#product__tabs",
+      "flex-layout.row#product__similar",
+      "flex-layout.row#product__vitrina",
+      "responsive-layout.phone#button_sticky"
+    ]
+  },
+  "responsive-layout.phone#button_sticky": {
+    "title": "",
+    "children": [
+      "flex-layout.row#responsive_phone"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": "button_sticky"
+    }
+  },
+  "flex-layout.row#responsive_phone": {
+    "title": "",
+    "children": [
+      "flex-layout.col#phone_button__quantity",
+      "flex-layout.col#phone_button__add-cart"
+    ],
+    "props": {
+      "blockClass": "button_sticky",
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#phone_button__quantity": {
+    "title": "",
+    "children": [
+      "product-quantity"
+    ],
+    "props": {
+      "blockClass": "button_quantity",
+      "width": "40%"
+    }
+  },
+  "flex-layout.col#phone_button__add-cart": {
+    "title": "",
+    "children": [
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "button_add-cart",
+      "width": "60%"
+    }
+  }
+}

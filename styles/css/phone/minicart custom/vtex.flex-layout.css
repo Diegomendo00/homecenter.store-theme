@@ -1,0 +1,32 @@
+.flexCol--phone__minicart__custom :global(.vtex-button){
+  background: red;
+  border-color: red;
+}
+
+.flexCol--phone__minicart__custom :global(.vtex-button__label){
+  visibility: hidden;
+}
+
+.flexCol--phone__minicart__custom :global(.vtex-button__label)::after{
+  visibility: visible;
+  content: "Continuar";
+  position: absolute;
+  left: "50%";
+  text-transform: capitalize;
+}
+
+.flexCol--phone__minicart__custom,
+.flexCol--phone__info__product,
+.flexCol--phone__otras__opciones--col{
+  padding-left: 5%;
+  padding-right: 5%
+}
+
+.flexRow--phone__minicart-rows{
+  padding-bottom: 30px;
+}
+
+.flexRowContent--phone__quantity--price{
+  display: flex;
+  justify-content: space-around;
+}

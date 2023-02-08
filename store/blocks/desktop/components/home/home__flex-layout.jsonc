@@ -276,7 +276,10 @@
       "product-summary-space",
       "product-summary-price",
       "add-to-cart-button"
-    ]
+    ],
+    "props": {
+      "blockClass": "summary_vitrinas"
+    }
   },
   "flex-layout.row#home__section--nine": {
     "title": "Section nine",
