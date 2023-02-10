@@ -264,7 +264,8 @@
         "tablet": 3,
         "phone": 1
       },
-      "blockClass": "slider_productos"
+      "blockClass": "slider_productos",
+      "showPaginationDots": "never"
     }
   },
   "product-summary.shelf#productos": {
@@ -371,23 +372,10 @@
   "flex-layout.row#home__section--twelve": {
     "title": "Section twelve",
     "children": [
-      "flex-layout.col#home__section--twelve"
+      "list-context.bullet-group"
     ],
     "props": {
       "blockClass": "home__section-twelve"
-    }
-  },
-  "flex-layout.col#home__section--twelve": {
-    "children": [
-      "image#home__section--twelve"
-    ],
-    "props": {
-      "horizontalAlign": "center"
-    }
-  },
-  "image#home__section--twelve": {
-    "props": {
-      "src": "assets/img/section_twelve.jpg"
     }
   },
   "flex-layout.row#home__section--thirteen": {

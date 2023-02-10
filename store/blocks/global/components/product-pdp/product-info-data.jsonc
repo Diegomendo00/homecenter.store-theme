@@ -70,7 +70,8 @@
       "flex-layout.col#buy__button"
     ],
     "props": {
-      "blockClass": "row_quantity"
+      "blockClass": "row_quantity",
+      "preventHorizontalStretch": true
     }
   },
   "flex-layout.col#quantity": {
@@ -80,7 +81,7 @@
     ],
     "props": {
       "blockClass": "product_quantity",
-      "width": "35%"
+      "width": "30%"
     }
   },
   "flex-layout.col#buy__button": {
@@ -90,7 +91,7 @@
     ],
     "props": {
       "blockClass": "buy_button",
-      "width": "65%"
+      "width": "70%"
     }
   },
   "flex-layout.row#garantia": {

@@ -2,6 +2,7 @@
   "responsive-layout.phone#plp": {
     "title": "PLPphone",
     "children": [
+      "whatsapp-button",
       "flex-layout.row#ubication",
       "flex-layout.row#categoryresults",
       "flex-layout.row#back__button"

@@ -255,24 +255,102 @@
   "flex-layout.row#phone__home__section--twelve": {
     "title": "Phone home section twelve",
     "children": [
-      "flex-layout.col#phone__home__section--twelve"
+      "flex-layout.row#phone__bullet__group"
     ],
     "props": {
       "blockClass": "phone_home_section-twelve"
     }
   },
-  "flex-layout.col#phone__home__section--twelve": {
+  "flex-layout.row#phone__bullet__group": {
     "children": [
-      "image#phone__home__section--twelve"
+      "list-context.bullet-group#phone__"
+    ]
+  },
+  "list-context.bullet-group#phone__": {
+    "title": "lista de imagenes bullet",
+    "children": [
+      "slider-layout#phone__bullet__group"
     ],
     "props": {
-      "horizontalAlign": "center",
-      "blockClass": "phone_section_twelve-images"
+      "bullets": [
+        {
+          "image": "assets/img/bullet-group/armario.jpg",
+          "titleProduct": "Armario 6 Puertas 2 Cajones Choco",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/armario-2.jpg",
+          "titleProduct": "Armario 6 Puertas 2 Cajones Caoba",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/armario-3.jpg",
+          "titleProduct": "Armario Dual V2 Cajones Caramelo",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/escritorio.jpg",
+          "titleProduct": "Escritorio Bari 84.4x110x48 Duna",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/escritorio-2.jpg",
+          "titleProduct": "Escritorio Picasso Amaretto",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/silla.jpg",
+          "titleProduct": "Silla de Escritorio con Brazos",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/silla-2.jpg",
+          "titleProduct": "Silla Ejecutiva Cromada Negra",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/taladro.jpg",
+          "titleProduct": "Taladro Percutor 3/8-pulg Bauker",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
     }
   },
-  "image#phone__home__section--twelve": {
+  "slider-layout#phone__bullet__group": {
+    "title": "slider del bullet group",
     "props": {
-      "src": "assets/img/section_twelve.jpg"
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": false,
+      "showPaginationDots": "never",
+      "blockClass": "slider__bullets-phone"
     }
   },
   "flex-layout.row#phone__home__section--thirteen": {

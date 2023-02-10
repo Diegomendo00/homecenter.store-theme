@@ -1,0 +1,32 @@
+.bullet__item{
+  padding-left: 20%;
+}
+
+.bullet__item--title{
+  width: 171px;
+  text-align: center;
+  background: #DD0021;
+  color: white;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bullet__item--titleProduct{
+  width: 171px;
+  text-align: center;
+}
+
+.bullet__item--link{
+  text-align: center;
+  text-decoration: none;
+}
+
+.bullet__item--slider__bullets-phone{
+  padding: 0
+}
+
+

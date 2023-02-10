@@ -2,6 +2,7 @@
   "responsive-layout.tablet#plp": {
     "title": "responsive tablet",
     "children": [
+      "whatsapp-button",
       "flex-layout.row#categoryresults-tablet-filter",
       "gallery-layout-switcher",
       "flex-layout.row#categoryresults--content-tablet",
