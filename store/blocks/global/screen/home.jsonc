@@ -13,7 +13,98 @@
     "props": {
       "logo": "assets/img/whatsapp-logo.png",
       "phone": "123456789",
-      "message": "mensaje"
+      "message": "¡Hola!, necesito asesoría para comprar "
+    }
+  },
+  "flex-layout.row#bullet__group": {
+    "children": [
+      "list-context.bullet-group"
+    ]
+  },
+  "list-context.bullet-group": {
+    "title": "lista de imagenes bullet",
+    "children": [
+      "slider-layout#bullet__group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/bullet-group/armario.jpg",
+          "titleProduct": "Armario 6 Puertas 2 Cajones Chocolate",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/armario-2.jpg",
+          "titleProduct": "Armario 6 Puertas 2 Cajones Caoba",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/armario-3.jpg",
+          "titleProduct": "Armario Dual V2 Cajones Caramelo",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/escritorio.jpg",
+          "titleProduct": "Escritorio Bari 84.4x110x48 Duna",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/escritorio-2.jpg",
+          "titleProduct": "Escritorio Picasso 100x95x40cm Amaretto",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/silla.jpg",
+          "titleProduct": "Silla de Escritorio con Brazos Negra",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/silla-2.jpg",
+          "titleProduct": "Silla Ejecutiva Cromada con Brazos",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/taladro.jpg",
+          "titleProduct": "Taladro Percutor 3/8-pulg Bauker",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet__group": {
+    "title": "slider del bullet group",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": false,
+      "showPaginationDots": "never"
     }
   }
 }

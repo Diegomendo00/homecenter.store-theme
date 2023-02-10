@@ -1,0 +1,21 @@
+.flexRow--row_quantity :global(.vtex-button){
+  border-color: red;
+  background-color: red;
+color: white
+}
+
+.flexRow--row_quantity :global(.vtex-button__label)::before{
+content: "Agregar al Carro";
+visibility: visible;
+    width: 50%;
+    position: absolute;
+    text-transform: capitalize;
+    font-size: 12px;
+    top: 10px;
+    text-align: center;
+    left: 25%
+}
+
+.flexRow--row_quantity :global(.vtex-button__label) {
+visibility: hidden;
+}

@@ -2,6 +2,7 @@
   "responsive-layout.desktop#minicart__custom": {
     "title": "Minicar custom responsive desktop",
     "children": [
+      "whatsapp-button",
       "flex-layout.row#minicart__section--one",
       "flex-layout.row#minicart__section--two",
       "flex-layout.row#minicart__section--three",

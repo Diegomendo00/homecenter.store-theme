@@ -1,6 +1,7 @@
 {
   "responsive-layout.phone#minicart__custom": {
     "children": [
+      "whatsapp-button",
       "flex-layout.row#phone__minicart__section--one",
       "flex-layout.row#phone__minicart__section--two",
       "flex-layout.row#phone__minicart__section--three",

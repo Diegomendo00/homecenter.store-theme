@@ -19,6 +19,7 @@
   },
   "search-result-layout.desktop#department": {
     "children": [
+      "whatsapp-button",
       "flex-layout.row#categoryresults"
     ]
   },
