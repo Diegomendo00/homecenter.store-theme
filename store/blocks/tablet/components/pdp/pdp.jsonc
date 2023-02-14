@@ -18,38 +18,39 @@
       "flex-layout.row#responsive_tablet"
     ],
     "props": {
-      "preserveLayoutOnMobile": true,
-      "blockClass": "button_sticky"
+      "width": "100%",
+      "blockClass": "button_sticky-row"
     }
   },
   "flex-layout.row#responsive_tablet": {
-    "title": "",
+    "title": "Quantity y add button",
     "children": [
       "flex-layout.col#button__quantity",
       "flex-layout.col#button__add-cart"
     ],
     "props": {
-      "blockClass": "button_sticky"
+      "blockClass": "button_sticky-col",
+      "preventVerticalStretch": true
     }
   },
   "flex-layout.col#button__quantity": {
-    "title": "",
+    "title": "Quantity button",
     "children": [
       "product-quantity"
     ],
     "props": {
       "blockClass": "button_quantity",
-      "width": "20%"
+      "width": "30%"
     }
   },
   "flex-layout.col#button__add-cart": {
-    "title": "",
+    "title": "Add to cart button",
     "children": [
       "add-to-cart-button"
     ],
     "props": {
       "blockClass": "button_add-cart",
-      "width": "80%"
+      "width": "70%"
     }
   }
 }
