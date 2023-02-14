@@ -16,11 +16,6 @@
       "message": "¡Hola!, necesito asesoría para comprar "
     }
   },
-  "flex-layout.row#bullet__group": {
-    "children": [
-      "list-context.bullet-group"
-    ]
-  },
   "list-context.bullet-group": {
     "title": "lista de imagenes bullet",
     "children": [

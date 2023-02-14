@@ -19,7 +19,7 @@
     ],
     "props": {
       "width": "100%",
-      "blockClass": "button_sticky"
+      "blockClass": "button_sticky-row"
     }
   },
   "flex-layout.row#responsive_phone": {
@@ -29,8 +29,9 @@
       "flex-layout.col#phone_button__add-cart"
     ],
     "props": {
-      "blockClass": "button_sticky",
-      "preserveLayoutOnMobile": true
+      "blockClass": "button_sticky-col",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
     }
   },
   "flex-layout.col#phone_button__quantity": {
@@ -40,7 +41,7 @@
     ],
     "props": {
       "blockClass": "button_quantity",
-      "width": "40%"
+      "width": "30%"
     }
   },
   "flex-layout.col#phone_button__add-cart": {
@@ -50,7 +51,7 @@
     ],
     "props": {
       "blockClass": "button_add-cart",
-      "width": "60%"
+      "width": "70%"
     }
   }
 }

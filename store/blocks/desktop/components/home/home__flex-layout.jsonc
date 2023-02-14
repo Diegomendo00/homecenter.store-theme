@@ -276,10 +276,33 @@
       "product-rating-summary",
       "product-summary-space",
       "product-summary-price",
-      "add-to-cart-button"
+      "add-to-cart-button",
+      "modal-trigger#add-to-cart-info"
     ],
     "props": {
       "blockClass": "summary_vitrinas"
+    }
+  },
+  "modal-trigger#add-to-cart-info": {
+    "title": "Modal de informacion",
+    "children": [
+      "modal-layout#add-to-cart-info"
+    ],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info": {
+    "title": "",
+    "children": [
+      "modal-header#close__add-to-cart-info",
+      "add-to-cart-info"
+    ]
+  },
+  "modal-header#close__add-to-cart-info": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
     }
   },
   "flex-layout.row#home__section--nine": {

@@ -1,21 +1,19 @@
-.flexRow--button_sticky :global(.vtex-button){
+.flexRow--button_sticky-col :global(.vtex-button){
   border-color: red;
   background-color: red;
 color: white
 }
 
-.flexRow--button_sticky :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before{
-content: "Agregar al Carro";
-visibility: visible;
-    width: 50%;
-    position: absolute;
+.flexRow--button_sticky-col :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText)::before{
+    content: "Agregar al Carro";
+    visibility: visible;
     text-transform: capitalize;
     font-size: 12px;
-    top: 10px;
-    text-align: center;
-    left: 25%
+    display: flex;
+    justify-content: center;
+    transform: translateY(8px);
 }
 
-.flexRow--button_sticky :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+.flexRow--button_sticky-col :global(.vtex-button) :global(.vtex-add-to-cart-button-0-x-buttonText) {
 visibility: hidden;
 }

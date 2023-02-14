@@ -38,18 +38,14 @@
   padding-left: 10px;
 }
 
-.flexRow--button_sticky{
+.flexRow--button_sticky-col{
   background: white;
-  position: fixed;
-  bottom: 0;
   width: 100%;
+  bottom: 0;
+      position: fixed;
   z-index: 2;
 }
 
-.flexRowContent--button_sticky{
-  justify-content: space-between !important;
-}
-
-.flexCol--button_quantity {
-  width: "38%"
+.flexColChild--button_quantity{
+width: 50%
 }
