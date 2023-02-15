@@ -46,14 +46,13 @@
       "sidebar-close-button"
     ],
     "props": {
-      "truncateFilters": true,
       "showClearByFilter": true,
-      "fullWidthOnMobile": true,
+      "initiallyCollapsed": true,
       "navigationTypeOnMobile": "collapsible",
       "appliedFiltersOverview": "show",
-      "totalProductsOnMobile": "show",
       "updateOnFilterSelectionOnMobile": true,
-      "priceRangeLayout": "slider"
+      "priceRangeLayout": "slider",
+      "drawerDirectionMobile": "drawerRight"
     }
   },
   "gallery-layout-switcher": {
@@ -92,14 +91,14 @@
   },
   "rich-text#option-grid": {
     "props": {
-      "text": "Grid",
+      "text": "Mosaico",
       "textColor": "c-auto",
       "blockClass": "layout-option"
     }
   },
   "rich-text#option-list": {
     "props": {
-      "text": "List",
+      "text": "Listado",
       "textColor": "c-auto",
       "blockClass": "layout-option"
     }

@@ -25,8 +25,11 @@
     "children": [
       "logo#header__top--logo",
       "search-bar#header__home",
+      "logo#ubication",
+      "flex-layout.row#icon__ubication",
       "minicart.v2",
       "logo#header__cmr--puntos",
+      "flex-layout.row#cmr__puntos",
       "modal-trigger#header__middle--login"
     ],
     "props": {
@@ -37,8 +40,32 @@
     "title": "logo home",
     "props": {
       "url": "assets/img/homecenter.jpg",
-      "width": 200,
-      "href": "/"
+      "href": "/",
+      "blockClass": "home__logo"
+    }
+  },
+  "logo#ubication": {
+    "title": "logo ubication",
+    "props": {
+      "url": "assets/img/icons/icon-ubication-1.png",
+      "width": 30,
+      "href": "/",
+      "blockClass": "ubication"
+    }
+  },
+  "flex-layout.row#icon__ubication": {
+    "title": "Ubicacion row",
+    "children": [
+      "rich-text#ubication"
+    ],
+    "props": {
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#ubication": {
+    "title": "Ubicacion",
+    "props": {
+      "text": "Bogotá D.C"
     }
   },
   "logo#header__cmr--puntos": {
@@ -49,6 +76,21 @@
       "href": "/",
       "showLabel": true,
       "title": "CMR puntos"
+    }
+  },
+  "flex-layout.row#cmr__puntos": {
+    "title": "cmr puntos row",
+    "children": [
+      "rich-text#cmr__puntos"
+    ],
+    "props": {
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#cmr__puntos": {
+    "title": "CMR puntos",
+    "props": {
+      "text": "CMR puntos"
     }
   },
   "modal-trigger#header__middle--login": {

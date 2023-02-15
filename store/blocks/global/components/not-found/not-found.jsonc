@@ -45,7 +45,8 @@
     "title": "resultado no encontrado",
     "props": {
       "text": "Tu búsqueda no arrojó resultados",
-      "font": "t-heading-4"
+      "font": "t-heading-4",
+      "blockClass": "results_not-found"
     }
   },
   "flex-layout.row#consejos": {
@@ -94,7 +95,8 @@
     "title": "categorias mas buscadas",
     "props": {
       "text": "Categorias mas buscadas",
-      "font": "t-heading-6"
+      "font": "t-heading-6",
+      "blockClass": "categoria__mas-buscada"
     }
   },
   "flex-layout.row#iconos": {

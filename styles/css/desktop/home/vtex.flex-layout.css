@@ -55,7 +55,9 @@
   padding: 0px 10px 0px 0px
 }
 
-.flexRowContent--home-section-seventeen{
+.flexRow--home__section-thirteen,
+.flexRowContent--home-section-seventeen,
+.flexRow--home__section-eighteen{
   padding: 10px 40px
 }
 

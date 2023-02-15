@@ -31,3 +31,12 @@ text-transform: capitalize;
 .flexColChild--back__button-col{
   border-bottom: 2px solid #a5a4a4
 }
+
+.flexColChild--ubication__col{
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--filtro_results{
+  padding-right: 10%
+}

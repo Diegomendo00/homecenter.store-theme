@@ -1,3 +1,11 @@
 .paragraph--text_cuenta{
-  width: 100px 
+  width: 100px;
+  cursor: pointer;
+  margin-top: 4px
+}
+
+.paragraph--rich_deparments{
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer
 }
