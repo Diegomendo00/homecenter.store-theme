@@ -1,0 +1,25 @@
+.searchBarContainer{
+  width: 40%;
+  padding-left: 20px
+}
+
+.logoContainer--ubication{
+  padding: 0 !important
+}
+
+.container{
+  min-width: 90px !important
+}
+
+.logoImage--home__logo{
+  min-width: 215px;
+}
+
+.logoContainer--home__logo{
+  padding: 0 !important;
+  padding-left: 10px
+}
+
+.logoLink--ubication{
+  padding-left: 20px
+}

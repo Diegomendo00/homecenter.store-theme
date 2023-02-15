@@ -4,12 +4,15 @@
 
 .submenuWrapper--submenu-department__one{
   margin-top: 2.56rem;
-  /* padding: 1.25rem; */
   position: fixed;
-  width: 95%;
-    margin-left: 50px;
+  width: 90%;
+  margin-left: 50px;
 }
 
+.styledLinkContent{
+  max-height: 28px;
+  white-space: break-spaces;
+}
 
 .styledLinkContent--menu_item_department-one{
   font-size: 10px;

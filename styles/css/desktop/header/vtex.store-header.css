@@ -13,3 +13,8 @@
 .headerRowContainer--header_menu{
     padding: 15px 50px;
 }
+
+.headerRowContainer--header__top{
+  padding-left: 5%;
+  padding-right: 3%
+}

@@ -276,7 +276,6 @@
       "product-rating-summary",
       "product-summary-space",
       "product-summary-price",
-      "add-to-cart-button",
       "modal-trigger#add-to-cart-info"
     ],
     "props": {
@@ -286,6 +285,7 @@
   "modal-trigger#add-to-cart-info": {
     "title": "Modal de informacion",
     "children": [
+      "add-to-cart-button",
       "modal-layout#add-to-cart-info"
     ],
     "props": {

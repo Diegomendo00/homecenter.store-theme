@@ -30,17 +30,13 @@
       "blockClass": "mobile__mega-menu"
     }
   },
-  "vtex.mega-menu@2.x:mega-menu": {
-    "props": {
-      "title": " "
-    }
-  },
   "logo#header__logo--mobile": {
     "title": "Logo Mobile",
     "props": {
       "url": "assets/img/logo-mobile.jpg",
       "width": 50,
-      "href": "/"
+      "href": "/",
+      "blockClass": "logo_home"
     }
   },
   "login": {
@@ -65,7 +61,8 @@
   "image#lupa": {
     "title": "imagen lupa",
     "props": {
-      "src": "assets/img/lupa.png"
+      "src": "assets/img/lupa.png",
+      "blockClass": "search__img"
     }
   },
   "overlay-layout": {
