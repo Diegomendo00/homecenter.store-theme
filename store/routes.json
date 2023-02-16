@@ -4,5 +4,8 @@
   },
   "store.custom#minicart": {
     "path": "/minicart"
+  },
+  "store.custom#proteccion__pdf": {
+    "path": "/proteccion-de-datos-pdf"
   }
 }
