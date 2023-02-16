@@ -1,24 +1,88 @@
 {
+  "header": {
+    "title": "Header Mobile",
+    "blocks": [
+      "header-layout.mobile"
+    ]
+  },
   "header-layout.mobile": {
     "title": "Header Mobile",
     "children": [
-      "header-row#header__top--mobile"
+      "header-row#header__mobile--menu"
     ]
   },
-  "header-row#header__top--mobile": {
+  "header-row#header__mobile--menu": {
     "children": [
+      "drawer#header__mobile--menu",
       "logo#header__logo--mobile",
       "header-spacer",
+      "overlay-trigger",
       "minicart.v2",
       "login"
     ]
+  },
+  "drawer#header__mobile--menu": {
+    "children": [
+      "vtex.mega-menu@2.x:mega-menu",
+      "vtex.mega-menu@2.x:mega-menu-go-back-btn"
+    ],
+    "props": {
+      "blockClass": "mobile__mega-menu"
+    }
   },
   "logo#header__logo--mobile": {
     "title": "Logo Mobile",
     "props": {
       "url": "assets/img/logo-mobile.jpg",
       "width": 50,
-      "href": "/"
+      "href": "/",
+      "blockClass": "logo_home"
     }
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
+    }
+  },
+  "overlay-trigger": {
+    "children": [
+      "image#lupa",
+      "overlay-layout"
+    ],
+    "props": {
+      "blockClass": "overlay_trigger"
+    }
+  },
+  "image#lupa": {
+    "title": "imagen lupa",
+    "props": {
+      "src": "assets/img/lupa.png",
+      "blockClass": "search__img"
+    }
+  },
+  "overlay-layout": {
+    "props": {
+      "placement": "bottom",
+      "blockClass": "contenedor_search"
+    },
+    "children": [
+      "search-bar#mobile"
+    ]
+  },
+  "search-bar#mobile": {
+    "props": {
+      "displayMode": "clear-button",
+      "placeholder": "¿Qué estás buscando?",
+      "containerMode": "overlay",
+      "openAutocompleteOnFocus": true
+    },
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ]
   }
 }

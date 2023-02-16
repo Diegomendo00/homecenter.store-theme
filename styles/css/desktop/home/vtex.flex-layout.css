@@ -8,52 +8,64 @@
 }
 
 .flexRowContent--home-section-three{
-  padding: 20px
+  padding: 5px 40px
 }
 
-.flexColChild--section_four-images{
-  margin: 20px;
-  padding: 10px
+.flexRow--home-section-four,
+.flexRow--home-section-five,
+.flexRow--home-section-six{
+  padding: 5px 40px
 }
 
-.flexRowContent--home-section-five{
-  padding: 40px
-}
-
+.flexColChild--section_four-images,
 .flexColChild--section_five-images{
-   margin: 5px;
+  padding: 5px
 }
 
-.flexRowContent--home-section-seven{
-  padding: 20px
+.flexRowContent--home-section-seven,
+.flexRowContent--home-section-ten,
+.flexRowContent--home-section-fourteen{
+  padding: 10px 40px
 }
 
 .flexRow--home__section-eight{
   margin: 10px
 }
 
-.flexRowContent--home-section-nine{
-  padding: 5px 40px
+.flexRowContent--home-section-nine,
+.flexRowContent--home-section-eleven,
+.flexRowContent--home-section-sixteen{
+  padding: 0px 40px
 }
-.flexColChild--section_nine-images{
-  padding: 5px 0px 5px 20px
-}
-
-.flexRowContent--home-section-ten{
-  padding: 20px
-}
-
-.flexRowContent--home-section-eleven{
-  padding: 5px 40px
-}
+.flexColChild--section_nine-images,
 .flexColChild--section_eleven-images{
-  padding: 5px 0px 5px 20px
+  padding: 5px 0px 5px 5px
 }
 
 .flexRowContent--home__section-twelve{
   padding: 20px
 }
 
-.flexRowContent--home-section-fourteen{
-  padding: 20px
+.flexRowContent--home__section-fifteen{
+  padding: 5px 40px
+}
+
+.flexColChild--section_sixteen-images,
+.flexColChild--section_nineteen-images{
+  padding: 0px 10px 0px 0px
+}
+
+.flexRow--home__section-thirteen,
+.flexRowContent--home-section-seventeen,
+.flexRow--home__section-eighteen{
+  padding: 10px 40px
+}
+
+.flexRowContent--home-section-nineteen{
+  padding: 0px 40px
+}
+.flexRow--home_section-twenty-one,
+.flexRow--home_section-twenty-two,
+.flexRow--home_section-twenty-three{
+  padding: 0 10%
 }

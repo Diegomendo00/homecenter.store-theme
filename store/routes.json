@@ -1,0 +1,11 @@
+{
+  "store.custom#terminos": {
+    "path": "/terminos-y-condiciones"
+  },
+  "store.custom#minicart": {
+    "path": "/minicart"
+  },
+  "store.custom#proteccion__pdf": {
+    "path": "/proteccion-de-datos-pdf"
+  }
+}

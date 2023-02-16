@@ -1,0 +1,56 @@
+{
+  "responsive-layout.tablet#pdp": {
+    "title": "resonsive pdp tablet",
+    "children": [
+      "whatsapp-button",
+      "flex-layout.row#product__breadcrumb",
+      "flex-layout.row#product__info-tablet",
+      "flex-layout.row#product__entrega",
+      "flex-layout.row#product__tabs",
+      "flex-layout.row#product__similar",
+      "flex-layout.row#product__vitrina",
+      "responsive-layout.tablet#button_sticky"
+    ]
+  },
+  "responsive-layout.tablet#button_sticky": {
+    "title": "",
+    "children": [
+      "flex-layout.row#responsive_tablet"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": "button_sticky-row"
+    }
+  },
+  "flex-layout.row#responsive_tablet": {
+    "title": "Quantity y add button",
+    "children": [
+      "flex-layout.col#button__quantity",
+      "flex-layout.col#button__add-cart"
+    ],
+    "props": {
+      "blockClass": "button_sticky-col",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#button__quantity": {
+    "title": "Quantity button",
+    "children": [
+      "product-quantity"
+    ],
+    "props": {
+      "blockClass": "button_quantity",
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#button__add-cart": {
+    "title": "Add to cart button",
+    "children": [
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "button_add-cart",
+      "width": "70%"
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "flex-layout.row#product__info": {
+    "title": "Informacion general del PDP",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+      "blockClass": "informacion__pdp"
+    }
+  },
+  "flex-layout.col#product__info--image": {
+    "title": "Imagenes del producto",
+    "children": [
+      "product-images",
+      "product-description"
+    ],
+    "props": {
+      "blockClass": "imagen__pdp",
+      "width": "60%"
+    }
+  },
+  "flex-layout.col#product__info--data": {
+    "title": "Data del producto",
+    "children": [
+      "share",
+      "vtex.store-components:product-name",
+      "product-rating-summary",
+      "product-price",
+      "flex-layout.row#cmr_credit--card",
+      "flex-layout.row#quantity__buy--button",
+      "flex-layout.row#garantia"
+    ],
+    "props": {
+      "blockClass": "data__pdp",
+      "width": "40%",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.row#cmr_credit--card": {
+    "title": "cmr credit card",
+    "children": [
+      "flex-layout.col#cmr_credit--card"
+    ],
+    "props": {
+      "blockClass": "credit_card",
+      "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.col#cmr_credit--card": {
+    "title": "image credit card",
+    "children": [
+      "image#credit__card"
+    ],
+    "props": {
+      "blockClass": "col_credit"
+    }
+  },
+  "image#credit__card": {
+    "title": "image credit card",
+    "props": {
+      "src": "assets/img/credit_card.jpg",
+      "blockClass": "image__credit"
+    }
+  },
+  "flex-layout.row#quantity__buy--button": {
+    "title": "quantity and buy button",
+    "children": [
+      "flex-layout.col#quantity",
+      "flex-layout.col#buy__button"
+    ],
+    "props": {
+      "blockClass": "row_quantity",
+      "preventHorizontalStretch": true
+    }
+  },
+  "flex-layout.col#quantity": {
+    "title": "product quantity",
+    "children": [
+      "product-quantity"
+    ],
+    "props": {
+      "blockClass": "product_quantity",
+      "width": "30%"
+    }
+  },
+  "flex-layout.col#buy__button": {
+    "title": "buy button",
+    "children": [
+      "buy-button#pdp"
+    ],
+    "props": {
+      "blockClass": "buy_button",
+      "width": "70%"
+    }
+  },
+  "flex-layout.row#garantia": {
+    "title": "garantia",
+    "children": [
+      "flex-layout.col#garantia"
+    ],
+    "props": {
+      "blockClass": "row_garantia"
+    }
+  },
+  "flex-layout.col#garantia": {
+    "title": "imagen garantia",
+    "children": [
+      "image#garantia"
+    ],
+    "props": {
+      "blockClass": "col_garantia"
+    }
+  },
+  "image#garantia": {
+    "title": "image garantia",
+    "props": {
+      "src": "assets/img/garantia.jpg",
+      "blockClass": "image_garantia"
+    }
+  },
+  "buy-button#pdp": {
+    "props": {
+      "blockClass": "button_pdp"
+    }
+  },
+  "product-quantity": {
+    "props": {
+      "blockClass": "quantity",
+      "size": "regular"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.quantitySelectorTitle{
+  display: none
+}
+
+.quantitySelectorContainer :global(.vtex-numeric-stepper__minus-button__text),
+.quantitySelectorContainer :global(.vtex-numeric-stepper__plus-button__text){
+  font-size: 20px;
+  color: black
+}

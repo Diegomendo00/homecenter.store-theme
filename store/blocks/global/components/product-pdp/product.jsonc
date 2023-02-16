@@ -1,0 +1,156 @@
+{
+  "store.product": {
+    "children": [
+      "whatsapp-button",
+      "responsive-layout.desktop#pdp",
+      "responsive-layout.tablet#pdp",
+      "responsive-layout.phone#pdp"
+    ]
+  },
+  "flex-layout.row#product__entrega": {
+    "title": "product entrega row",
+    "children": [
+      "flex-layout.col#others__products",
+      "flex-layout.col#product__entrega"
+    ],
+    "props": {
+      "blockClass": "product_entrega"
+    }
+  },
+  "flex-layout.col#product__entrega": {
+    "title": "product entrega col",
+    "children": [
+      "image#entrega"
+    ],
+    "props": {
+      "blockClass": "product_entrega-col"
+    }
+  },
+  "image#entrega": {
+    "title": "imagen entrega",
+    "props": {
+      "src": "assets/img/entrega.jpg",
+      "blockClass": "imagen_entrega"
+    }
+  },
+  "flex-layout.col#others__products": {
+    "title": "otros productos col",
+    "children": [
+      "image#otros"
+    ],
+    "props": {
+      "blockClass": "otros__productos-col"
+    }
+  },
+  "image#otros": {
+    "title": "imagen otros productos",
+    "props": {
+      "src": "assets/img/otras_opciones.jpg",
+      "blockClass": "imagen_otros"
+    }
+  },
+  "flex-layout.row#product__tabs": {
+    "title": "Información adicional",
+    "children": [
+      "tab-layout#product__tabs"
+    ]
+  },
+  "tab-layout#product__tabs": {
+    "children": [
+      "tab-list#product__tab--list",
+      "tab-content#product__tab--content"
+    ]
+  },
+  "tab-list#product__tab--list": {
+    "children": [
+      "tab-list.item#tabs__list--reviewes-and-ratings",
+      "tab-list.item#tabs__list--product--specification",
+      "tab-list.item#tabs__list--questions"
+    ]
+  },
+  "tab-list.item#tabs__list--reviewes-and-ratings": {
+    "props": {
+      "tabId": "reviewes-and-ratings",
+      "label": "Revisiones y Calificaciones",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#tabs__list--product--specification": {
+    "props": {
+      "tabId": "product-specification",
+      "label": "Especificación de producto",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-list.item#tabs__list--questions": {
+    "props": {
+      "tabId": "questions",
+      "label": "Preguntas y respuestas",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-content#product__tab--content": {
+    "children": [
+      "tab-content.item#tabs__content--reviewes-and-ratings",
+      "tab-content.item#tabs__content--product--specification",
+      "tab-content.item#tabs__content--questions"
+    ]
+  },
+  "tab-content.item#tabs__content--reviewes-and-ratings": {
+    "props": {
+      "tabId": "reviewes-and-ratings"
+    },
+    "children": [
+      "product-reviews"
+    ]
+  },
+  "tab-content.item#tabs__content--product--specification": {
+    "props": {
+      "tabId": "product-specification"
+    },
+    "children": [
+      "product-specifications"
+    ]
+  },
+  "tab-content.item#tabs__content--questions": {
+    "props": {
+      "tabId": "questions"
+    },
+    "children": [
+      "questions-and-answers"
+    ]
+  },
+  "flex-layout.row#product__similar": {
+    "title": "similar products",
+    "children": [
+      "flex-layout.col#similar__product"
+    ],
+    "props": {
+      "blockClass": "products_similar-row"
+    }
+  },
+  "flex-layout.col#similar__product": {
+    "title": "similar product ",
+    "children": [
+      "rich-text#products__similar"
+    ],
+    "props": {
+      "blockClass": "products_similar-col"
+    }
+  },
+  "rich-text#products__similar": {
+    "props": {
+      "text": "Productos Similares",
+      "font": "t-heading-2"
+    }
+  },
+  "flex-layout.row#product__vitrina": {
+    "title": "Vitrinas",
+    "children": [
+      "flex-layout.row#home__section--eight"
+    ],
+    "props": {
+      "blockClass": "vitrinas"
+    }
+  }
+}

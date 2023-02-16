@@ -3,5 +3,18 @@
 }
 
 .headerRowContentContainer--header_top{
-  padding: 10px 40px 10px 40px
+  padding: 10px 40px 10px 40px !important
+}
+
+.styledLinkContent--department_one{
+  font-size: 10px;
+}
+
+.headerRowContainer--header_menu{
+    padding: 15px 50px;
+}
+
+.headerRowContainer--header__top{
+  padding-left: 5%;
+  padding-right: 3%
 }

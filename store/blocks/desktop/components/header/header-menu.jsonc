@@ -1,0 +1,29 @@
+{
+  "header-row#header__middle--menu": {
+    "title": "Header menu",
+    "children": [
+      "menu#header_menu_departments"
+    ],
+    "props": {
+      "blockClass": "header_menu"
+    }
+  },
+  "menu#header_menu_departments": {
+    "title": "Header menu department one",
+    "children": [
+      "menu-item#department__one",
+      "menu-item#department__two",
+      "menu-item#department__three",
+      "menu-item#department__four",
+      "menu-item#department__five",
+      "menu-item#department__six",
+      "menu-item#department__seven",
+      "menu-item#department__eight",
+      "menu-item#department__nine",
+      "menu-item#department__ten"
+    ],
+    "props": {
+      "blockClass": "header_menu_departments"
+    }
+  }
+}

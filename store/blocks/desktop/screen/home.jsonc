@@ -21,7 +21,12 @@
       "flex-layout.row#home__section--sixteen",
       "flex-layout.row#home__section--seventeen",
       "flex-layout.row#home__section--eighteen",
-      "flex-layout.row#home__section--nineteen"
+      "flex-layout.row#home__section--nineteen",
+      "flex-layout.row#home__section--twenty",
+      "flex-layout.row#home__section--twenty-one",
+      "flex-layout.row#home__section--twenty-two",
+      "flex-layout.row#home__section--twenty-three",
+      "flex-layout.row#home__section--twenty-four"
     ]
   }
 }

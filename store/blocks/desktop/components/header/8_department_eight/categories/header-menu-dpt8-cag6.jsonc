@@ -1,0 +1,180 @@
+{
+  "flex-layout.col#dept_8escaleras_mudanzas": {
+    "title": "Flex-layout col department one",
+    "children": [
+      "menu#dept_8department__construccion-ferreteria6"
+    ],
+    "props": {
+      "blockClass": "flex-layout-col_deparment-one"
+    }
+  },
+  "menu#dept_8department__construccion-ferreteria6": {
+    "title": "Menu construccion y ferreteria",
+    "children": [
+      "menu-item#dept_8category__six",
+      "menu-item#dept_8category__six2",
+      "menu-item#dept_8category__six3",
+      "menu-item#dept_8category__six4",
+      "menu-item#dept_8category__six5",
+      "menu-item#dept_8category__six6",
+      "menu-item#dept_8category__six7",
+      "menu-item#dept_8category__six8",
+      "menu-item#dept_8category__six9",
+      "menu-item#dept_8category__six10"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "department-construccion-ferreteria"
+    }
+  },
+  "menu-item#dept_8category__six": {
+    "title": "Menu-item category six",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-six",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Escaleras y Mudanzas",
+        "text": "Escaleras y Mudanzas >"
+      }
+    }
+  },
+  "menu-item#dept_8category__six2": {
+    "title": "Menu-item category six2",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-six2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Escaleras Telescópicas y Extensión",
+        "text": "Escaleras Telescópicas y Extensión"
+      }
+    }
+  },
+  "menu-item#dept_8category__six3": {
+    "title": "Menu-item category six3",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-six3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Escaleras Tipo Tijera",
+        "text": "Escaleras Tipo Tijera"
+      }
+    }
+  },
+  "menu-item#dept_8category__six4": {
+    "title": "Menu-item category six4",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-six4",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Silla Escalera y Butacos",
+        "text": "Silla Escalera y Butacos"
+      }
+    }
+  },
+  "menu-item#dept_8category__six5": {
+    "title": "Menu-item category six5",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-six5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Escaleras de Fibra de Vidrio",
+        "text": "Escaleras de Fibra de Vidrio"
+      }
+    }
+  },
+  "menu-item#dept_8category__six6": {
+    "title": "Menu-item category six6",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-six6",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Escaleras Plegables, Multipropósito y de Altillo",
+        "text": "Escaleras Plegables, Multipropósito y de Altillo"
+      }
+    }
+  },
+  "menu-item#dept_8category__six7": {
+    "title": "Menu-item category six7",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-six7",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Andamios",
+        "text": "Andamios"
+      }
+    }
+  },
+  "menu-item#dept_8category__six8": {
+    "title": "Menu-item category six8",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-six8",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Sogas, Guayas y Cadenas",
+        "text": "Sogas, Guayas y Cadenas"
+      }
+    }
+  },
+  "menu-item#dept_8category__six9": {
+    "title": "Menu-item category six9",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-six9",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Materiales para Mudanza",
+        "text": "Materiales para Mudanza"
+      }
+    }
+  },
+  "menu-item#dept_8category__six10": {
+    "title": "Menu-item category six10",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-six10",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Ver mas",
+        "text": "Ver más >"
+      }
+    }
+  }
+}

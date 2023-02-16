@@ -1,0 +1,8 @@
+@media screen and (max-width: 500px){
+  .paragraph--results_not-found{
+    font-size: 16px
+  }
+  .paragraph--categria__mas-buscada{
+    font-size: 16px
+  }
+}

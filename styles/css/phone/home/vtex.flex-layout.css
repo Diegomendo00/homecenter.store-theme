@@ -1,5 +1,87 @@
-/* Example Phone:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+.flexCol--phone_section_two-images{
+      padding: 0 5% 5% 5%;
+}
+
+.flexColChild--phone_section_two-images{
+  padding-bottom: 5%;
+}
+
+.flexRow--phone_home_section-three{
+        padding: 0 5% 5% 5%;
+}
+
+.flexRow--phone_home_section-four{
+        padding: 0 5% 5% 5%;
+}
+.flexColChild--phone_section_four-images{
+  padding-bottom: 3%;
+}
+.flexRow--phone_home_section-five{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_home_section-six{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_home_section-seven{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_home_section-eight{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_home_section-nine{
+        padding: 0 5% 5% 5%;
+}
+.flexColChild--phone_section_nine-images{
+  padding-bottom: 3%;
+}
+.flexRow--phone_home_section-ten{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_home_section-eleven{
+        padding: 0 5% 5% 5%;
+}
+.flexColChild--phone_section_eleven-images{
+  padding-bottom: 3%;
+}
+.flexRow--phone_home_section-twelve{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_home_section-thirteen{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_home_section-fourteen{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_home_section-fifteen{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_home_section-sixteen{
+        padding: 0 5% 5% 5%;
+}
+.flexColChild--phone_section_sixteen-images{
+  padding-bottom: 3%;
+}
+.flexRow--phone_home_section-seventeen{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_home_section-eighteen{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_home_section-nineteen{
+        padding: 0 5% 5% 5%;
+}
+.flexColChild--phone_section_nineteen-images{
+  padding-bottom: 3%;
+}
+.flexRow--phone_home_section-twenty{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_section-twenty-one{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_section-twenty-two{
+        padding: 0 5% 5% 5%;
+}
+.flexRow--phone_section-twenty-three{
+        padding: 0 5% 5% 5%;
+}

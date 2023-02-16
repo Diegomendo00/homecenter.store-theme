@@ -1,0 +1,12 @@
+.label--links_footer{
+  text-decoration: underline white;
+  color: #333333;
+  font-size: 14px
+}
+
+.link--links_footer-title{
+    text-decoration: underline rgb(255, 255, 255);
+  color: #333333;
+  font-size: 14px;
+  font-weight: bold;
+}

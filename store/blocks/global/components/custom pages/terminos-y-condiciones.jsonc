@@ -1,0 +1,357 @@
+{
+  "store.custom#terminos": {
+    "title": "custom page",
+    "blocks": [
+      "flex-layout.row#custom__page--one",
+      "flex-layout.row#custom__page--two",
+      "flex-layout.row#custom__page--three",
+      "flex-layout.row#custom__page--four",
+      "flex-layout.row#custom__page--five",
+      "flex-layout.row#custom__page--six",
+      "flex-layout.row#custom__page--seven",
+      "flex-layout.row#custom__page--eight",
+      "flex-layout.row#custom__page--nine",
+      "flex-layout.row#custom__page--ten",
+      "flex-layout.row#custom__page--eleven",
+      "flex-layout.row#custom__page--twelve",
+      "flex-layout.row#custom__page--thirteen",
+      "flex-layout.row#custom__page--fourteen"
+    ]
+  },
+  "flex-layout.row#custom__page--one": {
+    "title": "custom page one row",
+    "children": [
+      "flex-layout.col#custom__page--one"
+    ],
+    "props": {
+      "blockClass": "custom__page--one-row"
+    }
+  },
+  "flex-layout.col#custom__page--one": {
+    "title": "custom page one col",
+    "children": [
+      "image#terminos"
+    ],
+    "props": {
+      "blockClass": "custom__page--one-col"
+    }
+  },
+  "image#terminos": {
+    "title": "imagen terminos",
+    "props": {
+      "src": "assets/img/custom-page/terminos.png"
+    }
+  },
+  "flex-layout.row#custom__page--two": {
+    "title": "custom page two",
+    "children": [
+      "flex-layout.col#custom__page--two"
+    ],
+    "props": {
+      "blockClass": "custom__page--two-row"
+    }
+  },
+  "flex-layout.col#custom__page--two": {
+    "title": "custom page two col",
+    "children": [
+      "image#quienes__somos"
+    ],
+    "props": {
+      "blockClass": "custom__page--two-col"
+    }
+  },
+  "image#quienes__somos": {
+    "title": "imagen quienes somos",
+    "props": {
+      "src": "assets/img/custom-page/quienes-somos.png"
+    }
+  },
+  "flex-layout.row#custom__page--three": {
+    "title": "custom page three",
+    "children": [
+      "flex-layout.col#custom__page--three"
+    ],
+    "props": {
+      "blockClass": "custom__page--three-row"
+    }
+  },
+  "flex-layout.col#custom__page--three": {
+    "title": "custom page three col",
+    "children": [
+      "image#usos__prohibidos"
+    ],
+    "props": {
+      "blockClass": "custom__page--three-col"
+    }
+  },
+  "image#usos__prohibidos": {
+    "title": "imagen usos prohibidos",
+    "props": {
+      "src": "assets/img/custom-page/usos-prohibidos.png"
+    }
+  },
+  "flex-layout.row#custom__page--four": {
+    "title": "custom page four",
+    "children": [
+      "flex-layout.col#custom__page--four"
+    ],
+    "props": {
+      "blockClass": "custom__page--four-row"
+    }
+  },
+  "flex-layout.col#custom__page--four": {
+    "title": "custom page four col",
+    "children": [
+      "image#registro-contraseña"
+    ],
+    "props": {
+      "blockClass": "custom__page--four-col"
+    }
+  },
+  "image#registro-contraseña": {
+    "title": "imagen registro y contraseña",
+    "props": {
+      "src": "assets/img/custom-page/registro.png"
+    }
+  },
+  "flex-layout.row#custom__page--five": {
+    "title": "custom page five",
+    "children": [
+      "flex-layout.col#custom__page--five"
+    ],
+    "props": {
+      "blockClass": "custom__page--five-row"
+    }
+  },
+  "flex-layout.col#custom__page--five": {
+    "title": "custom page five col",
+    "children": [
+      "image#disposiciones"
+    ],
+    "props": {
+      "blockClass": "custom__page--five-col"
+    }
+  },
+  "image#disposiciones": {
+    "title": "imagen disposiciones",
+    "props": {
+      "src": "assets/img/custom-page/disposiciones.png"
+    }
+  },
+  "flex-layout.row#custom__page--six": {
+    "title": "custom page six",
+    "children": [
+      "flex-layout.col#custom__page--six"
+    ],
+    "props": {
+      "blockClass": "custom__page--six-row"
+    }
+  },
+  "flex-layout.col#custom__page--six": {
+    "title": "custom page six col",
+    "children": [
+      "image#medios__pago"
+    ],
+    "props": {
+      "blockClass": "custom__page--six-col"
+    }
+  },
+  "image#medios__pago": {
+    "title": "imagen medios de pago",
+    "props": {
+      "src": "assets/img/custom-page/medios-de-pago.png"
+    }
+  },
+  "flex-layout.row#custom__page--seven": {
+    "title": "custom page seven",
+    "children": [
+      "flex-layout.col#custom__page--seven"
+    ],
+    "props": {
+      "blockClass": "custom__page--seven-row"
+    }
+  },
+  "flex-layout.col#custom__page--seven": {
+    "title": "custom page seven col",
+    "children": [
+      "image#promesas"
+    ],
+    "props": {
+      "blockClass": "custom__page--seven-col"
+    }
+  },
+  "image#promesas": {
+    "title": "imagen promesa de entrega",
+    "props": {
+      "src": "assets/img/custom-page/promesa-entrega.png"
+    }
+  },
+  "flex-layout.row#custom__page--eight": {
+    "title": "custom page eight",
+    "children": [
+      "flex-layout.col#custom__page--eight"
+    ],
+    "props": {
+      "blockClass": "custom__page--eight-row"
+    }
+  },
+  "flex-layout.col#custom__page--eight": {
+    "title": "custom page eight col",
+    "children": [
+      "image#derecho__retracto"
+    ],
+    "props": {
+      "blockClass": "custom__page--eight-col"
+    }
+  },
+  "image#derecho__retracto": {
+    "title": "imagen derecho de retracto",
+    "props": {
+      "src": "assets/img/custom-page/derecho-retracto.png"
+    }
+  },
+  "flex-layout.row#custom__page--nine": {
+    "title": "custom page nine",
+    "children": [
+      "flex-layout.col#custom__page--nine"
+    ],
+    "props": {
+      "blockClass": "custom__page--nine-row"
+    }
+  },
+  "flex-layout.col#custom__page--nine": {
+    "title": "custom page nine col",
+    "children": [
+      "image#devolucion"
+    ],
+    "props": {
+      "blockClass": "custom__page--nine-col"
+    }
+  },
+  "image#devolucion": {
+    "title": "imagen de devolucion",
+    "props": {
+      "src": "assets/img/custom-page/devolucion.png"
+    }
+  },
+  "flex-layout.row#custom__page--ten": {
+    "title": "custom page ten",
+    "children": [
+      "flex-layout.col#custom__page--ten"
+    ],
+    "props": {
+      "blockClass": "custom__page--ten-row"
+    }
+  },
+  "flex-layout.col#custom__page--ten": {
+    "title": "custom page ten col",
+    "children": [
+      "image#politicas"
+    ],
+    "props": {
+      "blockClass": "custom__page--ten-col"
+    }
+  },
+  "image#politicas": {
+    "title": "imagen de politicas",
+    "props": {
+      "src": "assets/img/custom-page/politicas.png"
+    }
+  },
+  "flex-layout.row#custom__page--eleven": {
+    "title": "custom page eleven",
+    "children": [
+      "flex-layout.col#custom__page--eleven"
+    ],
+    "props": {
+      "blockClass": "custom__page--eleven-row"
+    }
+  },
+  "flex-layout.col#custom__page--eleven": {
+    "title": "custom page eleven col",
+    "children": [
+      "image#condiciones"
+    ],
+    "props": {
+      "blockClass": "custom__page--eleven-col"
+    }
+  },
+  "image#condiciones": {
+    "title": "imagen de condiciones",
+    "props": {
+      "src": "assets/img/custom-page/condiciones.png"
+    }
+  },
+  "flex-layout.row#custom__page--twelve": {
+    "title": "custom page twelve",
+    "children": [
+      "flex-layout.col#custom__page--twelve"
+    ],
+    "props": {
+      "blockClass": "custom__page--twelve-row"
+    }
+  },
+  "flex-layout.col#custom__page--twelve": {
+    "title": "custom page twelve col",
+    "children": [
+      "image#privacidad"
+    ],
+    "props": {
+      "blockClass": "custom__page--twelve-col"
+    }
+  },
+  "image#privacidad": {
+    "title": "imagen de privacidad",
+    "props": {
+      "src": "assets/img/custom-page/privacidad.png"
+    }
+  },
+  "flex-layout.row#custom__page--thirteen": {
+    "title": "custom page thirteen",
+    "children": [
+      "flex-layout.col#custom__page--thirteen"
+    ],
+    "props": {
+      "blockClass": "custom__page--thirteen-row"
+    }
+  },
+  "flex-layout.col#custom__page--thirteen": {
+    "title": "custom page thirteen col",
+    "children": [
+      "image#servicios"
+    ],
+    "props": {
+      "blockClass": "custom__page--thirteen-col"
+    }
+  },
+  "image#servicios": {
+    "title": "imagen de servicios",
+    "props": {
+      "src": "assets/img/custom-page/servicios.png"
+    }
+  },
+  "flex-layout.row#custom__page--fourteen": {
+    "title": "custom page fourteen",
+    "children": [
+      "flex-layout.col#custom__page--fourteen"
+    ],
+    "props": {
+      "blockClass": "custom__page--fourteen-row"
+    }
+  },
+  "flex-layout.col#custom__page--fourteen": {
+    "title": "custom page fourteen col",
+    "children": [
+      "image#whatsapp"
+    ],
+    "props": {
+      "blockClass": "custom__page--fourteen-col"
+    }
+  },
+  "image#whatsapp": {
+    "title": "imagen de whatsapp",
+    "props": {
+      "src": "assets/img/custom-page/whatsapp.png"
+    }
+  }
+}

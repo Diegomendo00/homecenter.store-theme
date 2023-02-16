@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#product__info-tablet": {
+    "title": "Informacion general del PDP-tablet",
+    "children": [
+      "flex-layout.col#product__info--image-tablet",
+      "flex-layout.col#product__info--data-tablet"
+    ],
+    "props": {
+      "blockClass": "informacion__pdp-tablet"
+    }
+  },
+  "flex-layout.col#product__info--image-tablet": {
+    "title": "Imagenes del producto-tablet",
+    "children": [
+      "product-images",
+      "product-description"
+    ],
+    "props": {
+      "blockClass": "imagen__pdp-tablet",
+      "width": "60%"
+    }
+  },
+  "flex-layout.col#product__info--data-tablet": {
+    "title": "Data del producto-tablet",
+    "children": [
+      "share",
+      "vtex.store-components:product-name",
+      "product-rating-summary",
+      "product-price",
+      "flex-layout.row#cmr_credit--card",
+      "flex-layout.row#garantia"
+    ],
+    "props": {
+      "blockClass": "data__pdp",
+      "width": "40%",
+      "preventVerticalStretch": true
+    }
+  }
+}

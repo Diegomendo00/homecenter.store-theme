@@ -1,11 +1,4 @@
 {
-  "header-layout.desktop": {
-    "title": "Header desktop",
-    "children": [
-      "header-row#header__top--desktop",
-      "header-row#header__middle--desktop"
-    ]
-  },
   "header-row#header__top--desktop": {
     "children": [
       "rich-text#contacto",
@@ -31,9 +24,12 @@
   "header-row#header__middle--desktop": {
     "children": [
       "logo#header__top--logo",
-      "header-spacer",
+      "search-bar#header__home",
+      "logo#ubication",
+      "flex-layout.row#icon__ubication",
       "minicart.v2",
-      // "login"
+      "logo#header__cmr--puntos",
+      "flex-layout.row#cmr__puntos",
       "modal-trigger#header__middle--login"
     ],
     "props": {
@@ -41,39 +37,104 @@
     }
   },
   "logo#header__top--logo": {
-    "title": "logo",
+    "title": "logo home",
     "props": {
       "url": "assets/img/homecenter.jpg",
-      "width": 200,
-      "href": "/"
+      "href": "/",
+      "blockClass": "home__logo"
     }
   },
-  "login": {
-    "title": "Login",
+  "logo#ubication": {
+    "title": "logo ubication",
     "props": {
-      "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
-      "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true,
-      "iconLabel": "Mi cuenta"
+      "url": "assets/img/icons/icon-ubication-1.png",
+      "width": 30,
+      "href": "/",
+      "blockClass": "ubication"
+    }
+  },
+  "flex-layout.row#icon__ubication": {
+    "title": "Ubicacion row",
+    "children": [
+      "rich-text#ubication"
+    ],
+    "props": {
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#ubication": {
+    "title": "Ubicacion",
+    "props": {
+      "text": "Bogotá D.C"
+    }
+  },
+  "logo#header__cmr--puntos": {
+    "title": "logo cmr puntos",
+    "props": {
+      "url": "assets/img/icons/icon-cmr.png",
+      "width": 30,
+      "href": "/",
+      "showLabel": true,
+      "title": "CMR puntos"
+    }
+  },
+  "flex-layout.row#cmr__puntos": {
+    "title": "cmr puntos row",
+    "children": [
+      "rich-text#cmr__puntos"
+    ],
+    "props": {
+      "preventHorizontalStretch": true
+    }
+  },
+  "rich-text#cmr__puntos": {
+    "title": "CMR puntos",
+    "props": {
+      "text": "CMR puntos"
     }
   },
   "modal-trigger#header__middle--login": {
     "children": [
-      "rich-text#header__middle--login",
-      "modal-layout#header__middle--login"
+      "flex-layout.row#login"
     ]
   },
-  "rich-text#header__middle--login": {
+  "flex-layout.row#login": {
+    "children": [
+      "image#icon-login",
+      "rich-text#header__middle--login",
+      "modal-layout#header__middle--login"
+    ],
     "props": {
-      "text": "Mi cuenta"
+      "blockClass": "login_cuenta"
+    }
+  },
+  "image#icon-login": {
+    "title": "icon login",
+    "props": {
+      "src": "assets/img/icons/icon-login.png",
+      "maxHeight": 40,
+      "maxWidth": 40
+    }
+  },
+  "rich-text#header__middle--login": {
+    "title": "mi cuenta",
+    "props": {
+      "text": "Mi cuenta",
+      "blockClass": "text_cuenta"
     }
   },
   "modal-layout#header__middle--login": {
     "children": [
       "login-content"
     ]
+  },
+  "search-bar#header__home": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      "placeholder": "¿Qué estás buscando?",
+      "openAutocompleteOnFocus": true
+    }
   }
 }

@@ -1,0 +1,244 @@
+{
+  "responsive-layout.phone#minicart__custom": {
+    "children": [
+      "whatsapp-button",
+      "flex-layout.row#phone__minicart__section--one",
+      "flex-layout.row#phone__minicart__section--two",
+      "flex-layout.row#phone__minicart__section--three",
+      "flex-layout.row#phone__minicart__section--four"
+    ]
+  },
+  "flex-layout.row#phone__minicart__section--one": {
+    "title": "Minicart ruta",
+    "children": [
+      "flex-layout.col#phone__minicart__section--one"
+    ],
+    "props": {
+      "blockClass": "phone__minicart__section--one-row"
+    }
+  },
+  "flex-layout.col#phone__minicart__section--one": {
+    "title": "Minicart ruta col",
+    "children": [
+      "image#phone__ruta"
+    ],
+    "props": {
+      "blockClass": "phone__minicart__section--one-col"
+    }
+  },
+  "image#phone__ruta": {
+    "title": "imagen ruta",
+    "props": {
+      "src": "assets/img/Minicart-custom/ruta.png"
+    }
+  },
+  "flex-layout.row#phone__minicart__section--two": {
+    "title": "Minicart custom section two",
+    "children": [
+      "flex-layout.col#phone__info__product",
+      "flex-layout.col#phone__minicart_custom"
+    ],
+    "props": {
+      "blockClass": "phone__minicart__section--two"
+    }
+  },
+  "flex-layout.col#phone__info__product": {
+    "title": "info product",
+    "children": [
+      "rich-text#phone__carro__compras",
+      "image#phone__falabella",
+      "minicart-product-list#phone"
+    ],
+    "props": {
+      "blockClass": "phone__info__product"
+    }
+  },
+  "minicart-product-list#phone": {
+    "blocks": [
+      "product-list#phone__minicart"
+    ]
+  },
+  "product-list#phone__minicart": {
+    "blocks": [
+      "product-list-content-mobile#phone"
+    ]
+  },
+  "product-list-content-mobile#phone": {
+    "children": [
+      "flex-layout.row#phone__minicart--mobile"
+    ]
+  },
+  "flex-layout.row#phone__minicart--mobile": {
+    "title": "minicart mobile",
+    "children": [
+      "flex-layout.row#phone__name--image",
+      "flex-layout.row#phone__quantity--price"
+    ],
+    "props": {
+      "blockClass": "phone__minicart-rows"
+    }
+  },
+  "flex-layout.row#phone__name--image": {
+    "title": "image",
+    "children": [
+      "flex-layout.col#phone__image",
+      "flex-layout.col#phone__name"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "phone__name--img"
+    }
+  },
+  "flex-layout.col#phone__image": {
+    "title": "image",
+    "children": [
+      "product-list-image"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "phone__img"
+    }
+  },
+  "flex-layout.col#phone__name": {
+    "title": "name",
+    "children": [
+      "vtex.product-list:product-name"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "phone__name"
+    }
+  },
+  "flex-layout.row#phone__quantity--price": {
+    "title": "quantity selector",
+    "children": [
+      "flex-layout.col#phone__quantity",
+      "flex-layout.col#phone__price"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "phone__quantity--price"
+    }
+  },
+  "flex-layout.col#phone__quantity": {
+    "title": "quantity selector",
+    "children": [
+      "quantity-selector#minicart"
+    ],
+    "props": {
+      "blockClass": "phone__quantity",
+      "horizontalAlign": "left",
+      "width": "50%"
+    }
+  },
+  "quantity-selector#phone__minicart": {
+    "props": {
+      "mode": "stepper"
+    }
+  },
+  "flex-layout.col#phone__price": {
+    "title": "price",
+    "children": [
+      "price"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "phone__price",
+      "width": "50%"
+    }
+  },
+  "rich-text#phone__carro__compras": {
+    "title": "titulo Carrito de compras",
+    "props": {
+      "text": "Carrito de Compras",
+      "font": "t-heading-6"
+    }
+  },
+  "image#phone__falabella": {
+    "title": "Credito falabella",
+    "props": {
+      "src": "assets/img/Minicart-custom/falabella.png"
+    }
+  },
+  "flex-layout.col#phone__minicart_custom": {
+    "children": [
+      "rich-text#phone__resumen__compra",
+      "minicart-summary",
+      "minicart-checkout-button",
+      "image#phone__tarjetas"
+    ],
+    "props": {
+      "blockClass": "phone__minicart__custom"
+    }
+  },
+  "rich-text#phone__resumen__compra": {
+    "title": "titulo resumen de compra",
+    "props": {
+      "text": "Resumen de Compra",
+      "font": "t-heading-6"
+    }
+  },
+  "image#phone__tarjetas": {
+    "title": "imagen tarjetas",
+    "props": {
+      "src": "assets/img/Minicart-custom/tarjetas.png",
+      "blockClass": "img__tarjetas"
+    }
+  },
+  "flex-layout.row#phone__minicart__section--three": {
+    "title": "minicart section three",
+    "children": [
+      "flex-layout.col#phone__compra__segura"
+    ],
+    "props": {
+      "blockClass": "phone__minicart__section--three"
+    }
+  },
+  "flex-layout.col#phone__compra__segura": {
+    "title": "compra segura col",
+    "children": [
+      "image#phone__compra__segura"
+    ],
+    "props": {
+      "blockClass": "phone__compra--segura",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#phone__compra__segura": {
+    "title": "Imagen compra segura",
+    "props": {
+      "src": "assets/img/Minicart-custom/compra-segura.png",
+      "blockClass": "img__compra-segura"
+    }
+  },
+  "flex-layout.row#phone__minicart__section--four": {
+    "title": "Otras opciones de compra",
+    "children": [
+      "flex-layout.col#phone__otras__opciones"
+    ],
+    "props": {
+      "blockClass": "phone__otras__opciones"
+    }
+  },
+  "flex-layout.col#phone__otras__opciones": {
+    "title": "vitrina de productos",
+    "children": [
+      "rich-text#phone__otras__opciones",
+      "flex-layout.row#phone__home__section--eight"
+    ],
+    "props": {
+      "blockClass": "phone__otras__opciones--col"
+    }
+  },
+  "rich-text#phone__otras__opciones": {
+    "title": "nuestros clientes tambien compraron",
+    "props": {
+      "text": "Nuestros clientes también compraron",
+      "font": "t-heading-6"
+    }
+  }
+}

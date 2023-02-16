@@ -1,0 +1,180 @@
+{
+  "flex-layout.col#dept_10epp_señalizacion": {
+    "title": "Flex-layout col department one",
+    "children": [
+      "menu#dept_10department__construccion-ferreteria8"
+    ],
+    "props": {
+      "blockClass": "flex-layout-col_deparment-one"
+    }
+  },
+  "menu#dept_10department__construccion-ferreteria8": {
+    "title": "Menu construccion y ferreteria",
+    "children": [
+      "menu-item#dept_10category__eight",
+      "menu-item#dept_10category__eight2",
+      "menu-item#dept_10category__eight3",
+      "menu-item#dept_10category__eight4",
+      "menu-item#dept_10category__eight5",
+      "menu-item#dept_10category__eight6",
+      "menu-item#dept_10category__eight7",
+      "menu-item#dept_10category__eight8",
+      "menu-item#dept_10category__eight9",
+      "menu-item#dept_10category__eight10"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "department-construccion-ferreteria"
+    }
+  },
+  "menu-item#dept_10category__eight": {
+    "title": "Menu-item category eight",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-eight",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "EPP y Señalización",
+        "text": "Elementos de Protección Personal y Señalización >"
+      }
+    }
+  },
+  "menu-item#dept_10category__eight2": {
+    "title": "Menu-item category eight2",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-eight2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Botas de Seguridad",
+        "text": "Botas de Seguridad"
+      }
+    }
+  },
+  "menu-item#dept_10category__eight3": {
+    "title": "Menu-item category eight3",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-eight3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tapabocas y Respiradores",
+        "text": "Tapabocas y Respiradores"
+      }
+    }
+  },
+  "menu-item#dept_10category__eight4": {
+    "title": "Menu-item category eight4",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-eight4",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Guantes de Seguridad",
+        "text": "Guantes de Seguridad"
+      }
+    }
+  },
+  "menu-item#dept_10category__eight5": {
+    "title": "Menu-item category eight5",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-eight5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Caretas y Cascos de Seguridad",
+        "text": "Caretas y Cascos de Seguridad"
+      }
+    }
+  },
+  "menu-item#dept_10category__eight6": {
+    "title": "Menu-item category eight6",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-eight6",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Monogafas, Caretas y Gafas de Seguridad",
+        "text": "Monogafas, Caretas y Gafas de Seguridad"
+      }
+    }
+  },
+  "menu-item#dept_10category__eight7": {
+    "title": "Menu-item category eight7",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-eight7",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Protectores Auditivos y Tapaoidos",
+        "text": "Protectores Auditivos y Tapaoidos"
+      }
+    }
+  },
+  "menu-item#dept_10category__eight8": {
+    "title": "Menu-item category eight8",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-eight8",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Arneces y Equipo de Altura",
+        "text": "Arneces y Equipo de Altura"
+      }
+    }
+  },
+  "menu-item#dept_10category__eight9": {
+    "title": "Menu-item category eight9",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-eight9",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Ropa de Trabajo",
+        "text": "Ropa de Trabajo"
+      }
+    }
+  },
+  "menu-item#dept_10category__eight10": {
+    "title": "Menu-item category eight10",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-eight10",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Ver mas",
+        "text": "Ver más >"
+      }
+    }
+  }
+}

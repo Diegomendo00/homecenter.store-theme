@@ -3,14 +3,18 @@
     "title": "Phone home section one",
     "children": [
       "flex-layout.col#phone__home__section--one"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone_home_section-one"
+    }
   },
   "flex-layout.col#phone__home__section--one": {
     "children": [
       "image#phone__home__section--one"
     ],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "section_one"
     }
   },
   "image#phone__home__section--one": {
@@ -22,14 +26,20 @@
     "title": "Phone home section two",
     "children": [
       "flex-layout.col#phone__home__s2images"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone_home_section-two"
+    }
   },
   "flex-layout.col#phone__home__s2images": {
     "children": [
       "image#phone__home__s2image--one",
       "image#phone__home__s2image--two",
       "image#phone__home__s2image--three"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone_section_two-images"
+    }
   },
   "image#phone__home__s2image--one": {
     "props": {
@@ -50,25 +60,34 @@
     "title": "Phone home section three",
     "children": [
       "rich-text#phone__home__empieza--ahorro"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone_home_section-three"
+    }
   },
   "rich-text#phone__home__empieza--ahorro": {
     "props": {
       "text": "¡Empieza el año ahorrando!",
-      "font": "t-heading-4"
+      "font": "t-heading-5"
     }
   },
   "flex-layout.row#phone__home__section--four": {
     "title": "Phone home section four",
     "children": [
       "flex-layout.col#phone__home__s4images"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone_home_section-four"
+    }
   },
   "flex-layout.col#phone__home__s4images": {
     "children": [
       "image#phone__home__s4image--one",
       "image#phone__home__s4image--two"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone_section_four-images"
+    }
   },
   "image#phone__home__s4image--one": {
     "props": {
@@ -83,69 +102,494 @@
   "flex-layout.row#phone__home__section--five": {
     "title": "Phone home section five",
     "children": [
-      "flex-layout.col#phone__home__s5image--one",
-      "flex-layout.col#phone__home__s5image--two",
-      "flex-layout.col#phone__home__s5image--three",
-      "flex-layout.col#phone__home__s5image--four"
-    ]
+      "flex-layout.col#phone__home__s5image--one"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-five"
+    }
   },
   "flex-layout.col#phone__home__s5image--one": {
     "children": [
       "image#phone__home__s5image--one"
-    ]
-  },
-  "flex-layout.col#phone__home__s5image--two": {
-    "children": [
-      "image#phone__home__s5image--two"
-    ]
-  },
-  "flex-layout.col#phone__home__s5image--three": {
-    "children": [
-      "image#phone__home__s5image--three"
-    ]
-  },
-  "flex-layout.col#phone__home__s5image--four": {
-    "children": [
-      "image#phone__home__s5image--four"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone_section_five-images"
+    }
   },
   "image#phone__home__s5image--one": {
     "props": {
       "src": "assets/img/section_five1.jpg"
     }
   },
-  "image#phone__home__s5image--two": {
-    "props": {
-      "src": "assets/img/section_five2.jpg"
-    }
-  },
-  "image#phone__home__s5image--three": {
-    "props": {
-      "src": "assets/img/section_five3.jpg"
-    }
-  },
-  "image#phone__home__s5image--four": {
-    "props": {
-      "src": "assets/img/section_five4.jpg"
-    }
-  },
   "flex-layout.row#phone__home__section--six": {
     "title": "Phone home section six",
     "children": [
       "flex-layout.col#phone__home__s6image"
-    ]
+    ],
+    "props": {
+      "blockClass": "phone_home_section-six"
+    }
   },
   "flex-layout.col#phone__home__s6image": {
     "children": [
       "image#phone__home_s6image"
     ],
     "props": {
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "blockClass": "phone_section_six-images"
     }
   },
   "image#phone__home_s6image": {
     "props": {
-      "src": "assets/img/section_six.jpg"
+      "src": "assets/img/section_six.webp"
+    }
+  },
+  "flex-layout.row#phone__home__section--seven": {
+    "title": "Phone home section seven",
+    "children": [
+      "rich-text#phone__home__envio--gratis"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-seven"
+    }
+  },
+  "rich-text#phone__home__envio--gratis": {
+    "props": {
+      "text": "Productos con Envío Gratis",
+      "font": "t-heading-5"
+    }
+  },
+  "flex-layout.row#phone__home__section--eight": {
+    "title": "Phone home section eight",
+    "children": [
+      "flex-layout.col#phone__home__section--eight"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-eight"
+    }
+  },
+  "flex-layout.col#phone__home__section--eight": {
+    "children": [
+      "flex-layout.row#vitrinas"
+    ]
+  },
+  "flex-layout.row#phone__home__section--nine": {
+    "title": "Phone home section nine",
+    "children": [
+      "flex-layout.col#phone__home__s9images"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-nine"
+    }
+  },
+  "flex-layout.col#phone__home__s9images": {
+    "children": [
+      "image#phone__home__s9image--one",
+      "image#phone__home__s9image--two"
+    ],
+    "props": {
+      "blockClass": "phone_section_nine-images"
+    }
+  },
+  "image#phone__home__s9image--one": {
+    "props": {
+      "src": "assets/img/section_nine1.webp"
+    }
+  },
+  "image#phone__home__s9image--two": {
+    "props": {
+      "src": "assets/img/section_nine2.webp"
+    }
+  },
+  "flex-layout.row#phone__home__section--ten": {
+    "title": "Phone home section seven",
+    "children": [
+      "rich-text#phone__home__recomendados"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-ten"
+    }
+  },
+  "rich-text#phone__home__recomendados": {
+    "props": {
+      "text": "Recomendados para ti...",
+      "font": "t-heading-5"
+    }
+  },
+  "flex-layout.row#phone__home__section--eleven": {
+    "title": "Phone home section eleven",
+    "children": [
+      "flex-layout.col#phone__home__s11image--one",
+      "flex-layout.col#phone__home__s11image--two"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-eleven"
+    }
+  },
+  "flex-layout.col#phone__home__s11image--one": {
+    "children": [
+      "image#phone__home__s11image--one"
+    ],
+    "props": {
+      "blockClass": "phone_section_eleven-images"
+    }
+  },
+  "flex-layout.col#phone__home__s11image--two": {
+    "children": [
+      "image#phone__home__s11image--two"
+    ],
+    "props": {
+      "blockClass": "phone_section_eleven-images"
+    }
+  },
+  "image#phone__home__s11image--one": {
+    "props": {
+      "src": "assets/img/section_eleven1.webp"
+    }
+  },
+  "image#phone__home__s11image--two": {
+    "props": {
+      "src": "assets/img/section_eleven2.webp"
+    }
+  },
+  "flex-layout.row#phone__home__section--twelve": {
+    "title": "Phone home section twelve",
+    "children": [
+      "flex-layout.row#phone__bullet__group"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-twelve"
+    }
+  },
+  "flex-layout.row#phone__bullet__group": {
+    "children": [
+      "list-context.bullet-group#phone__"
+    ]
+  },
+  "list-context.bullet-group#phone__": {
+    "title": "lista de imagenes bullet",
+    "children": [
+      "slider-layout#phone__bullet__group"
+    ],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/bullet-group/armario.jpg",
+          "titleProduct": "Armario 6 Puertas 2 Cajones Choco",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/armario-2.jpg",
+          "titleProduct": "Armario 6 Puertas 2 Cajones Caoba",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/armario-3.jpg",
+          "titleProduct": "Armario Dual V2 Cajones Caramelo",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/escritorio.jpg",
+          "titleProduct": "Escritorio Bari 84.4x110x48 Duna",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/escritorio-2.jpg",
+          "titleProduct": "Escritorio Picasso Amaretto",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/silla.jpg",
+          "titleProduct": "Silla de Escritorio con Brazos",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/silla-2.jpg",
+          "titleProduct": "Silla Ejecutiva Cromada Negra",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/bullet-group/taladro.jpg",
+          "titleProduct": "Taladro Percutor 3/8-pulg Bauker",
+          "titleBullet": "Ver Producto",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#phone__bullet__group": {
+    "title": "slider del bullet group",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": false,
+      "showPaginationDots": "never",
+      "blockClass": "slider__bullets-phone"
+    }
+  },
+  "flex-layout.row#phone__home__section--thirteen": {
+    "title": "Phone home section thirteen",
+    "children": [
+      "flex-layout.col#phone__home__section--thirteen"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-thirteen"
+    }
+  },
+  "flex-layout.col#phone__home__section--thirteen": {
+    "children": [
+      "image#phone__home__section--thirteen"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "phone_section_thirteen-images"
+    }
+  },
+  "image#phone__home__section--thirteen": {
+    "props": {
+      "src": "assets/img/section_thirteen.jpg"
+    }
+  },
+  "flex-layout.row#phone__home__section--fourteen": {
+    "title": "Phone home section fourteen",
+    "children": [
+      "rich-text#phone__home__mundo-CMR"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-fourteen"
+    }
+  },
+  "rich-text#phone__home__mundo-CMR": {
+    "props": {
+      "text": "Mundo CMR Homecenter",
+      "font": "t-heading-5"
+    }
+  },
+  "flex-layout.row#phone__home__section--fifteen": {
+    "title": "Phone home section fifteen",
+    "children": [
+      "flex-layout.col#phone__home__section--fifteen"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-fifteen"
+    }
+  },
+  "flex-layout.col#phone__home__section--fifteen": {
+    "children": [
+      "image#phone__home__section--fifteen"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "phone_section_fifteen-images"
+    }
+  },
+  "image#phone__home__section--fifteen": {
+    "props": {
+      "src": "assets/img/section_fifteen.webp"
+    }
+  },
+  "flex-layout.row#phone__home__section--sixteen": {
+    "title": "Phone home section sixteen",
+    "children": [
+      "flex-layout.col#phone__home__s16image--one",
+      "flex-layout.col#phone__home__s16image--two"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-sixteen"
+    }
+  },
+  "flex-layout.col#phone__home__s16image--one": {
+    "children": [
+      "image#phone__home__s16image--one"
+    ],
+    "props": {
+      "blockClass": "phone_section_sixteen-images"
+    }
+  },
+  "flex-layout.col#phone__home__s16image--two": {
+    "children": [
+      "image#phone__home__s16image--two"
+    ],
+    "props": {
+      "blockClass": "phone_section_sixteen-images"
+    }
+  },
+  "image#phone__home__s16image--one": {
+    "props": {
+      "src": "assets/img/section_sixteen1.webp"
+    }
+  },
+  "image#phone__home__s16image--two": {
+    "props": {
+      "src": "assets/img/section_sixteen2.webp"
+    }
+  },
+  "flex-layout.row#phone__home__section--seventeen": {
+    "title": "Phone home section seventeen",
+    "children": [
+      "rich-text#phone__home__servicios--informacion"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-seventeen"
+    }
+  },
+  "rich-text#phone__home__servicios--informacion": {
+    "props": {
+      "text": "Servicios e Información",
+      "font": "t-heading-5"
+    }
+  },
+  "flex-layout.row#phone__home__section--eighteen": {
+    "title": "Phone home section eighteen",
+    "children": [
+      "flex-layout.col#phone__home__section--eighteen"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-eighteen"
+    }
+  },
+  "flex-layout.col#phone__home__section--eighteen": {
+    "children": [
+      "image#phone__home__section--eighteen"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "phone_section_eighteen-images"
+    }
+  },
+  "image#phone__home__section--eighteen": {
+    "props": {
+      "src": "assets/img/section_eighteen.jpg"
+    }
+  },
+  "flex-layout.row#phone__home__section--nineteen": {
+    "title": "Phone home section nineteen",
+    "children": [
+      "flex-layout.col#phone__home__s19image--one",
+      "flex-layout.col#phone__home__s19image--two"
+    ],
+    "props": {
+      "blockClass": "phone_home_section-nineteen"
+    }
+  },
+  "flex-layout.col#phone__home__s19image--one": {
+    "children": [
+      "image#phone__home__s19image--one"
+    ],
+    "props": {
+      "blockClass": "phone_section_nineteen-images"
+    }
+  },
+  "flex-layout.col#phone__home__s19image--two": {
+    "children": [
+      "image#phone__home__s19image--two"
+    ],
+    "props": {
+      "blockClass": "phone_section_nineteen-images"
+    }
+  },
+  "image#phone__home__s19image--one": {
+    "props": {
+      "src": "assets/img/section_nineteen1.webp"
+    }
+  },
+  "image#phone__home__s19image--two": {
+    "props": {
+      "src": "assets/img/section_nineteen2.webp"
+    }
+  },
+  "flex-layout.row#phone__home__section--twenty": {
+    "title": "phone Section twenty",
+    "children": [
+      "rich-text#phone__homecenter"
+    ],
+    "props": {
+      "blockClass": "phone_section-twenty"
+    }
+  },
+  "rich-text#phone__homecenter": {
+    "title": "homecenter colombia",
+    "props": {
+      "text": "Homcenter Colombia",
+      "font": "t-heading-7",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#phone__home__section--twenty-one": {
+    "title": "phone Section twenty-one",
+    "children": [
+      "rich-text#phone__cyber"
+    ],
+    "props": {
+      "blockClass": "phone_section-twenty-one"
+    }
+  },
+  "rich-text#phone__cyber": {
+    "title": "homecenter colombia",
+    "props": {
+      "text": "¡Estamos en Cyber! Del 23 al 31 de Enero disfruta de los mejores precios en los productos de referencias seleccionadas, sujetos a disponibilidad de inventario por tienda y ciudad. Válido únicamente para compras a través de Homecenter.co, APP Homecenter, call center y Pantallas Digitales. Conoce términos y condiciones aquí.",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#phone__home__section--twenty-two": {
+    "title": "phone Section twenty-two",
+    "children": [
+      "rich-text#phone__informacion"
+    ],
+    "props": {
+      "blockClass": "phone_section-twenty-two"
+    }
+  },
+  "rich-text#phone__informacion": {
+    "title": "homecenter colombia",
+    "props": {
+      "text": "Informamos a nuestros clientes que por motivos de las obras realizadas por parte de la alcaldía, a partir del 17 de enero de 2023 el acceso a la Tienda 68 Sur en Bogotá será por la Cra 68ª esquina con calle 37 sur",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#phone__home__section--twenty-three": {
+    "title": "Section twenty-three",
+    "children": [
+      "rich-text#phone__politica"
+    ],
+    "props": {
+      "blockClass": "phone_section-twenty-three"
+    }
+  },
+  "rich-text#phone__politica": {
+    "title": "homecenter colombia",
+    "props": {
+      "text": "Puedes conocer o consultar ingresando la Política de Protección de Datos Aquí. 1.) CAMPAÑA PREVENTIVA DE SEGURIDAD: Calentador de Agua de paso a Gas VOLKER. Consulta Aquí. 2.) Cualquier consulta sobre la resolución 32209 de 2020 sobre los productos pre empacados la puede realizar a notificacionesjudiciales@homecenter.co ",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER"
     }
   }
 }

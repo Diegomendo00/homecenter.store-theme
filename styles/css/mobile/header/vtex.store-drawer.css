@@ -1,0 +1,18 @@
+.openIconContainer--mobile__mega-menu{
+    height: 60px;
+    align-items: center;
+    display: flex;
+    z-index: 10
+}
+
+.closeIconButton--mobile__mega-menu{
+  position: absolute;
+  left: 83%;
+  z-index: 0;
+}
+
+.closeIcon--mobile__mega-menu{
+  background: red;
+  color: white;
+  border-radius: 5px;
+}

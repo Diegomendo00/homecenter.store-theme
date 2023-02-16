@@ -1,0 +1,23 @@
+.filterPopupTitle{
+  color: #2E72C8;
+  content: "hola";
+}
+
+.filterPopupButton{
+  visibility: hidden;
+}
+
+.filterPopupButton::after{
+  visibility: visible;
+content: "filtrar y ordenar (1)";
+position: absolute;
+color: #2E72C8;
+text-transform: capitalize;
+font-weight: bold;
+font-size: 14px;
+font-family: "Lato-Regular";
+}
+
+.galleryLayoutSwitcher{
+  margin-top: 10px
+}

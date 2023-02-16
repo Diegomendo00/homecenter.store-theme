@@ -1,0 +1,78 @@
+{
+  "responsive-layout.tablet#plp": {
+    "title": "responsive tablet",
+    "children": [
+      "whatsapp-button",
+      "flex-layout.row#categoryresults-tablet-filter",
+      "gallery-layout-switcher",
+      "flex-layout.row#categoryresults--content-tablet",
+      "flex-layout.row#back__button"
+    ]
+  },
+  "flex-layout.row#categoryresults-tablet-filter": {
+    "title": "filter tablet",
+    "children": [
+      "flex-layout.col#categoryresults--filter-tablet"
+    ],
+    "props": {
+      "blockClass": "filter-tablet"
+    }
+  },
+  "flex-layout.col#categoryresults--filter-tablet": {
+    "title": "filter col",
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "filter_col",
+      "horizontalAlign": "center",
+      "paddingLeft": 100
+    }
+  },
+  "flex-layout.row#categoryresults--content-tablet": {
+    "title": "content row",
+    "children": [
+      "flex-layout.col#categoryresults--content-tablet"
+    ],
+    "props": {
+      "blockClass": "content_row"
+    }
+  },
+  "flex-layout.col#categoryresults--content-tablet": {
+    "title": "content col",
+    "children": [
+      "search-content#resultscontent__tablet"
+    ]
+  },
+  "search-content#resultscontent__tablet": {
+    "blocks": [
+      "gallery#department-tablet",
+      "not-found"
+    ],
+    "props": {
+      "blockClass": "search_products_results"
+    }
+  },
+  "gallery#department-tablet": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 2,
+            "phone": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "GeneralList",
+          "itemsPerRow": 1
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf",
+      "GeneralList": "product-summary.shelf"
+    }
+  }
+}

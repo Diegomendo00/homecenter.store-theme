@@ -1,0 +1,180 @@
+{
+  "flex-layout.col#dept_6tejas_drywall": {
+    "title": "Flex-layout col department one",
+    "children": [
+      "menu#dept_6department__construccion-ferreteria2"
+    ],
+    "props": {
+      "blockClass": "flex-layout-col_deparment-one"
+    }
+  },
+  "menu#dept_6department__construccion-ferreteria2": {
+    "title": "Menu construccion y ferreteria",
+    "children": [
+      "menu-item#dept_6category__two",
+      "menu-item#dept_6category__two2",
+      "menu-item#dept_6category__two3",
+      "menu-item#dept_6category__two4",
+      "menu-item#dept_6category__two5",
+      "menu-item#dept_6category__two6",
+      "menu-item#dept_6category__two7",
+      "menu-item#dept_6category__two8",
+      "menu-item#dept_6category__two9",
+      "menu-item#dept_6category__two10"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "department-construccion-ferreteria"
+    }
+  },
+  "menu-item#dept_6category__two": {
+    "title": "Menu-item category two",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-two",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tejas y Drywall",
+        "text": "Tejas y Drywall >"
+      }
+    }
+  },
+  "menu-item#dept_6category__two2": {
+    "title": "Menu-item category two2",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-one2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Láminas de Drywall",
+        "text": "Láminas de Drywall"
+      }
+    }
+  },
+  "menu-item#dept_6category__two3": {
+    "title": "Menu-item category two3",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-two3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cielo Raso y Techos en PVC",
+        "text": "Cielo Raso y Techos en PVC"
+      }
+    }
+  },
+  "menu-item#dept_6category__two4": {
+    "title": "Menu-item category two4",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-two4",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Drywall, Láminas Fibrocemento",
+        "text": "Drywall, Láminas Fibrocemento"
+      }
+    }
+  },
+  "menu-item#dept_6category__two5": {
+    "title": "Menu-item category two5",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-two5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Aislantes Térmico/Acústicos",
+        "text": "Aislantes Térmico/Acústicos"
+      }
+    }
+  },
+  "menu-item#dept_6category__two6": {
+    "title": "Menu-item category two6",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-two6",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Bajantes y Canales para Aguas Lluvias",
+        "text": "Bajantes y Canales para Aguas Lluvias"
+      }
+    }
+  },
+  "menu-item#dept_6category__two7": {
+    "title": "Menu-item category two7",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-two7",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tejas Fibrocemento",
+        "text": "Tejas Fibrocemento"
+      }
+    }
+  },
+  "menu-item#dept_6category__two8": {
+    "title": "Menu-item category two8",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-two8",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tejas Termoacústicas y Tipo Sandwich",
+        "text": "Tejas Termoacústicas y Tipo Sandwich"
+      }
+    }
+  },
+  "menu-item#dept_6category__two9": {
+    "title": "Menu-item category two9",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-two9",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cintas y Sellos de Reparación",
+        "text": "Cintas y Sellos de Reparación"
+      }
+    }
+  },
+  "menu-item#dept_6category__two10": {
+    "title": "Menu-item category two10",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-two10",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "ver más",
+        "text": "Ver más >"
+      }
+    }
+  }
+}

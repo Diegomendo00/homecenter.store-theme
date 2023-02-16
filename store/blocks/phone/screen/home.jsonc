@@ -8,7 +8,24 @@
       "flex-layout.row#phone__home__section--three",
       "flex-layout.row#phone__home__section--four",
       "flex-layout.row#phone__home__section--five",
-      "flex-layout.row#phone__home__section--six"
+      "flex-layout.row#phone__home__section--six",
+      "flex-layout.row#phone__home__section--seven",
+      "flex-layout.row#phone__home__section--eight",
+      "flex-layout.row#phone__home__section--nine",
+      "flex-layout.row#phone__home__section--ten",
+      "flex-layout.row#phone__home__section--eleven",
+      "flex-layout.row#phone__home__section--twelve",
+      "flex-layout.row#phone__home__section--thirteen",
+      "flex-layout.row#phone__home__section--fourteen",
+      "flex-layout.row#phone__home__section--fifteen",
+      "flex-layout.row#phone__home__section--sixteen",
+      "flex-layout.row#phone__home__section--seventeen",
+      "flex-layout.row#phone__home__section--eighteen",
+      "flex-layout.row#phone__home__section--nineteen",
+      "flex-layout.row#phone__home__section--twenty",
+      "flex-layout.row#phone__home__section--twenty-one",
+      "flex-layout.row#phone__home__section--twenty-two",
+      "flex-layout.row#phone__home__section--twenty-three"
     ]
   }
 }

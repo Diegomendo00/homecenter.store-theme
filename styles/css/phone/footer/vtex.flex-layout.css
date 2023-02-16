@@ -1,0 +1,18 @@
+.flexRowContent--row_footer-one{
+  padding: 10% 5% 0% 0%
+}
+
+.flexRow--flex-footer_three{
+    width: 50%;
+    background: #399f4a;
+    margin-left: 25%;
+    display: flex;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.flexRowContent--flex-footer_three{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+

@@ -1,0 +1,180 @@
+{
+  "flex-layout.col#dept_7tornillos_adhesivos": {
+    "title": "Flex-layout col department one",
+    "children": [
+      "menu#dept_7department__construccion-ferreteria3"
+    ],
+    "props": {
+      "blockClass": "flex-layout-col_deparment-one"
+    }
+  },
+  "menu#dept_7department__construccion-ferreteria3": {
+    "title": "Menu construccion y ferreteria",
+    "children": [
+      "menu-item#dept_7category__three",
+      "menu-item#dept_7category__three2",
+      "menu-item#dept_7category__three3",
+      "menu-item#dept_7category__three4",
+      "menu-item#dept_7category__three5",
+      "menu-item#dept_7category__three6",
+      "menu-item#dept_7category__three7",
+      "menu-item#dept_7category__three8",
+      "menu-item#dept_7category__three9",
+      "menu-item#dept_7category__three10"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "department-construccion-ferreteria"
+    }
+  },
+  "menu-item#dept_7category__three": {
+    "title": "Menu-item category three",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-three",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tornillos y Adhesivos",
+        "text": "Tornillos y Adhesivos >"
+      }
+    }
+  },
+  "menu-item#dept_7category__three2": {
+    "title": "Menu-item category three2",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-three2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Cáncamos y Gancho Adhesivos",
+        "text": "Cáncamos y Gancho Adhesivos"
+      }
+    }
+  },
+  "menu-item#dept_7category__three3": {
+    "title": "Menu-item category three3",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-three3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Chazos y Anclajes",
+        "text": "Chazos y Anclajes"
+      }
+    }
+  },
+  "menu-item#dept_7category__three4": {
+    "title": "Menu-item category three4",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-three4",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tornillos para Madera",
+        "text": "Tornillos para Madera"
+      }
+    }
+  },
+  "menu-item#dept_7category__three5": {
+    "title": "Menu-item category three5",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-three5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Tornillos para Drywall",
+        "text": "Tornillos para Drywall"
+      }
+    }
+  },
+  "menu-item#dept_7category__three6": {
+    "title": "Menu-item category three6",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-three6",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Clavos y Puntillas",
+        "text": "Clavos y Puntillas"
+      }
+    }
+  },
+  "menu-item#dept_7category__three7": {
+    "title": "Menu-item category three7",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-three7",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Fijaciones para Madera",
+        "text": "Fijaciones para Madera"
+      }
+    }
+  },
+  "menu-item#dept_7category__three8": {
+    "title": "Menu-item category three8",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-three8",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Fijaciones y Tornillos para Techos",
+        "text": "Fijaciones y Tornillos para Techos"
+      }
+    }
+  },
+  "menu-item#dept_7category__three9": {
+    "title": "Menu-item category three9",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-three9",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Remaches y Tornillos para Metal",
+        "text": "Remaches y Tornillos para Metal"
+      }
+    }
+  },
+  "menu-item#dept_7category__three10": {
+    "title": "Menu-item category three10",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-three10",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Ver mas",
+        "text": "Ver más >"
+      }
+    }
+  }
+}

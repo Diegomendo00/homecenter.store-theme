@@ -188,19 +188,19 @@
     "title": "Section six",
     "children": [
       "flex-layout.col#home__s6image--one"
-    ]
+    ],
+    "props": {
+      "blockClass": "home-section-six"
+    }
   },
   "flex-layout.col#home__s6image--one": {
     "children": [
       "image#home_s6image--one"
-    ],
-    "props": {
-      "horizontalAlign": "center"
-    }
+    ]
   },
   "image#home_s6image--one": {
     "props": {
-      "src": "assets/img/section_six.jpg"
+      "src": "assets/img/section_six.webp"
     }
   },
   "flex-layout.row#home__section--seven": {
@@ -229,15 +229,80 @@
   },
   "flex-layout.col#home__section--eight": {
     "children": [
-      "image#home__section--eight"
+      "flex-layout.row#vitrinas"
     ],
     "props": {
-      "horizontalAlign": "center"
+      "blockClass": "section_eight"
     }
   },
-  "image#home__section--eight": {
+  "flex-layout.row#vitrinas": {
+    "title": "vitrinas",
+    "children": [
+      "list-context.product-list#productos"
+    ],
     "props": {
-      "src": "assets/img/envio_gratis.jpg"
+      "blockClass": "vitrinas"
+    }
+  },
+  "list-context.product-list#productos": {
+    "title": "productos",
+    "children": [
+      "slider-layout#productos"
+    ],
+    "blocks": [
+      "product-summary.shelf#productos"
+    ],
+    "props": {
+      "blockClass": "lista_productos"
+    }
+  },
+  "slider-layout#productos": {
+    "title": "slider productos",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "blockClass": "slider_productos",
+      "showPaginationDots": "never"
+    }
+  },
+  "product-summary.shelf#productos": {
+    "title": "producto summary",
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-rating-summary",
+      "product-summary-space",
+      "product-summary-price",
+      "modal-trigger#add-to-cart-info"
+    ],
+    "props": {
+      "blockClass": "summary_vitrinas"
+    }
+  },
+  "modal-trigger#add-to-cart-info": {
+    "title": "Modal de informacion",
+    "children": [
+      "add-to-cart-button",
+      "modal-layout#add-to-cart-info"
+    ],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+  "modal-layout#add-to-cart-info": {
+    "title": "",
+    "children": [
+      "modal-header#close__add-to-cart-info",
+      "add-to-cart-info"
+    ]
+  },
+  "modal-header#close__add-to-cart-info": {
+    "props": {
+      "showCloseButton": true,
+      "iconCloseSize": 24
     }
   },
   "flex-layout.row#home__section--nine": {
@@ -330,23 +395,10 @@
   "flex-layout.row#home__section--twelve": {
     "title": "Section twelve",
     "children": [
-      "flex-layout.col#home__section--twelve"
+      "list-context.bullet-group"
     ],
     "props": {
       "blockClass": "home__section-twelve"
-    }
-  },
-  "flex-layout.col#home__section--twelve": {
-    "children": [
-      "image#home__section--twelve"
-    ],
-    "props": {
-      "horizontalAlign": "center"
-    }
-  },
-  "image#home__section--twelve": {
-    "props": {
-      "src": "assets/img/section_twelve.jpg"
     }
   },
   "flex-layout.row#home__section--thirteen": {
@@ -405,7 +457,7 @@
   },
   "image#home__section--fifteen": {
     "props": {
-      "src": "assets/img/section_fifteen.jpg"
+      "src": "assets/img/section_fifteen.webp"
     }
   },
   "flex-layout.row#home__section--sixteen": {
@@ -515,6 +567,83 @@
   "image#home__s19image--two": {
     "props": {
       "src": "assets/img/section_nineteen2.webp"
+    }
+  },
+  "flex-layout.row#home__section--twenty": {
+    "title": "Section twenty",
+    "children": [
+      "rich-text#home__homecenter"
+    ],
+    "props": {
+      "blockClass": "home_section-twenty"
+    }
+  },
+  "rich-text#home__homecenter": {
+    "title": "homecenter colombia",
+    "props": {
+      "text": "Homcenter Colombia",
+      "font": "t-heading-6",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.row#home__section--twenty-one": {
+    "title": "Section twenty-one",
+    "children": [
+      "rich-text#home__cyber"
+    ],
+    "props": {
+      "blockClass": "home_section-twenty-one"
+    }
+  },
+  "rich-text#home__cyber": {
+    "title": "homecenter colombia",
+    "props": {
+      "text": "¡Estamos en Cyber! Del 23 al 31 de Enero disfruta de los mejores precios en los productos de referencias seleccionadas, sujetos a disponibilidad de inventario por tienda y ciudad. Válido únicamente para compras a través de Homecenter.co, APP Homecenter, call center y Pantallas Digitales. Conoce términos y condiciones aquí.",
+      "font": "t-heading-7",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#home__section--twenty-two": {
+    "title": "Section twenty-two",
+    "children": [
+      "rich-text#home__informacion"
+    ],
+    "props": {
+      "blockClass": "home_section-twenty-two"
+    }
+  },
+  "rich-text#home__informacion": {
+    "title": "homecenter colombia",
+    "props": {
+      "text": "Informamos a nuestros clientes que por motivos de las obras realizadas por parte de la alcaldía, a partir del 17 de enero de 2023 el acceso a la Tienda 68 Sur en Bogotá será por la Cra 68ª esquina con calle 37 sur",
+      "font": "t-heading-7",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#home__section--twenty-three": {
+    "title": "Section twenty-three",
+    "children": [
+      "rich-text#home__politica"
+    ],
+    "props": {
+      "blockClass": "home_section-twenty-three"
+    }
+  },
+  "rich-text#home__politica": {
+    "title": "homecenter colombia",
+    "props": {
+      "text": "Puedes conocer o consultar ingresando la Política de Protección de Datos Aquí. 1.) CAMPAÑA PREVENTIVA DE SEGURIDAD: Calentador de Agua de paso a Gas VOLKER. Consulta Aquí. 2.) Cualquier consulta sobre la resolución 32209 de 2020 sobre los productos pre empacados la puede realizar a notificacionesjudiciales@homecenter.co ",
+      "font": "t-heading-7",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#home__section--twenty-four": {
+    "title": "Department custom search",
+    "children": [
+      "department-search"
+    ],
+    "props": {
+      "blockClass": "home_section-twenty-four"
     }
   }
 }

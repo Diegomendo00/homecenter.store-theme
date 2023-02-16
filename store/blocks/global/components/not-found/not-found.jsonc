@@ -1,0 +1,150 @@
+{
+  "flex-layout.row#image_lupa": {
+    "title": "imagen lupa",
+    "children": [
+      "flex-layout.col#image_lupa"
+    ],
+    "props": {
+      "blockClass": "lupa_row"
+    }
+  },
+  "flex-layout.col#image_lupa": {
+    "title": "imagen lupa",
+    "children": [
+      "image#lupa_not-found"
+    ],
+    "props": {
+      "blockClass": "lupa_col"
+    }
+  },
+  "image#lupa_not-found": {
+    "title": "imagen lupa",
+    "props": {
+      "src": "assets/img/lupa_not-found.jpg"
+    }
+  },
+  "flex-layout.row#results_not-found": {
+    "title": "results not found",
+    "children": [
+      "flex-layout.col#results_not-found"
+    ],
+    "props": {
+      "blockClass": "not_found-text"
+    }
+  },
+  "flex-layout.col#results_not-found": {
+    "title": "results not found",
+    "children": [
+      "rich-text#not_found"
+    ],
+    "props": {
+      "blockClass": "results_col"
+    }
+  },
+  "rich-text#not_found": {
+    "title": "resultado no encontrado",
+    "props": {
+      "text": "Tu búsqueda no arrojó resultados",
+      "font": "t-heading-4",
+      "blockClass": "results_not-found"
+    }
+  },
+  "flex-layout.row#consejos": {
+    "title": "consejos not found",
+    "children": [
+      "flex-layout.col#consejos_not-found"
+    ],
+    "props": {
+      "blockClass": "consejos_row"
+    }
+  },
+  "flex-layout.col#consejos_not-found": {
+    "title": "cosejos col",
+    "children": [
+      "image#consejos_not-found"
+    ],
+    "props": {
+      "blockClass": "consejos_col"
+    }
+  },
+  "image#consejos_not-found": {
+    "title": "consejos not found",
+    "props": {
+      "src": "assets/img/consejos-not_found.jpg"
+    }
+  },
+  "flex-layout.row#categoria": {
+    "title": "categorias",
+    "children": [
+      "flex-layout.col#categorias"
+    ],
+    "props": {
+      "blockClass": "categorias_row"
+    }
+  },
+  "flex-layout.col#categorias": {
+    "title": "categorias",
+    "children": [
+      "rich-text#categorias"
+    ],
+    "props": {
+      "blockClass": "categorias_col"
+    }
+  },
+  "rich-text#categorias": {
+    "title": "categorias mas buscadas",
+    "props": {
+      "text": "Categorias mas buscadas",
+      "font": "t-heading-6",
+      "blockClass": "categoria__mas-buscada"
+    }
+  },
+  "flex-layout.row#iconos": {
+    "title": "iconos row",
+    "children": [
+      "flex-layout.col#iconos_categorias"
+    ],
+    "props": {
+      "blockClass": "iconos_row"
+    }
+  },
+  "flex-layout.col#iconos_categorias": {
+    "title": "iconos col",
+    "children": [
+      "image#iconos_categorias"
+    ],
+    "props": {
+      "blockClass": "iconos_categorias-col"
+    }
+  },
+  "image#iconos_categorias": {
+    "title": "imagen iconos categorias",
+    "props": {
+      "src": "assets/img/categorias.jpg"
+    }
+  },
+  "flex-layout.row#preguntas": {
+    "title": "preguntas row",
+    "children": [
+      "flex-layout.col#preguntas"
+    ],
+    "props": {
+      "blockClass": "preguntas_row"
+    }
+  },
+  "flex-layout.col#preguntas": {
+    "title": "preguntas col",
+    "children": [
+      "image#informacion_preguntas"
+    ],
+    "props": {
+      "blockClass": "informacion_preguntas"
+    }
+  },
+  "image#informacion_preguntas": {
+    "title": "imagen preguntas e informacion",
+    "props": {
+      "src": "assets/img/preguntas.jpg"
+    }
+  }
+}

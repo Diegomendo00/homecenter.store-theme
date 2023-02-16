@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#product__info-phone": {
+    "title": "Informacion general del PDP-phone",
+    "children": [
+      "flex-layout.col#product__info--image-phone",
+      "flex-layout.col#product__info--data-phone"
+    ],
+    "props": {
+      "blockClass": "informacion__pdp-phone"
+    }
+  },
+  "flex-layout.col#product__info--image-phone": {
+    "title": "Imagenes del producto-phone",
+    "children": [
+      "product-images",
+      "product-description"
+    ],
+    "props": {
+      "blockClass": "imagen__pdp-phone",
+      "width": "60%"
+    }
+  },
+  "flex-layout.col#product__info--data-phone": {
+    "title": "Data del producto-phone",
+    "children": [
+      "share",
+      "vtex.store-components:product-name",
+      "product-rating-summary",
+      "product-price",
+      "flex-layout.row#cmr_credit--card",
+      "flex-layout.row#garantia"
+    ],
+    "props": {
+      "blockClass": "data__pdp",
+      "width": "40%",
+      "preventVerticalStretch": true
+    }
+  }
+}

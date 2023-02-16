@@ -1,0 +1,180 @@
+{
+  "flex-layout.col#dept_3maderas_tableros_herrajes": {
+    "title": "Flex-layout col department one",
+    "children": [
+      "menu#dept_3department__construccion-ferreteria4"
+    ],
+    "props": {
+      "blockClass": "flex-layout-col_deparment-one"
+    }
+  },
+  "menu#dept_3department__construccion-ferreteria4": {
+    "title": "Menu construccion y ferreteria",
+    "children": [
+      "menu-item#dept_3category__four",
+      "menu-item#dept_3category__four2",
+      "menu-item#dept_3category__four3",
+      "menu-item#dept_3category__four4",
+      "menu-item#dept_3category__four5",
+      "menu-item#dept_3category__four6",
+      "menu-item#dept_3category__four7",
+      "menu-item#dept_3category__four8",
+      "menu-item#dept_3category__four9",
+      "menu-item#dept_3category__four10"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "department-construccion-ferreteria"
+    }
+  },
+  "menu-item#dept_3category__four": {
+    "title": "Menu-item category four",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-four",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "materiales de construccion",
+        "text": "Materiales de Construcción >"
+      }
+    }
+  },
+  "menu-item#dept_3category__four2": {
+    "title": "Menu-item category four2",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-four2",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "cementos, concretos y morteros",
+        "text": "Cementos, Concretos y Morteros"
+      }
+    }
+  },
+  "menu-item#dept_3category__four3": {
+    "title": "Menu-item category four3",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-four3",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "arenas y gravas",
+        "text": "Arenas y Gravas"
+      }
+    }
+  },
+  "menu-item#dept_3category__four4": {
+    "title": "Menu-item category four4",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-four4",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Ladrillos, Bloques y Adoquines",
+        "text": "Ladrillos, Bloques y Adoquines"
+      }
+    }
+  },
+  "menu-item#dept_3category__four5": {
+    "title": "Menu-item category four5",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-four5",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Estucos, Yesos e Imprimantes",
+        "text": "Estucos, Yesos e Imprimantes"
+      }
+    }
+  },
+  "menu-item#dept_3category__four6": {
+    "title": "Menu-item category four6",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-four6",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Impermeabilizantes y Barreras de Humedad",
+        "text": "Impermeabilizantes y Barreras de Humedad"
+      }
+    }
+  },
+  "menu-item#dept_3category__four7": {
+    "title": "Menu-item category four7",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-four7",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Varillas de Hierro y Acero",
+        "text": "Varillas de Hierro y Acero"
+      }
+    }
+  },
+  "menu-item#dept_3category__four8": {
+    "title": "Menu-item category four8",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-four8",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Mallas Electrosoldadas",
+        "text": "Mallas Electrosoldadas"
+      }
+    }
+  },
+  "menu-item#dept_3category__four9": {
+    "title": "Menu-item category four9",
+    "props": {
+      "blockClass": "department_one_subcategory",
+      "id": "category-four9",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Alambres, Concertina y Alfardas",
+        "text": "Alambres, Concertina y Alfardas"
+      }
+    }
+  },
+  "menu-item#dept_3category__four10": {
+    "title": "Menu-item category four10",
+    "props": {
+      "blockClass": "department_one_category",
+      "id": "category-four10",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Ver mas",
+        "text": "Ver más >"
+      }
+    }
+  }
+}

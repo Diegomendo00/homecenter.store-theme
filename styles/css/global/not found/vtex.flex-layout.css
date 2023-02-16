@@ -1,0 +1,44 @@
+.flexColChild--lupa_col{
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--results_col{
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.flexColChild--consejos_col{
+  display: flex;
+  justify-content: center;
+}
+
+.flexColChild--categorias_col{
+    display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.flexColChild--iconos_categorias-col{
+  display: flex;
+  justify-content: center;
+  padding: 0 5%
+}
+
+.flexColChild--informacion_preguntas{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px){
+  .flexColChild--informacion_preguntas{
+    padding: 0 5%;
+  }
+  .flexColChild--iconos_categorias-col,
+  .flexColChild--consejos_col,
+  .flexColChild--results_col{
+    padding: 5%
+  }
+
+}
