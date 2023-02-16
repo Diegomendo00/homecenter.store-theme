@@ -11,7 +11,13 @@
 .flexColChild--custom__page--eleven-col,
 .flexColChild--custom__page--twelve-col,
 .flexColChild--custom__page--thirteen-col,
-.flexColChild--custom__page--fourteen-col{
+.flexColChild--custom__page--fourteen-col,
+.flexColChild--pdf__reader-col{
   display: flex;
   justify-content: center;
 }
+
+.flexCol--pdf__reader-col{
+  padding: 30px;
+}
+

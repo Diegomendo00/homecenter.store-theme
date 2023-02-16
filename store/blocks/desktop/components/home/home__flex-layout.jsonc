@@ -636,5 +636,14 @@
       "font": "t-heading-7",
       "textAlignment": "CENTER"
     }
+  },
+  "flex-layout.row#home__section--twenty-four": {
+    "title": "Department custom search",
+    "children": [
+      "department-search"
+    ],
+    "props": {
+      "blockClass": "home_section-twenty-four"
+    }
   }
 }

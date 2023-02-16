@@ -1,0 +1,30 @@
+{
+  "store.custom#proteccion__pdf": {
+    "title": "custom page",
+    "blocks": [
+      "flex-layout.row#pdf__reader"
+    ]
+  },
+  "flex-layout.row#pdf__reader": {
+    "title": "PDF reader row",
+    "children": [
+      "flex-layout.col#pdf__reader"
+    ]
+  },
+  "flex-layout.col#pdf__reader": {
+    "title": "PDF reader row",
+    "children": [
+      "pdf-reader"
+    ],
+    "props": {
+      "blockClass": "pdf__reader-col"
+    }
+  },
+  "pdf-reader": {
+    "props": {
+      "pdfUrl": "assets/documents/tratamiento-de-datos.pdf",
+      "width": 800,
+      "height": 800
+    }
+  }
+}
