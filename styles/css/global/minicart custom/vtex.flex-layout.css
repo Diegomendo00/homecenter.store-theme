@@ -34,3 +34,7 @@
 .flexRowContent--minicart__section--three{
   padding-right: 5%;
 }
+
+.flexColChild--info__product :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+  padding-left: 2%
+}

@@ -5,6 +5,11 @@
 
 .flexRowContent--tablet__quantity--price{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-bottom: 10px;
+}
+
+.flexColChild--tablet__name{
+  max-width: 176px;
+  padding-left: 5%;
 }

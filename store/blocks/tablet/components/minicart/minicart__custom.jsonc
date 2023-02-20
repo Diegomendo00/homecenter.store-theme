@@ -166,6 +166,7 @@
       "rich-text#tablet__resumen__compra",
       "minicart-summary",
       "minicart-checkout-button",
+      "thermometer-shop",
       "image#tablet__tarjetas"
     ],
     "props": {

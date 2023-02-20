@@ -169,6 +169,7 @@
       "rich-text#phone__resumen__compra",
       "minicart-summary",
       "minicart-checkout-button",
+      "thermometer-shop",
       "image#phone__tarjetas"
     ],
     "props": {
