@@ -74,6 +74,7 @@
       "rich-text#resumen__compra",
       "minicart-summary",
       "minicart-checkout-button",
+      "thermometer-shop",
       "image#tarjetas"
     ],
     "props": {

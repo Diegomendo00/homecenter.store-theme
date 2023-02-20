@@ -1,0 +1,28 @@
+.thermometer{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.thermometer__text{
+  text-align: center;
+
+}
+
+.thermometer__bar{
+  height: 20px;
+  width: 85%;
+  border-radius: 10px;
+}
+
+.thermometer__bar::-webkit-progress-bar{
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid rgb(131, 131, 131)
+}
+
+.thermometer__bar::-webkit-progress-value{
+  border-radius: 10px;
+  background: #0072CE;
+  transition: all 2s ease .5s;
+}
+
